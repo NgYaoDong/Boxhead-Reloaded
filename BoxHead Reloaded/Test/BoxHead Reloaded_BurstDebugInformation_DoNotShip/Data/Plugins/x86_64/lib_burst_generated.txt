@@ -131,10 +131,13 @@ Library: lib_burst_generated
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Example.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
@@ -145,9 +148,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Runtime.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Example.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Demos.dll
 --assembly-folder=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -288,10 +288,13 @@ Library: lib_burst_generated
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Example.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
@@ -302,9 +305,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Runtime.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Example.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\FishNet.Demos.dll
 --assembly-folder=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
