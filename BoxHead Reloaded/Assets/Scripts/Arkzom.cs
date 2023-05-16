@@ -27,8 +27,7 @@ public class Arkzom : NetworkBehaviour
         }
         else
         {
-            gameObject.GetComponent<P2Movement>().enabled = false;
-            gameObject.GetComponent<P1Movement>().enabled = false;
+            gameObject.GetComponent<PlayerMovement>().enabled = false;
         }
     }
 
