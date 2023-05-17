@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 820336299427592228}
   - component: {fileID: 820336299427592229}
   - component: {fileID: 997636385}
+  - component: {fileID: 6767563893820373683}
   m_Layer: 0
   m_Name: Arkzom
   m_TagString: Untagged
@@ -145,6 +146,7 @@ MonoBehaviour:
   <PredictedSpawn>k__BackingField: {fileID: 0}
   _networkBehaviours:
   - {fileID: 820336299427592226}
+  - {fileID: 820336299427592229}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   _isNetworked: 1
@@ -152,7 +154,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 7
+  <PrefabId>k__BackingField: 11
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 584410112
   <SceneId>k__BackingField: 0
@@ -229,6 +231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a484b94b9ef8d540bfabbdf1cd483b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _componentIndexCache: 1
+  _addedNetworkObject: {fileID: 820336299427592227}
+  _networkObjectCache: {fileID: 820336299427592227}
+  moveSpeed: 5
 --- !u!95 &997636385
 Animator:
   serializedVersion: 5
@@ -250,3 +256,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6767563893820373683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820336299427592225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cac635f24954048aad3a6ff9110beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 255
+  _addedNetworkObject: {fileID: 820336299427592227}
+  _networkObjectCache: {fileID: 0}
+  IgnoredParameters: []
+  _animator: {fileID: 997636385}
+  _smoothFloats: 1
+  _interpolation: 2
+  _clientAuthoritative: 1
+  _sendToOwner: 0

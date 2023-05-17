@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -39188391, guid: bac368aa026e87a4887383388ac1ecf1, type: 3}
+  m_Sprite: {fileID: 1360669263, guid: bac368aa026e87a4887383388ac1ecf1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,6 +147,7 @@ MonoBehaviour:
   _networkBehaviours:
   - {fileID: 1264388928206016813}
   - {fileID: 7428809086802264041}
+  - {fileID: 7017393798159787540}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   _isNetworked: 1
@@ -154,13 +155,12 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 3
+  <PrefabId>k__BackingField: 6
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 584410112
   <SceneId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 7554693771170998867
   _sceneNetworkObjects:
-  - {fileID: 0}
   - {fileID: 1264388928206016808}
   - {fileID: 0}
 --- !u!114 &1264388928206016813
@@ -269,9 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8cac635f24954048aad3a6ff9110beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
-  _addedNetworkObject: {fileID: 0}
-  _networkObjectCache: {fileID: 0}
+  _componentIndexCache: 2
+  _addedNetworkObject: {fileID: 1264388928206016808}
+  _networkObjectCache: {fileID: 1264388928206016808}
   IgnoredParameters: []
   _animator: {fileID: 1264388928206016811}
   _smoothFloats: 1
