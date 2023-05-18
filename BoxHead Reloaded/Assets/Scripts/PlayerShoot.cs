@@ -1,41 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FishNet.Connection;
-using FishNet.Object;
 using Unity.Mathematics;
 
-public class PlayerShoot : NetworkBehaviour
+public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private List<Transform> firePoints = new List<Transform>();
     private Transform firePt;
 
-    private Animator animator;
-
-    private Camera PlayerCamera;
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-        if (base.IsOwner)
-        {
-            PlayerCamera = Camera.main;
-            PlayerCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
-            PlayerCamera.transform.SetParent(transform);
-        }
-        else
-        {
-            gameObject.GetComponent<PlayerShoot>().enabled = false;
-        }
-    }
-
+    private Animator animator;   
     void Start()
     {
         animator = GetComponent<Animator>();
         firePt = firePoints[2];
         lineRenderer.enabled = false;
     }
-
     // Update is called once per frame
     void Update()
     {

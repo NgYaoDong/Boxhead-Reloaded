@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FishNet.Connection;
-using FishNet.Object;
 
-public class Arkzom : NetworkBehaviour
+public class Arkzom : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed = 5f;
@@ -14,23 +12,7 @@ public class Arkzom : NetworkBehaviour
     private Collider2D colli;
 
     Vector2 movement;
-    private Camera ArkzomCamera;
-
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-        if (base.IsOwner)
-        {
-            ArkzomCamera = Camera.main;
-            ArkzomCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
-            ArkzomCamera.transform.SetParent(transform);
-        }
-        else
-        {
-            gameObject.GetComponent<PlayerMovement>().enabled = false;
-        }
-    }
-
+    
     // Start is called before the first frame update
     void Start()
     {

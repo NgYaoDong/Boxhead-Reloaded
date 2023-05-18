@@ -1,39 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FishNet.Object;
-using FishNet.Connection;
 using Unity.Mathematics;
 
-public class CharacterSelection : NetworkBehaviour
+public class CharacterSelection : MonoBehaviour
 {
     [SerializeField] private List<GameObject> characters = new List<GameObject>();
     [SerializeField] private GameObject characterSelPanel;
     [SerializeField] private GameObject canvas;
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-
-        if (!base.IsOwner)
-            canvas.SetActive(false);
-    }
 
     public void SpawnRed()
     {
         characterSelPanel.SetActive(false);
-        Spawn(0, LocalConnection);
+        Spawn(0);
     }
 
     public void SpawnSilver() 
     {
         characterSelPanel.SetActive(false);
-        Spawn(1, LocalConnection);
+        Spawn(1);
     }
 
-    [ServerRpc(RequireOwnership = false)]
-    void Spawn(int SpawnInd, NetworkConnection conn)
+    void Spawn(int SpawnInd)
     {
         GameObject player = Instantiate(characters[SpawnInd], SpawnPoint.instance.transform.position, quaternion.identity);
-        Spawn(player, conn);
+        //Spawn(player);
     }
 }
