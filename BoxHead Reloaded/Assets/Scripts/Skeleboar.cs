@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FishNet.Connection;
-using FishNet.Object;
 
-public class Skeleboar : NetworkBehaviour
+public class Skeleboar : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed = 5f;
@@ -14,22 +12,6 @@ public class Skeleboar : NetworkBehaviour
     private Collider2D colli;
 
     Vector2 movement;
-    private Camera SkeleboarCamera;
-
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-        if (base.IsOwner)
-        {
-            SkeleboarCamera = Camera.main;
-            SkeleboarCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
-            SkeleboarCamera.transform.SetParent(transform);
-        }
-        else
-        {
-            gameObject.GetComponent<PlayerMovement>().enabled = false;
-        }
-    }
 
     // Start is called before the first frame update
     void Start()
