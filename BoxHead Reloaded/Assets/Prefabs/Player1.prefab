@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1248784577}
-  camera: {fileID: 0}
+  Healthcamera: {fileID: 0}
   target: {fileID: 331790091227170041}
   offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1512008394
@@ -380,7 +380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512008394}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.023, y: -0.65, z: 0}
+  m_LocalPosition: {x: 0.015, y: -0.696, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

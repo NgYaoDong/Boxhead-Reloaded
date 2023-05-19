@@ -13,7 +13,7 @@ public class PlayerShoot : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        firePt = firePoints[2];
+        firePt = firePoints[3];
         lineRenderer.enabled = false;
     }
     // Update is called once per frame
@@ -23,9 +23,9 @@ public class PlayerShoot : MonoBehaviour
             firePt = firePoints[0];
         else if (Input.GetAxisRaw("Horizontal") == -1) // FireLeft
             firePt = firePoints[1];
-        else if (Input.GetAxisRaw("Vertical") == 1) // FireDown
+        else if (Input.GetAxisRaw("Vertical") == 1) // FireUp
             firePt = firePoints[2];
-        else if (Input.GetAxisRaw("Vertical") == -1) // FireUp
+        else if (Input.GetAxisRaw("Vertical") == -1) // FireDown
             firePt = firePoints[3];
         if (Input.GetButtonDown("Fire1"))
         {

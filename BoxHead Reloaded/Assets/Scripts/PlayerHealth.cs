@@ -35,14 +35,14 @@ public class PlayerHealth : MonoBehaviour
             health = setHealth;
         } else if (health <= 0f) {
             health = 0f;
-            Death();
+            StartCoroutine(Death());
         }
     }
 
     private IEnumerator Death() 
     {
         animator.SetBool("Death", true);
-        yield return new WaitForSeconds(0.02f);
+        yield return new WaitForSeconds(0.433f);
         Dead();
     }
 
