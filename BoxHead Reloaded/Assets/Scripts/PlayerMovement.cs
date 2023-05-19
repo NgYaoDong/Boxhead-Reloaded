@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5f;
 
     private Rigidbody2D rigidBody;
     private Animator animator;
     private Collider2D colli;
 
-    Vector2 movement;
+    private Vector2 movement;
     private Camera PlayerCamera;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         PlayerCamera = Camera.main;
         PlayerCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
@@ -25,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -40,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
         }
     }
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         rigidBody.MovePosition(rigidBody.position + movement * moveSpeed * Time.fixedDeltaTime);
     }

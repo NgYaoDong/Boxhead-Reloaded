@@ -10,14 +10,14 @@ public class PlayerShoot : MonoBehaviour
     private Transform firePt;
 
     private Animator animator;   
-    void Start()
+    private void Start()
     {
         animator = GetComponent<Animator>();
         firePt = firePoints[2];
         lineRenderer.enabled = false;
     }
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetAxisRaw("Horizontal") == 1) // FireRight
             firePt = firePoints[0];
@@ -33,7 +33,7 @@ public class PlayerShoot : MonoBehaviour
         }
     }
     
-    IEnumerator Shoot()
+    public IEnumerator Shoot()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(firePt.position, firePt.right);
 
