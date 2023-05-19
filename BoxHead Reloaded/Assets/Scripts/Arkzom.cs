@@ -1,36 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Arkzom : MonoBehaviour
 {
-    [SerializeField]
-    private float moveSpeed = 5f;
+    [SerializeField] private float attackDamage = 10f;
+    [SerializeField] private float attackDelay = 1f;
+    [SerializeField] private float setHealth = 100f;
 
+    private float health;
+    private float canAttack;
     private Rigidbody2D rigidBody;
     private Animator animator;
     private Collider2D colli;
 
-    Vector2 movement;
+    private Vector2 movement;
     
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        GetComponent<AIDestinationSetter>().target = GameObject.FindWithTag("Player").transform;
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         colli = GetComponent<Collider2D>();
+        health = setHealth;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        AIPath ai = GetComponent<AIPath>();
+        animator.SetFloat("Horizontal", ai.velocity.x);
+        animator.SetFloat("Vertical", ai.velocity.y);
+        animator.SetFloat("Speed", ai.maxSpeed);
     }
 
-    void FixedUpdate()
+    private void OnCollisionStay2D(Collision2D collision) 
     {
-        rigidBody.MovePosition(rigidBody.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (collision.gameObject.tag == "Player") {
+            if (attackDelay <= canAttack) {
+                collision.gameObject.GetComponent<PlayerHealth>().Attacked(attackDamage);
+                canAttack = 0f;
+            } else {
+                canAttack += Time.deltaTime;
+            }
+        }
     }
 }
