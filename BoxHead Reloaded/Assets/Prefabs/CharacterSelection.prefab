@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 1480711519611613845}
   - component: {fileID: 4237701508376708918}
   m_Layer: 0
-  m_Name: Client
+  m_Name: CharacterSelection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -895,9 +895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7dad8e4fb4422f4f9046085f1e1e3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 0
-  _addedNetworkObject: {fileID: 0}
-  _networkObjectCache: {fileID: 0}
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}

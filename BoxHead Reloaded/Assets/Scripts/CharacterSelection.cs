@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.Mathematics;
+using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
@@ -9,13 +9,18 @@ public class CharacterSelection : MonoBehaviour
     [SerializeField] private GameObject characterSelPanel;
     [SerializeField] private GameObject canvas;
 
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1, LoadSceneMode.Single);
+    }
+
     public void SpawnRed()
     {
         characterSelPanel.SetActive(false);
         Spawn(0);
     }
 
-    public void SpawnSilver() 
+    public void SpawnSilver()
     {
         characterSelPanel.SetActive(false);
         Spawn(1);
@@ -23,7 +28,7 @@ public class CharacterSelection : MonoBehaviour
 
     void Spawn(int SpawnInd)
     {
-        GameObject player = Instantiate(characters[SpawnInd], SpawnPoint.instance.transform.position, quaternion.identity);
-        //Spawn(player);
+        PlayerPrefs.SetInt("SpawnInd", SpawnInd);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
     }
 }
