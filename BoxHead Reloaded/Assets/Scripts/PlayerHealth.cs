@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float healDelay = 3f;
     [SerializeField] private float healAmount = 10f;
     [SerializeField] private HealthBar healthBar;
+    [SerializeField] private GameObject bottom;
 
     private float health = 0f;
     private float time;
@@ -42,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
     private IEnumerator Death() 
     {
         animator.SetBool("Death", true);
+        bottom.SetActive(false);
         yield return new WaitForSeconds(0.433f);
         Dead();
     }

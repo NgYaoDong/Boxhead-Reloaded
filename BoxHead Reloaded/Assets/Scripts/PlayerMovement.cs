@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
 
     private Rigidbody2D rigidBody;
-    private Animator animator;
+    [SerializeField] private Animator bottomAnimator;
     private Collider2D colli;
 
     private Vector2 movement;
@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
         PlayerCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
         PlayerCamera.transform.SetParent(transform);
         rigidBody = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
         colli = GetComponent<Collider2D>();
     }
 
@@ -29,18 +28,18 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        bottomAnimator.SetFloat("Horizontal", movement.x);
+        bottomAnimator.SetFloat("Vertical", movement.y);
+        bottomAnimator.SetFloat("Speed", movement.sqrMagnitude);
 
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {
-            animator.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
-            animator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
+            bottomAnimator.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
+            bottomAnimator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
         }
     }
     private void FixedUpdate()
     {
-        rigidBody.MovePosition(rigidBody.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
+        rigidBody.MovePosition(rigidBody.position + moveSpeed * Time.fixedDeltaTime * movement.normalized);
     }
 }
