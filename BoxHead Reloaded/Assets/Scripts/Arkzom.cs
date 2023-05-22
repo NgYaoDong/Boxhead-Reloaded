@@ -11,6 +11,7 @@ public class Arkzom : MonoBehaviour
 
     private float health;
     private float canAttack;
+    private Transform destination;
     private Rigidbody2D rigidBody;
     private Animator animator;
     private Collider2D colli;
@@ -20,7 +21,6 @@ public class Arkzom : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        GetComponent<AIDestinationSetter>().target = GameObject.FindWithTag("Player").transform;
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         colli = GetComponent<Collider2D>();
@@ -30,6 +30,12 @@ public class Arkzom : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (destination == null) 
+        {
+            destination = GameObject.FindWithTag("Player").transform;
+            GetComponent<AIDestinationSetter>().target = destination;
+        }
+        
         AIPath ai = GetComponent<AIPath>();
         animator.SetFloat("Horizontal", ai.velocity.x);
         animator.SetFloat("Vertical", ai.velocity.y);
