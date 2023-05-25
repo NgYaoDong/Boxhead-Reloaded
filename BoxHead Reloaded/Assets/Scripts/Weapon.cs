@@ -15,6 +15,6 @@ public class Weapon : ScriptableObject
     public void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
-        AudioSource.PlayClipAtPoint(_clip, bullet.transform.position);
+        AudioSource.PlayClipAtPoint(_clip, bullet.transform.position, 0.1f);
     }
 }

@@ -31,7 +31,6 @@ public class PistolBullet : MonoBehaviour
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
-        Destroy(gameObject, gameObject.GetComponent<AudioSource>().clip.length);
         //DestroyOffScreen();
     }
 
