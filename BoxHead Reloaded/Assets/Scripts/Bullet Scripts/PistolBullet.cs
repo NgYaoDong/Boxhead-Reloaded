@@ -17,7 +17,8 @@ public class PistolBullet : MonoBehaviour
     private void DestroyOffScreen()
     {
         Vector2 screenPos = cam.WorldToScreenPoint(transform.position);
-        if (screenPos.x < 0 || screenPos.x > cam.pixelWidth || screenPos.y < 0 || screenPos.y > cam.pixelHeight) Destroy(gameObject);
+        if (screenPos.x < 0 || screenPos.x > cam.pixelWidth || screenPos.y < 0 || screenPos.y > cam.pixelHeight) 
+            Destroy(gameObject);
     }
 
     private void Start()
@@ -30,7 +31,8 @@ public class PistolBullet : MonoBehaviour
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
-        DestroyOffScreen();
+        Destroy(gameObject, gameObject.GetComponent<AudioSource>().clip.length);
+        //DestroyOffScreen();
     }
 
     private void OnCollisionEnter2D(Collision2D target)

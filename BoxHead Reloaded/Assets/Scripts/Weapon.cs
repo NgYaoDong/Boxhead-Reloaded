@@ -7,6 +7,7 @@ public class Weapon : ScriptableObject
 {
     public Sprite currWeaponSpr;
     public GameObject bulletPrefab;
+    public AudioClip _clip;
 
     public float fireRate = 1;
     public int damage = 20;
@@ -14,5 +15,6 @@ public class Weapon : ScriptableObject
     public void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
+        AudioSource.PlayClipAtPoint(_clip, bullet.transform.position);
     }
 }

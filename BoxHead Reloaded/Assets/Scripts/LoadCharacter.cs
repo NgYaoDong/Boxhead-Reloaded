@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class LoadCharacter : MonoBehaviour
@@ -12,6 +11,6 @@ public class LoadCharacter : MonoBehaviour
     {
         float x = UnityEngine.Random.Range(minX, maxX);
         float y = UnityEngine.Random.Range(minY, maxY);
-        GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), quaternion.identity);
+        GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
     }
 }

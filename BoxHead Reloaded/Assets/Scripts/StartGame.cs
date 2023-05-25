@@ -9,4 +9,10 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        //UnityEditor.EditorApplication.isPlaying = false;
+    }
 }
