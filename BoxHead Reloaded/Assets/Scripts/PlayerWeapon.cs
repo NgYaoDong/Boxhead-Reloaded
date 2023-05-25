@@ -10,6 +10,7 @@ public class PlayerWeapon : MonoBehaviour
 
     private Transform aimTransform;
     [SerializeField] private Animator topAnimator;
+    [SerializeField] private Animator gunAnimator;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class PlayerWeapon : MonoBehaviour
             if (Time.time >= nextTimeOfFire)
             {
                 currWeapon.Shoot();
+                gunAnimator.SetTrigger("Shoot");
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
             }
         }

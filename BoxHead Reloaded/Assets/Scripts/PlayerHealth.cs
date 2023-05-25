@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float setHealth = 100f;
@@ -9,10 +8,13 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float healAmount = 10f;
     [SerializeField] private HealthBar healthBar;
     [SerializeField] private GameObject bottom;
+    [SerializeField] private GameObject gameOver;
+    [SerializeField] private GameObject empty;
 
     private float health = 0f;
     private float time;
     private Animator animator;
+    private Camera PlayerCamera;
 
     private void Start() 
     {
@@ -50,6 +52,11 @@ public class PlayerHealth : MonoBehaviour
 
     private void Dead() 
     {
+        PlayerCamera = Camera.main;
+        PlayerCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
+        PlayerCamera.transform.SetParent(null);
+        Instantiate(gameOver, transform.position, Quaternion.identity);
+        Instantiate(empty, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
