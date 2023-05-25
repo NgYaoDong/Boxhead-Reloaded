@@ -5,6 +5,7 @@ using UnityEngine;
 public class PistolBullet : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
+    public float damage = 10f;
     private Vector2 dir;
     private Camera cam;
 
@@ -30,5 +31,10 @@ public class PistolBullet : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
         DestroyOffScreen();
+    }
+
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+        Destroy(gameObject);
     }
 }

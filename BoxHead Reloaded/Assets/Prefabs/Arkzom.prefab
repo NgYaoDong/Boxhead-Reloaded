@@ -125,8 +125,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006981373, y: -0.3667757}
-  m_Size: {x: 0.76401615, y: 0.801082}
+  m_Offset: {x: -0.006981313, y: -0.19069648}
+  m_Size: {x: 0.7397293, y: 1.286818}
   m_Direction: 0
 --- !u!114 &820336299427592229
 MonoBehaviour:
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 10
   attackDelay: 0.5
-  setHealth: 100
+  setHealth: 50
 --- !u!95 &997636385
 Animator:
   serializedVersion: 5

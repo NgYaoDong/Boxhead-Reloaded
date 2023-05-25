@@ -24,16 +24,24 @@ public class WaveSpawner : MonoBehaviour
     private float nextSpawnTime;
     private bool canSpawn = true;
     private bool waitFinish = false;
+    private bool startWave = false;
+
+    private void Start() 
+    {
+        StartCoroutine(Hold());
+    }
 
     private void Update() 
     {
-        currentWave = waves[currentWaveNumber];
-        SpawnWave();
-        
-        if (!canSpawn && currentWaveNumber + 1 != waves.Length && waitFinish)
-        {
-            currentWaveNumber++;
-            canSpawn = true;
+        if (startWave) {
+            currentWave = waves[currentWaveNumber];
+            SpawnWave();
+            
+            if (!canSpawn && currentWaveNumber + 1 != waves.Length && waitFinish)
+            {
+                currentWaveNumber++;
+                canSpawn = true;
+            }
         }
     }
 
@@ -76,5 +84,11 @@ public class WaveSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(currentWave.waveInterval);
         waitFinish = true;
+    }
+
+    IEnumerator Hold() 
+    {
+        yield return new WaitForSeconds(3);
+        startWave = true;
     }
 }
