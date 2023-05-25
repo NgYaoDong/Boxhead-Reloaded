@@ -42,6 +42,15 @@ public class Skeleboar : MonoBehaviour
         animator.SetFloat("Speed", ai.maxSpeed);
     }
 
+    public void Attacked(float damage) 
+    {
+        health -= damage;
+
+        if (health <= 0f) {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnCollisionStay2D(Collision2D collision) 
     {
         if (collision.gameObject.tag == "Player") {
@@ -51,6 +60,13 @@ public class Skeleboar : MonoBehaviour
             } else {
                 canAttack += Time.deltaTime;
             }
+        } 
+    }
+
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.tag == "Bullet") {
+            Attacked(target.gameObject.GetComponent<PistolBullet>().damage);
         }
     }
 }
