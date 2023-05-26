@@ -53,7 +53,7 @@ public class Skeleboar : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision) 
     {
-        if (collision.gameObject.tag == "Player") {
+        if (collision.gameObject.CompareTag("Player")) {
             if (attackDelay <= canAttack) {
                 collision.gameObject.GetComponent<PlayerHealth>().Attacked(attackDamage);
                 canAttack = 0f;
@@ -65,8 +65,8 @@ public class Skeleboar : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.tag == "Bullet") {
-            Attacked(target.gameObject.GetComponent<PistolBullet>().damage);
+        if (target.gameObject.CompareTag("Bullet")) {
+            Attacked(target.gameObject.GetComponent<Bullet>().damage);
         }
     }
 }

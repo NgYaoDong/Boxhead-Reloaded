@@ -10,7 +10,6 @@ public class Weapon : ScriptableObject
     public AudioClip _clip;
 
     public float fireRate = 1;
-    public int damage = 20;
 
     public void Shoot()
     {

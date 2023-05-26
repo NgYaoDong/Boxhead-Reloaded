@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PistolBullet : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
     public float damage = 10f;
@@ -31,11 +31,12 @@ public class PistolBullet : MonoBehaviour
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
-        //DestroyOffScreen();
+        DestroyOffScreen();
     }
 
     private void OnCollisionEnter2D(Collision2D target)
     {
+        if (target.gameObject.CompareTag("Player")) return;
         Destroy(gameObject);
     }
 }

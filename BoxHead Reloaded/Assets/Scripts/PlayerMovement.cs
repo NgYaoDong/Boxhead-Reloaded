@@ -42,4 +42,14 @@ public class PlayerMovement : MonoBehaviour
     {
         rigidBody.MovePosition(rigidBody.position + moveSpeed * Time.fixedDeltaTime * movement.normalized);
     }
+
+    private IEnumerator OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.CompareTag("Bullet"))
+        {
+            colli.enabled = false;
+            yield return new WaitForSeconds(0.04f);
+            colli.enabled = true;
+        }
+    }
 }
