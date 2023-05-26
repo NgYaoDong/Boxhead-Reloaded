@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class Wave
 {
-    public string waveName;
     public int noOfNonBoss;
     public int noOfBoss;
     public GameObject[] non_Boss;
@@ -16,8 +15,9 @@ public class Wave
 
 public class WaveSpawner : MonoBehaviour
 {
-    [SerializeField] Wave[] waves;
-    [SerializeField] Transform[] spawnPoints;
+    [SerializeField] private Wave[] waves;
+    [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private GameObject gameEnd;
 
     private Wave currentWave;
     private int currentWaveNumber;
@@ -25,6 +25,7 @@ public class WaveSpawner : MonoBehaviour
     private bool canSpawn = true;
     private bool waitFinish = false;
     private bool startWave = false;
+    private bool finish = false;
 
     private void Start() 
     {
@@ -37,17 +38,27 @@ public class WaveSpawner : MonoBehaviour
             currentWave = waves[currentWaveNumber];
             SpawnWave();
             
-            if (!canSpawn && currentWaveNumber + 1 != waves.Length && waitFinish)
-            {
+            if (!canSpawn && currentWaveNumber + 1 != waves.Length && waitFinish) {
                 currentWaveNumber++;
                 canSpawn = true;
+            }
+
+            GameObject[] totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (totalEnemies.Length == 0 && !canSpawn) {
+                if (currentWaveNumber < waves.Length) {
+                    StopCoroutine(Wait());
+                    StartCoroutine(FastWave());
+                } else {
+                    finish = true;
+                    UI();
+                }
             }
         }
     }
 
     private void SpawnWave()
     {
-        if (canSpawn && nextSpawnTime < Time.time) {
+        if (canSpawn && nextSpawnTime < Time.time && currentWaveNumber < waves.Length) {
             GameObject enemy = null;
 
             if (currentWave.noOfNonBoss > 0) {
@@ -80,9 +91,22 @@ public class WaveSpawner : MonoBehaviour
         return currentWave.Boss[Random.Range(0, currentWave.Boss.Length)];
     }
 
+    private void UI() {
+        if (startWave && finish) {
+            Instantiate(gameEnd, Camera.main.transform.position, Quaternion.identity);
+            startWave = false;
+        }
+    }
+
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(currentWave.waveInterval);
+        waitFinish = true;
+    }
+
+    IEnumerator FastWave()
+    {
+        yield return new WaitForSeconds(3);
         waitFinish = true;
     }
 

@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   setHealth: 100
-  healDelay: 3
+  healDelay: 5
   healAmount: 10
   healthBar: {fileID: 0}
   bottom: {fileID: 1273633247}

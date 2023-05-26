@@ -14039,47 +14039,92 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - waveName: Wave 1
-    noOfNonBoss: 3
+  - noOfNonBoss: 5
     noOfBoss: 0
     non_Boss:
     - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
     Boss:
     - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
     spawnInterval: 1
-    waveInterval: 3
-  - waveName: Wave 2
-    noOfNonBoss: 5
+    waveInterval: 30
+  - noOfNonBoss: 5
     noOfBoss: 1
     non_Boss:
     - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
     Boss:
     - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
     spawnInterval: 1
-    waveInterval: 5
-  - waveName: Wave 3
-    noOfNonBoss: 10
+    waveInterval: 30
+  - noOfNonBoss: 10
     noOfBoss: 1
     non_Boss:
     - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
     Boss:
     - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
     spawnInterval: 1
-    waveInterval: 5
-  - waveName: Wave 4
-    noOfNonBoss: 20
+    waveInterval: 30
+  - noOfNonBoss: 10
     noOfBoss: 3
     non_Boss:
     - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
     Boss:
     - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
     spawnInterval: 1
-    waveInterval: 5
+    waveInterval: 30
+  - noOfNonBoss: 15
+    noOfBoss: 3
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
+  - noOfNonBoss: 15
+    noOfBoss: 5
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
+  - noOfNonBoss: 20
+    noOfBoss: 5
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
+  - noOfNonBoss: 20
+    noOfBoss: 7
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
+  - noOfNonBoss: 25
+    noOfBoss: 7
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
+  - noOfNonBoss: 30
+    noOfBoss: 7
+    non_Boss:
+    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+    Boss:
+    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+    spawnInterval: 1
+    waveInterval: 30
   spawnPoints:
   - {fileID: 73621825}
   - {fileID: 1854169821}
   - {fileID: 1095161963}
   - {fileID: 1815994660}
+  gameEnd: {fileID: 3968509147386941124, guid: 2129c3b7e75caaf478fae3342da1f2b7, type: 3}
 --- !u!1001 &1139734704
 PrefabInstance:
   m_ObjectHideFlags: 0
