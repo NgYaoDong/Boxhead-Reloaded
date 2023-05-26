@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelComplete : MonoBehaviour
 {
+    private void Awake()
+    {
+        Cursor.visible = true;
+    }
 
     public void MainMenu()
     {
