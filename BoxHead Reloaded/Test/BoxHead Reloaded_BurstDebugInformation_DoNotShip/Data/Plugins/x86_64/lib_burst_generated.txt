@@ -125,8 +125,6 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PHYSICS_2D_EXISTS
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
 --compilation-defines=ENABLE_ANIMATION_BURST
---compilation-defines=TIMELINE_FRAMEACCURATE
---compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=CINEMACHINE_TIMELINE
 --compilation-defines=CINEMACHINE_PHYSICS_2D
 --compilation-defines=CINEMACHINE_PHYSICS
@@ -134,6 +132,8 @@ Library: lib_burst_generated
 --compilation-defines=CINEMACHINE_PIXEL_PERFECT_2_0_3
 --compilation-defines=CINEMACHINE_UNITY_ANIMATION
 --compilation-defines=CINEMACHINE_UNITY_IMGUI
+--compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="BoxHead Reloaded_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -147,6 +147,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
@@ -154,7 +155,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --assembly-folder=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -288,8 +288,6 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PHYSICS_2D_EXISTS
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
 --compilation-defines=ENABLE_ANIMATION_BURST
---compilation-defines=TIMELINE_FRAMEACCURATE
---compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=CINEMACHINE_TIMELINE
 --compilation-defines=CINEMACHINE_PHYSICS_2D
 --compilation-defines=CINEMACHINE_PHYSICS
@@ -297,6 +295,8 @@ Library: lib_burst_generated
 --compilation-defines=CINEMACHINE_PIXEL_PERFECT_2_0_3
 --compilation-defines=CINEMACHINE_UNITY_ANIMATION
 --compilation-defines=CINEMACHINE_UNITY_IMGUI
+--compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="BoxHead Reloaded_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -310,6 +310,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
@@ -317,7 +318,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---root-assembly=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --assembly-folder=C:\Users\ngyao\OneDrive\Desktop\Year 1\Orbital\Boxhead-Reloaded\BoxHead Reloaded\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
