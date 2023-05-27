@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,13 +12,12 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D colli;
 
     private Vector2 movement;
-    private Camera PlayerCamera;
+    private CinemachineConfiner2D confiner;
     // Start is called before the first frame update
     private void Start()
     {
-        PlayerCamera = Camera.main;
-        PlayerCamera.transform.position = new Vector2(transform.position.x, transform.position.y);
-        PlayerCamera.transform.SetParent(transform);
+        confiner = GetComponentInChildren<CinemachineConfiner2D>();
+        confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
         colli = GetComponent<Collider2D>();
     }
