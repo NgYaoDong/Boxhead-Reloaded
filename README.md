@@ -1,21 +1,21 @@
 # Boxhead-Reloaded
 
 ## Introduction
-This project was developed by two NUS students for Orbitals\
-Boxhead-Reloaded is a game inspired by an old Y8-game named "Boxhead"\
-This game is a single player game which the player will attempt to survive a horde of zombies.
+This project was developed by two NUS students for Orbital\
+Boxhead-Reloaded is a game inspired by an old Flash Player game named "Boxhead 2Play"\
+This game is a single player game where the player will attempt to survive a horde of monsters.
 
 ![Screenshot1](https://user-images.githubusercontent.com/110594538/241564683-e5267b3c-0409-44f1-91d5-553e50eeae18.png)
 ![Screenshot2](https://user-images.githubusercontent.com/110594538/241564675-70d99ed5-ad0b-4183-99cc-da0e463d51d2.png)
 
 ## How to play
 **Basic controls**
-* W - move up
-* S - move down
-* A - move left
-* D - move right
-* Mouse left click - fire
-* Mouse movement - aim
+* W - Move up
+* S - Move down
+* A - Move left
+* D - Move right
+* Mouse Left Click - Fire
+* Mouse Movement - Aim
 ***
 **Setup for player**
 1. Download our current game here: [Latest build](https://drive.google.com/file/d/14LL_xN4N0SSmcjT00kxL3V9hw1O6U5Bl/view?usp=drive_link)
