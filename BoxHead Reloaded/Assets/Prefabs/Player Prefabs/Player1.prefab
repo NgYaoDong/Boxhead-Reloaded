@@ -1149,9 +1149,6 @@ MonoBehaviour:
   healAmount: 10
   healthBar: {fileID: 0}
   bottom: {fileID: 1273633247}
-  gameOver: {fileID: 2906281107207517309, guid: fd361a29d807b0f4f813034500c77437,
-    type: 3}
-  empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!114 &4023907646444408607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,7 +1173,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5406265751207759574}
-  - component: {fileID: 2757584181799124944}
   - component: {fileID: 7488817474099433176}
   m_Layer: 0
   m_Name: Crosshair
@@ -1200,18 +1196,6 @@ Transform:
   m_Father: {fileID: 331790091227170041}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2757584181799124944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6615751596859263532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 909ab64f376b3f64a81b1d9c95be3103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &7488817474099433176
 SpriteRenderer:
   m_ObjectHideFlags: 0

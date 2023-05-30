@@ -23,7 +23,6 @@ public class HealthBar : MonoBehaviour
 
     private void Update()
     {
-        transform.rotation = Healthcamera.transform.rotation;
-        transform.position = target.position + offset;
+        transform.SetPositionAndRotation(target.position + offset, Healthcamera.transform.rotation);
     }
 }

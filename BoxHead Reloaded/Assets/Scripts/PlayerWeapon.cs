@@ -9,13 +9,16 @@ public class PlayerWeapon : MonoBehaviour
     private float nextTimeOfFire = 0;
 
     private Transform aimTransform;
+    private Transform crosshairTransform;
     [SerializeField] private Animator topAnimator;
     [SerializeField] private Animator gunAnimator;
 
     private void Awake()
     {
+        Cursor.visible = false;
         aimTransform = transform.Find("Aim");
-        transform.GetChild(2).GetChild(0).GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
+        crosshairTransform = transform.Find("Crosshair");
+        aimTransform.Find("Weapon").GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
     }
 
     private void Update()
@@ -36,6 +39,7 @@ public class PlayerWeapon : MonoBehaviour
     private void Aiming()
     {
         Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
+        crosshairTransform.position = mousePosition;
         Vector3 aimDirection = (mousePosition - transform.position).normalized;
         float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
         aimTransform.eulerAngles = new Vector3(0, 0, angle);

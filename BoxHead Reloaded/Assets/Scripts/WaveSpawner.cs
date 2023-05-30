@@ -17,7 +17,6 @@ public class WaveSpawner : MonoBehaviour
 {
     [SerializeField] private Wave[] waves;
     [SerializeField] private Transform[] spawnPoints;
-    [SerializeField] private GameObject gameEnd;
 
     private Wave currentWave;
     private int currentWaveNumber;
@@ -93,7 +92,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void UI() {
         if (startWave && finish) {
-            Instantiate(gameEnd, Camera.main.transform.position, Quaternion.identity);
+            FindObjectOfType<GameManager>().LevelComplete();
             startWave = false;
         }
     }
