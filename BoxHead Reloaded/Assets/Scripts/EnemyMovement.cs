@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class Skeleboar : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private float attackDamage = 10f;
-    [SerializeField] private float attackDelay = 0.5f;
+    [SerializeField] private float attackDelay = 1f;
     [SerializeField] private float setHealth = 100f;
 
     private float health;
@@ -14,11 +14,8 @@ public class Skeleboar : MonoBehaviour
     private Transform destination;
     private Rigidbody2D rigidBody;
     private Animator animator;
-    private Collider2D colli; 
+    private Collider2D colli;
 
-    private Vector2 movement;
-
-    // Start is called before the first frame update
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -27,45 +24,66 @@ public class Skeleboar : MonoBehaviour
         health = setHealth;
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        if (destination == null) 
+        if (destination == null)
         {
             destination = GameObject.FindWithTag("Player").transform;
             GetComponent<AIDestinationSetter>().target = destination;
         }
-        
+
         AIPath ai = GetComponent<AIPath>();
-        animator.SetFloat("Horizontal", ai.velocity.x);
-        animator.SetFloat("Vertical", ai.velocity.y);
+        animator.SetFloat("Horizontal", ai.velocity.normalized.x);
+        animator.SetFloat("Vertical", ai.velocity.normalized.y);
         animator.SetFloat("Speed", ai.maxSpeed);
-    }
 
-    public void Attacked(float damage) 
-    {
-        health -= damage;
-
-        if (health <= 0f) {
-            Destroy(gameObject);
+        if (ai.velocity.x == 1 || ai.velocity.x == -1 || ai.velocity.y == 1 || ai.velocity.y == -1)
+        {
+            animator.SetFloat("LastMoveX", ai.velocity.normalized.x);
+            animator.SetFloat("LastMoveY", ai.velocity.normalized.y);
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision) 
+    public void Attacked(float damage)
     {
-        if (collision.gameObject.CompareTag("Player")) {
-            if (attackDelay <= canAttack) {
+        health -= damage;
+
+        if (health <= 0f)
+        {
+            StartCoroutine(Death());
+        }
+    }
+
+    private IEnumerator Death()
+    {
+        animator.SetTrigger("Death");
+        colli.enabled = false;
+        AIPath ai = GetComponent<AIPath>();
+        ai.maxSpeed = 0f;
+        yield return new WaitForSeconds(1.017f);
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (attackDelay <= canAttack)
+            {
                 collision.gameObject.GetComponent<PlayerHealth>().Attacked(attackDamage);
                 canAttack = 0f;
-            } else {
+            }
+            else
+            {
                 canAttack += Time.deltaTime;
             }
-        } 
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.CompareTag("Bullet")) {
+        if (target.gameObject.CompareTag("Bullet"))
+        {
             Attacked(target.gameObject.GetComponent<Bullet>().damage);
         }
     }

@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 820336299427592217}
   - component: {fileID: 820336299427592230}
   - component: {fileID: 820336299427592231}
-  - component: {fileID: 820336299427592229}
   - component: {fileID: 997636385}
   - component: {fileID: 950005937}
   - component: {fileID: 950005938}
   - component: {fileID: 950005939}
+  - component: {fileID: -550052210389195455}
   m_Layer: 0
   m_Name: Arkzom
   m_TagString: Enemy
@@ -128,21 +128,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.006981313, y: -0.19069648}
   m_Size: {x: 0.7397293, y: 1.286818}
   m_Direction: 0
---- !u!114 &820336299427592229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820336299427592225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a484b94b9ef8d540bfabbdf1cd483b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 10
-  attackDelay: 0.25
-  setHealth: 50
 --- !u!95 &997636385
 Animator:
   serializedVersion: 5
@@ -248,3 +233,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &-550052210389195455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820336299427592225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8296370a34a6b57418cd3d9164ebc07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  attackDelay: 0.25
+  setHealth: 50
