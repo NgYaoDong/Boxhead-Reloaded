@@ -112,8 +112,8 @@ TextureImporter:
         y: 474
         width: 6
         height: 6
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,8 +343,8 @@ TextureImporter:
         y: 441
         width: 15
         height: 15
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,8 +511,8 @@ TextureImporter:
         y: 426
         width: 13
         height: 6
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2372,6 +2372,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: TheUltimateWeaponsPack_Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 480
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bdaf72227cb1447ae538b12d9e0f9f
+      internalID: -2077828513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2394,6 +2415,7 @@ TextureImporter:
       TheUltimateWeaponsPack_Sheet_105: -349075248
       TheUltimateWeaponsPack_Sheet_106: 563538506
       TheUltimateWeaponsPack_Sheet_107: 72591313
+      TheUltimateWeaponsPack_Sheet_108: -2077828513
       TheUltimateWeaponsPack_Sheet_11: 55138470
       TheUltimateWeaponsPack_Sheet_12: -1031314522
       TheUltimateWeaponsPack_Sheet_13: -772571542

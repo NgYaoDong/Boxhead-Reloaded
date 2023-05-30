@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
+    public float moveSpeed = 5f;
 
     private Rigidbody2D rigidBody;
     [SerializeField] private Animator bottomAnimator;
@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement;
     private CinemachineConfiner2D confiner;
-    // Start is called before the first frame update
+
     private void Start()
     {
         confiner = GetComponentInChildren<CinemachineConfiner2D>();
@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
         colli = GetComponent<Collider2D>();
     }
 
-    // Update is called once per frame
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Arkzom Idle
+  m_Name: Arkzom Idle Down
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,15 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 53196925, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - time: 0.083333336
-      value: {fileID: 1663907362, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - time: 0.16666667
-      value: {fileID: 382996528, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - time: 0.25
-      value: {fileID: 1663907362, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - time: 0.33333334
-      value: {fileID: -656688906, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
+      value: {fileID: -1767862870, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,17 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 53196925, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - {fileID: 1663907362, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - {fileID: 382996528, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - {fileID: 1663907362, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
-    - {fileID: -656688906, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
+    - {fileID: -1767862870, guid: 461c1f47c68e44c4da9432e18e8da305, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
