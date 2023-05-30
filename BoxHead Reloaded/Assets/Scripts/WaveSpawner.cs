@@ -45,7 +45,7 @@ public class WaveSpawner : MonoBehaviour
 
             GameObject[] totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
             if (totalEnemies.Length == 0 && !canSpawn) {
-                if (currentWaveNumber < waves.Length) {
+                if (currentWaveNumber + 1 < waves.Length) {
                     StopCoroutine(Wait());
                     StartCoroutine(FastWave());
                 } else {
