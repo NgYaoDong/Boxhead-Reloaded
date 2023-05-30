@@ -9,12 +9,6 @@ public class EnemyBullet : MonoBehaviour
     private GameObject player;
     private Rigidbody2D rb;
 
-    private IEnumerator DestroyBullet()
-    {
-        yield return new WaitForSeconds(5f);
-        Destroy(gameObject);
-    }
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,11 +16,7 @@ public class EnemyBullet : MonoBehaviour
 
         Vector3 direction = player.transform.position - transform.position;
         rb.velocity = new Vector2 (direction.x, direction.y).normalized * bulletSpeed;
-    }
-
-    private void Update()
-    {
-       StartCoroutine(DestroyBullet());
+        Destroy(gameObject, 5f);
     }
 
     private void OnTriggerEnter2D (Collider2D target)

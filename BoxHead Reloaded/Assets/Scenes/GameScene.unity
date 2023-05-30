@@ -11389,6 +11389,8 @@ MonoBehaviour:
   maxX: 16
   minY: -8
   maxY: 8
+  gameEnd: {fileID: 2906281107207517309, guid: fd361a29d807b0f4f813034500c77437, type: 3}
+  empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1001 &722752839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14159,7 +14161,6 @@ MonoBehaviour:
   - {fileID: 1854169821}
   - {fileID: 1095161963}
   - {fileID: 1815994660}
-  gameEnd: {fileID: 3968509147386941124, guid: 2129c3b7e75caaf478fae3342da1f2b7, type: 3}
 --- !u!1001 &1139734704
 PrefabInstance:
   m_ObjectHideFlags: 0
