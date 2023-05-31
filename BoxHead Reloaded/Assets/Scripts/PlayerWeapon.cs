@@ -23,17 +23,17 @@ public class PlayerWeapon : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (!InGame.isPaused)
         {
-            if (Time.time >= nextTimeOfFire)
+            if (Input.GetButton("Fire1") && Time.time >= nextTimeOfFire)
             {
                 currWeapon.Shoot();
                 gunAnimator.SetTrigger("Shoot");
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
             }
-        }
 
-        Aiming();
+            Aiming();
+        }
     }
 
     private void Aiming()

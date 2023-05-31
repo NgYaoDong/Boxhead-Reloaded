@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update() 
     {
-        SelfHeal();
+        if (!InGame.isPaused) SelfHeal();
     }
 
     public void Attacked(float damage) 
