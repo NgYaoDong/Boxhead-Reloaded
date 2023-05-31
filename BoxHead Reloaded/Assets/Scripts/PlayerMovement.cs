@@ -24,17 +24,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        bottomAnimator.SetFloat("Horizontal", movement.x);
-        bottomAnimator.SetFloat("Vertical", movement.y);
-        bottomAnimator.SetFloat("Speed", movement.sqrMagnitude);
-
-        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        if (!InGame.isPaused)
         {
-            bottomAnimator.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
-            bottomAnimator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            bottomAnimator.SetFloat("Horizontal", movement.x);
+            bottomAnimator.SetFloat("Vertical", movement.y);
+            bottomAnimator.SetFloat("Speed", movement.sqrMagnitude);
+
+            if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+            {
+                bottomAnimator.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
+                bottomAnimator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
+            }
         }
     }
     private void FixedUpdate()

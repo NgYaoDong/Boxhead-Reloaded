@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> characters = new List<GameObject>();
+    [SerializeField] private List<GameObject> characters = new();
     [SerializeField] private GameObject characterSelPanel;
     [SerializeField] private GameObject canvas;
 

@@ -7,19 +7,29 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> characters = new();
     [SerializeField] private float minX, maxX, minY, maxY;
-    [SerializeField] private GameObject gameEnd;
+    [SerializeField] private GameObject inGame;
     [SerializeField] private GameObject empty;
+    private bool canPause = true;
     void Start()
     {
         float x = Random.Range(minX, maxX);
         float y = Random.Range(minY, maxY);
-        GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
+        Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && canPause) 
+        {
+            if (InGame.isPaused) inGame.GetComponent<InGame>().ResumeGame();
+            else inGame.GetComponent<InGame>().PauseGame();
+        }
     }
 
     public void GameOver()
     {
-        gameEnd.GetComponentInChildren<GameEnd>().CheckDead(true);
-        Instantiate(gameEnd, Camera.main.transform.position, Quaternion.identity);
+        canPause = false;
+        inGame.GetComponent<InGame>().CheckDead(true);
         CinemachineConfiner2D confiner = empty.GetComponentInChildren<CinemachineConfiner2D>();
         confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         Instantiate(empty, Camera.main.transform.position, Quaternion.identity);
@@ -27,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void LevelComplete()
     {
-        gameEnd.GetComponentInChildren<GameEnd>().CheckDead(false);
-        Instantiate(gameEnd, Camera.main.transform.position, Quaternion.identity);
+        canPause = false;
+        inGame.GetComponent<InGame>().CheckDead(false);
     }
 }
