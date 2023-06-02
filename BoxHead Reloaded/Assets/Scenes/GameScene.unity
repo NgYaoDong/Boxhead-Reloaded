@@ -2145,6 +2145,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 569451233, guid: fd361a29d807b0f4f813034500c77437, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209344261, guid: fd361a29d807b0f4f813034500c77437, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 2906281107207517305, guid: fd361a29d807b0f4f813034500c77437,
         type: 3}
       propertyPath: m_Pivot.x
@@ -12518,7 +12526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABAIewwUagSWQIAABAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMmS2jAQ/RVK55BiMQPklhiGyYGBGpKaiy/CbmMVsuTSwlr8e1ryGlI5WXr9uvv1It8JE7qA2Ei1UixZywTItx5xZ/Kl1xrf4EIPUuzYDWrOJ0tM5kjUcz6oYRLxoXPTMgejWPxdHLgjDxC0gqVS5cvkAKHURiOcUq4BTUoa5y0QuvfIBT/9uXO54mk0dacbnuaD3gOPMQgDqqXWxJpWsqyIOc0LSJzkljye1mFLmsBiKoYTHkvOma6UEHMtfKUhLbTFOpCQMIqV+fQjvGbADpmpLo3zJk01mEqSotcFU9igMir5Icuu5VQfS10nyq3LM/OKypDrf6z9oTenSuZvddbhwGUwGYuPH/QaU206Te3Ci1b20DfnTPmR7jl8ZiDe5UpJKxI0GmWdq9UwWrTXprAwg/jY4qXUJ9AW/x+Nq+Hha7+EnOV7Z/oalMCOS99tP3hQOJefKNivha5CIOpU/Nbwix66+1MZXpnSBk1VlcLJ20urHJUsfc9cNdaEUgnwcCW6AEG5uW4xjHke4JOtk/bJ8krdS6mSV7b6ATy5eLjlDwZPpq08N8PSmTyvQWcbazgT0Ip2hnfsUyiFKPer25PabWdVSuOO28Gy5O/VIi90uB/DyzyYjILpdDLuz2bzdDAL5kEwScfjYET87jGBdVK+LYVW7cGpiTa4wD2rfyC9laKF3/VE0fOK3XLZaTkTqdzFCkBsygiNcFCYBN9kskwYNmgHxjDh503uEeEyPkISNYEiX+nyYhSN2igRKdhJGodEJPR/jIg4uNnlrYITg7NLXgd7kMcfUEsDBBQAAAgIAABAIex7Vg8JbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSWaJhknGqmaWJqZGJubmpsa6FhWWagYWJpYmJaZqxsYmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAABAIewwUagSWQIAABAFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAABAIex7Vg8JbQAAAHgAAAAJACQAAAAAAAAAAAAAAKYCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
+    dataString: UEsDBBQAAAgIAMA7IewwUagSWQIAABAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMmS2jAQ/RVK55BiMQPklhiGyYGBGpKaiy/CbmMVsuTSwlr8e1ryGlI5WXr9uvv1It8JE7qA2Ei1UixZywTItx5xZ/Kl1xrf4EIPUuzYDWrOJ0tM5kjUcz6oYRLxoXPTMgejWPxdHLgjDxC0gqVS5cvkAKHURiOcUq4BTUoa5y0QuvfIBT/9uXO54mk0dacbnuaD3gOPMQgDqqXWxJpWsqyIOc0LSJzkljye1mFLmsBiKoYTHkvOma6UEHMtfKUhLbTFOpCQMIqV+fQjvGbADpmpLo3zJk01mEqSotcFU9igMir5Icuu5VQfS10nyq3LM/OKypDrf6z9oTenSuZvddbhwGUwGYuPH/QaU206Te3Ci1b20DfnTPmR7jl8ZiDe5UpJKxI0GmWdq9UwWrTXprAwg/jY4qXUJ9AW/x+Nq+Hha7+EnOV7Z/oalMCOS99tP3hQOJefKNivha5CIOpU/Nbwix66+1MZXpnSBk1VlcLJ20urHJUsfc9cNdaEUgnwcCW6AEG5uW4xjHke4JOtk/bJ8krdS6mSV7b6ATy5eLjlDwZPpq08N8PSmTyvQWcbazgT0Ip2hnfsUyiFKPer25PabWdVSuOO28Gy5O/VIi90uB/DyzyYjILpdDLuz2bzdDAL5kEwScfjYET87jGBdVK+LYVW7cGpiTa4wD2rfyC9laKF3/VE0fOK3XLZaTkTqdzFCkBsygiNcFCYBN9kskwYNmgHxjDh503uEeEyPkISNYEiX+nyYhSN2igRKdhJGodEJPR/jIg4uNnlrYITg7NLXgd7kMcfUEsDBBQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSWaJhknGqmaWJqZGJubmpsa6FhWWagYWJpYmJaZqxsYmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAMA7IewwUagSWQIAABAFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAAAAAAAAAAAAAAKYCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -12666,6 +12674,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 864189847}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &864413369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3557994914141767169, guid: fd361a29d807b0f4f813034500c77437,
+    type: 3}
+  m_PrefabInstance: {fileID: 309642326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd803a42b128a45a6b1aced0de155434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &871671618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14280,6 +14300,7 @@ MonoBehaviour:
   - {fileID: 1854169821}
   - {fileID: 1095161963}
   - {fileID: 1815994660}
+  waveUI: {fileID: 864413369}
 --- !u!1001 &1139734704
 PrefabInstance:
   m_ObjectHideFlags: 0
