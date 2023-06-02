@@ -17,6 +17,7 @@ public class WaveSpawner : MonoBehaviour
 {
     [SerializeField] private Wave[] waves;
     [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private WaveUI waveUI;
 
     private Wave currentWave;
     private int currentWaveNumber;
@@ -28,6 +29,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start() 
     {
+        waveUI.SetCount(waves.Length);
         StartCoroutine(Hold());
     }
 
@@ -39,6 +41,7 @@ public class WaveSpawner : MonoBehaviour
             
             if (!canSpawn && currentWaveNumber + 1 != waves.Length && waitFinish) {
                 currentWaveNumber++;
+                waveUI.UpdateWaveCount();
                 canSpawn = true;
             }
 
@@ -99,18 +102,20 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(currentWave.waveInterval);
-        waitFinish = true;
+        yield return new WaitForSeconds(currentWave.waveInterval - 3);
+        StartCoroutine(FastWave());
     }
 
     IEnumerator FastWave()
     {
+        StartCoroutine(waveUI.StartAnimation());
         yield return new WaitForSeconds(3);
         waitFinish = true;
     }
 
     IEnumerator Hold() 
     {
+        StartCoroutine(waveUI.StartAnimation());
         yield return new WaitForSeconds(3);
         startWave = true;
     }
