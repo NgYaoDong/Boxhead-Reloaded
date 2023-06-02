@@ -12,13 +12,11 @@ public class EnemyMovement : MonoBehaviour
     private float health;
     private float canAttack;
     private Transform destination;
-    private Rigidbody2D rigidBody;
     private Animator animator;
     private Collider2D colli;
 
     private void Start()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         colli = GetComponent<Collider2D>();
         health = setHealth;

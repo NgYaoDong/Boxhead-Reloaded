@@ -16,4 +16,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1684763023625665033, guid: e1a168dd78a514043b85bd2e5bab79e1,
     type: 3}
   _clip: {fileID: 8300000, guid: f5c9ea41c09cd3d4290c5b5e86739e28, type: 3}
-  fireRate: 5
+  fireRate: 1
+  pellets: 5
+  ammo: 30

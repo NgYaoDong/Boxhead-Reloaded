@@ -215,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327079455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 0, z: 0}
+  m_LocalPosition: {x: -0.25, y: -0.0134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -764,7 +764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408072586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -0.045, z: 0}
+  m_LocalPosition: {x: 0.3641, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -798,7 +798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764706327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.213, y: -0.059, z: 0}
+  m_LocalPosition: {x: 0.625, y: -0.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -852,7 +852,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.325, y: 0.15}
+  m_Size: {x: 0.7, y: 0.225}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1108,8 +1108,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02388382, y: -0.25199604}
-  m_Size: {x: 0.84791374, y: 0.84791374}
+  m_Offset: {x: 0.0017221272, y: -0.24566412}
+  m_Size: {x: 0.60730094, y: 0.8352499}
   m_Direction: 0
 --- !u!95 &3563837176597451141
 Animator:
@@ -1161,7 +1161,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2408c5458004348a23a6b401119140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currWeapon: {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: d6a67e6e35c3ca945b126312c779cb2c, type: 2}
+  - {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}
+  - {fileID: 11400000, guid: 6420acf2980c93e4898b0218752329fd, type: 2}
+  currWeapon: {fileID: 0}
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}
 --- !u!1 &6615751596859263532

@@ -17,3 +17,5 @@ MonoBehaviour:
     type: 3}
   _clip: {fileID: 8300000, guid: f5c9ea41c09cd3d4290c5b5e86739e28, type: 3}
   fireRate: 15
+  pellets: 1
+  ammo: 100

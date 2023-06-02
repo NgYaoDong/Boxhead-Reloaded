@@ -6,6 +6,7 @@ public class EnemyBullet : MonoBehaviour
 {
     [SerializeField] private float bulletDamage = 20f;
     [SerializeField] private float bulletSpeed = 5f;
+    [SerializeField] private float timeTillDestroy = 5f;
     private GameObject player;
     private Rigidbody2D rb;
 
@@ -16,7 +17,7 @@ public class EnemyBullet : MonoBehaviour
 
         Vector3 direction = player.transform.position - transform.position;
         rb.velocity = new Vector2 (direction.x, direction.y).normalized * bulletSpeed;
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, timeTillDestroy);
     }
 
     private void OnTriggerEnter2D (Collider2D target)
