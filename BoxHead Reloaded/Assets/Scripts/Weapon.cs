@@ -10,10 +10,15 @@ public class Weapon : ScriptableObject
     public AudioClip _clip;
 
     public float fireRate = 1;
+    public int pellets = 1;
+    public long ammo = 30;
 
     public void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
-        AudioSource.PlayClipAtPoint(_clip, bullet.transform.position, 0.1f);
+        for (int i = 0; i < pellets; i++)
+        {
+            GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
+            AudioSource.PlayClipAtPoint(_clip, bullet.transform.position, 0.1f);
+        }
     }
 }

@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
     public float damage = 10f;
+
     private Vector2 dir;
     private Camera cam;
 
@@ -21,7 +22,7 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void Start()
+    public void Start()
     {
         dir = GameObject.Find("Dir").transform.position;
         transform.position = GameObject.Find("FirePoint").transform.position;
