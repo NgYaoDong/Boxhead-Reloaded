@@ -20,10 +20,10 @@ public class SpreadBullet : MonoBehaviour
 
     private void Start()
     {
-        var x = transform.position.x - GameObject.FindGameObjectWithTag("Player").transform.position.x;
-        var y = transform.position.y - GameObject.FindGameObjectWithTag("Player").transform.position.y;
+        float x = transform.position.x - GameObject.FindGameObjectWithTag("Player").transform.position.x;
+        float y = transform.position.y - GameObject.FindGameObjectWithTag("Player").transform.position.y;
         float rotateAngle = spreadAngle + (Mathf.Atan2(y, x) * Mathf.Rad2Deg);
-        var MovementDirection = new Vector2(Mathf.Cos(rotateAngle * Mathf.Deg2Rad), Mathf.Sin(rotateAngle * Mathf.Deg2Rad)).normalized;
+        Vector2 MovementDirection = new Vector2(Mathf.Cos(rotateAngle * Mathf.Deg2Rad), Mathf.Sin(rotateAngle * Mathf.Deg2Rad)).normalized;
         rb.velocity = MovementDirection * speed;
     }
 
