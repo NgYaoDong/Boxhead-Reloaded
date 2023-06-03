@@ -15,4 +15,9 @@ public class StartGame : MonoBehaviour
         Application.Quit();
         //UnityEditor.EditorApplication.isPlaying = false;
     }
+
+    public void Feedback()
+    {
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSdimHszS5tCvvCZWsIpwyKqPyQVmg1LdCKNov8k8K40ye5zdQ/viewform");
+    }
 }

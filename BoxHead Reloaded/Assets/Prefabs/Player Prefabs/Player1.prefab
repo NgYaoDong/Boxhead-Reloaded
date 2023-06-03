@@ -798,7 +798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764706327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.625, y: -0.059, z: 0}
+  m_LocalPosition: {x: 0.622, y: -0.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -852,7 +852,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.7, y: 0.225}
+  m_Size: {x: 1.025, y: 0.325}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1165,6 +1165,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d6a67e6e35c3ca945b126312c779cb2c, type: 2}
   - {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}
   - {fileID: 11400000, guid: 6420acf2980c93e4898b0218752329fd, type: 2}
+  - {fileID: 11400000, guid: 029de9a238510d241a83755f918f9d72, type: 2}
   currWeapon: {fileID: 0}
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}
