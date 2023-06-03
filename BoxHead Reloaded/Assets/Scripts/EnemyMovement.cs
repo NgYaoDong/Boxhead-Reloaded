@@ -80,9 +80,10 @@ public class EnemyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.CompareTag("Bullet"))
-        {
+        if (target.gameObject.CompareTag("Bullet")) {
             Attacked(target.gameObject.GetComponent<Bullet>().damage);
+        } else if (target.gameObject.CompareTag("SpreadBullet")) {
+            Attacked(target.gameObject.GetComponent<SpreadBullet>().damage);
         }
     }
 }
