@@ -40,7 +40,7 @@ public class PlayerWeapon : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.I))
             {
                 weaponNum++;
-                if (weaponNum + 1 == weapons.Length) weaponNum = 0;
+                if (weaponNum + 1 > weapons.Length) weaponNum = 0;
                 currWeapon = weapons[weaponNum];
                 weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
             }
