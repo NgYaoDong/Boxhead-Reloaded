@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Follow: {fileID: 331790091227170041}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4.84
+    OrthographicSize: 5
     NearClipPlane: -5
     FarClipPlane: 1000
     Dutch: 0
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 6780288184353362999}
   m_Layer: 6
   m_Name: Legs
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

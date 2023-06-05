@@ -327,7 +327,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.84
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1001,19 +1001,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 18.132336, y: 6.990894}
-      - {x: 18.069958, y: 15.161191}
-      - {x: -1.9999647, y: 15.178157}
-      - {x: -2.040675, y: 7.1043935}
-      - {x: -12.001782, y: 7.1258864}
-      - {x: -12.154279, y: -7.6930256}
-      - {x: -2.1501527, y: -7.9229636}
-      - {x: -2.2003994, y: -16.991606}
-      - {x: 18.27579, y: -17.074463}
-      - {x: 18.281618, y: -7.4703484}
-      - {x: 22.309862, y: -7.7018747}
-      - {x: 28.324512, y: -7.6243305}
-      - {x: 28.355452, y: 7.039749}
+    - - {x: 18.96953, y: 7.1862397}
+      - {x: 18.907152, y: 15.189097}
+      - {x: -2.948785, y: 15.206063}
+      - {x: -2.9336824, y: 7.160207}
+      - {x: -12.364566, y: 7.153793}
+      - {x: -12.293812, y: -7.9162774}
+      - {x: -2.931534, y: -7.867151}
+      - {x: -2.9259675, y: -16.935793}
+      - {x: 19.001358, y: -16.907024}
+      - {x: 18.97928, y: -7.9168515}
+      - {x: 22.309862, y: -7.8972197}
+      - {x: 28.436138, y: -7.8754888}
+      - {x: 28.383356, y: 7.207188}
 --- !u!1 &1815994659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,11 +1087,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4947670762263756266, guid: 631151a1185694b27b5fe33e208b5b5a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4947670762668341466, guid: 631151a1185694b27b5fe33e208b5b5a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1151,21 +1146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894141958146360531, guid: 631151a1185694b27b5fe33e208b5b5a,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894141958221409113, guid: 631151a1185694b27b5fe33e208b5b5a,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894141958510861457, guid: 631151a1185694b27b5fe33e208b5b5a,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 631151a1185694b27b5fe33e208b5b5a, type: 3}
