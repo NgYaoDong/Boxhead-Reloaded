@@ -40,11 +40,10 @@ public class PlayerWeapon : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.I))
             {
                 weaponNum++;
+                if (weaponNum + 1 == weapons.Length) weaponNum = 0;
                 currWeapon = weapons[weaponNum];
                 weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
             }
-
-            if (weaponNum + 1 == weapons.Length) weaponNum = 0; // need edit, how tf do i cycle back to 0???
 
             Aiming();
         }
