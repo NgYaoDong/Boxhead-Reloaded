@@ -17,8 +17,8 @@ public class Weapon : ScriptableObject
     {
         for (int i = 0; i < pellets; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
-            AudioSource.PlayClipAtPoint(_clip, bullet.transform.position, 0.1f);
+            Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
         }
+        if (_clip) AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.1f);
     }
 }

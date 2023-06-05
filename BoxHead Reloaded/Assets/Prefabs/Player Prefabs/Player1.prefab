@@ -1166,6 +1166,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}
   - {fileID: 11400000, guid: 6420acf2980c93e4898b0218752329fd, type: 2}
   - {fileID: 11400000, guid: 029de9a238510d241a83755f918f9d72, type: 2}
+  - {fileID: 11400000, guid: c52552e2eb857b2469599358da235db3, type: 2}
+  - {fileID: 11400000, guid: ff28c044f48cd9e4e900d9216108bbb3, type: 2}
   currWeapon: {fileID: 0}
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}
