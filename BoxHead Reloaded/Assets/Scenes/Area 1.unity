@@ -310,7 +310,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.020825924, g: 0.33962262, b: 0.020825924, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -350,8 +350,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.035, y: -0.014, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.061615, y: -0.285223, z: -50.478012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -513,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675124354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13999987, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -567,10 +567,10 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
-  minX: -16
-  maxX: 16
-  minY: -8
-  maxY: 8
+  minX: -11
+  maxX: 27
+  minY: 5
+  maxY: -6
   inGame: {fileID: 1187854026}
   empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1 &763230847
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAMA7Iey0dT6TcAIAACQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjwAmmt9YQ0kMSJrSTiy/CXmMNsuTRR4Bk+O9dyTJ26Qnx3n68fVr5izChG8iNVGvFimdZAPk+Iu5Mvo168glOdC/Fln1CF/POClO5IOpj3qhhEvGJS9OyBqNY/kPsuQuOELSClVLVq2IPqdRGI1xSrgEpJY3LFgh9jcgJf8YLl3LG03TuTp94WkSjCx5zEAZUHzq/Sx4m89ksjkPGOLpLZoskms7jaUhtM63IOa0bKNwYfYG4azVrwwQOGCLcMLnknOmgjphz46dPaaMtzoYBBaM4rZfk+lXA9pUJf67Jr2WpwQQrFD0vmULT2qrkp2ydrKk+tLo+KLeuT+IVtSWf/2PHE0+XStZPXddJ5DqYiuWHN3rOqTYDo4fwspc98eYcKT/QHYf3CsSLXCtpRYGkUdalWg3TZf/3OlhaQX7o8VbqDWib3u3O7O5W3QwXP/sp5azeOeouboEtl95tvwyg8F5+oWC/KjqUQNSp+KPhN90PdyoQj0xpg1SYUjh5O2mVCyUr75mbxppUKgEeDqIbEJSb8wbLmNsLvOEGbW+YR+peT2geuO5R3KR4uI+PohtqI4/Xy9KVPD6Drl6t4UxAL9oRL+hTKoVo92voSZe2taqk+SBtb1nx72qRBzrZzeBhEd9P4/n8fjZOkkUZJfEiju9LfG1T4nePCZyT8k0rNNiDtyb64gL3rPuojNaKNn7XC0WPa/ZZy4HlTJRymysA8dpWuAoHhU3wTRargqFBWzCGCX/f5CsjXOYHKLJrocxPujoZRbO+SkYa9iGNQzKS+q9IRhx83eWNgg8GR9e8K3Yhl79QSwMEFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZomGScaqZpYmpkYm5uamxroWFZZqBhYmliYlpmrGxiZFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAwDsh7LR1PpNwAgAAJAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJAAAAAAAAAAAAAAAvQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB1AwAAAAA=
+    dataString: UEsDBBQAAAgIAABAIey0dT6TcAIAACQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjwAmmt9YQ0kMSJrSTiy/CXmMNsuTRR4Bk+O9dyTJ26Qnx3n68fVr5izChG8iNVGvFimdZAPk+Iu5Mvo168glOdC/Fln1CF/POClO5IOpj3qhhEvGJS9OyBqNY/kPsuQuOELSClVLVq2IPqdRGI1xSrgEpJY3LFgh9jcgJf8YLl3LG03TuTp94WkSjCx5zEAZUHzq/Sx4m89ksjkPGOLpLZoskms7jaUhtM63IOa0bKNwYfYG4azVrwwQOGCLcMLnknOmgjphz46dPaaMtzoYBBaM4rZfk+lXA9pUJf67Jr2WpwQQrFD0vmULT2qrkp2ydrKk+tLo+KLeuT+IVtSWf/2PHE0+XStZPXddJ5DqYiuWHN3rOqTYDo4fwspc98eYcKT/QHYf3CsSLXCtpRYGkUdalWg3TZf/3OlhaQX7o8VbqDWib3u3O7O5W3QwXP/sp5azeOeouboEtl95tvwyg8F5+oWC/KjqUQNSp+KPhN90PdyoQj0xpg1SYUjh5O2mVCyUr75mbxppUKgEeDqIbEJSb8wbLmNsLvOEGbW+YR+peT2geuO5R3KR4uI+PohtqI4/Xy9KVPD6Drl6t4UxAL9oRL+hTKoVo92voSZe2taqk+SBtb1nx72qRBzrZzeBhEd9P4/n8fjZOkkUZJfEiju9LfG1T4nePCZyT8k0rNNiDtyb64gL3rPuojNaKNn7XC0WPa/ZZy4HlTJRymysA8dpWuAoHhU3wTRargqFBWzCGCX/f5CsjXOYHKLJrocxPujoZRbO+SkYa9iGNQzKS+q9IRhx83eWNgg8GR9e8K3Yhl79QSwMEFAAACAgAAEAh7HtWDwltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZomGScaqZpYmpkYm5uamxroWFZZqBhYmliYlpmrGxiZFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAEAh7LR1PpNwAgAAJAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAEAh7HtWDwltAAAAeAAAAAkAJAAAAAAAAAAAAAAAvQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB1AwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -954,6 +954,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1774534769}
   - component: {fileID: 1774534770}
+  - component: {fileID: 1774534772}
+  - component: {fileID: 1774534771}
   m_Layer: 0
   m_Name: CamBounds
   m_TagString: Untagged
@@ -988,7 +990,7 @@ PolygonCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -1001,19 +1003,99 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 18.96953, y: 7.1862397}
-      - {x: 18.907152, y: 15.189097}
-      - {x: -2.948785, y: 15.206063}
-      - {x: -2.9336824, y: 7.160207}
-      - {x: -12.364566, y: 7.153793}
-      - {x: -12.293812, y: -7.9162774}
-      - {x: -2.931534, y: -7.867151}
-      - {x: -2.9259675, y: -16.935793}
-      - {x: 19.001358, y: -16.907024}
-      - {x: 18.97928, y: -7.9168515}
-      - {x: 22.309862, y: -7.8972197}
-      - {x: 28.436138, y: -7.8754888}
-      - {x: 28.383356, y: 7.207188}
+    - - {x: 18.001747, y: 7.1451006}
+      - {x: 17.902058, y: 15.030032}
+      - {x: -1.7885888, y: 14.997464}
+      - {x: -1.9675751, y: 7.080417}
+      - {x: -12.043054, y: 7.043842}
+      - {x: -11.967096, y: -6.6039696}
+      - {x: -1.9065514, y: -6.7028174}
+      - {x: -1.8095821, y: -15.597707}
+      - {x: 17.878046, y: -15.600478}
+      - {x: 18.04314, y: -6.692124}
+      - {x: 28.11518, y: -6.635839}
+      - {x: 28.12281, y: 7.030219}
+--- !u!66 &1774534771
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774534768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0.3
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1774534770}
+    m_ColliderPaths:
+    - - X: 180017472
+        Y: 71451008
+      - X: 179020576
+        Y: 150300320
+      - X: -17885888
+        Y: 149974640
+      - X: -19675750
+        Y: 70804168
+      - X: -120430536
+        Y: 70438416
+      - X: -119670960
+        Y: -66039696
+      - X: -19065514
+        Y: -67028176
+      - X: -18095822
+        Y: -155977072
+      - X: 178780464
+        Y: -156004784
+      - X: 180431408
+        Y: -66921240
+      - X: 281151776
+        Y: -66358388
+      - X: 281228096
+        Y: 70302192
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 17.878017, y: -15.600478}
+      - {x: 18.043169, y: -6.692124}
+      - {x: 28.115177, y: -6.63581}
+      - {x: 28.122782, y: 7.030219}
+      - {x: 18.001747, y: 7.1451297}
+      - {x: 17.902029, y: 15.030032}
+      - {x: -1.7885895, y: 14.997436}
+      - {x: -1.9676034, y: 7.0804167}
+      - {x: -12.043054, y: 7.0438123}
+      - {x: -11.967068, y: -6.60397}
+      - {x: -1.9065512, y: -6.7028465}
+      - {x: -1.8095534, y: -15.597708}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+--- !u!50 &1774534772
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774534768}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1815994659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,10 +1165,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1123224413, guid: 631151a1185694b27b5fe33e208b5b5a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4947670762668341466, guid: 631151a1185694b27b5fe33e208b5b5a,
         type: 3}
       propertyPath: m_RootOrder
