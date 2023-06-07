@@ -215,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327079455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25, y: -0.0134, z: 0}
+  m_LocalPosition: {x: -0.283, y: -0.0134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -764,7 +764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408072586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3641, y: 0, z: 0}
+  m_LocalPosition: {x: 0.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -852,7 +852,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.025, y: 0.325}
+  m_Size: {x: 0.7, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1108,8 +1108,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0017221272, y: -0.24566412}
-  m_Size: {x: 0.60730094, y: 0.8352499}
+  m_Offset: {x: 0.0017221272, y: -0.2222321}
+  m_Size: {x: 0.60730094, y: 0.78838587}
   m_Direction: 0
 --- !u!95 &3563837176597451141
 Animator:
@@ -1168,6 +1168,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 029de9a238510d241a83755f918f9d72, type: 2}
   - {fileID: 11400000, guid: c52552e2eb857b2469599358da235db3, type: 2}
   - {fileID: 11400000, guid: ff28c044f48cd9e4e900d9216108bbb3, type: 2}
+  - {fileID: 11400000, guid: a8db99ced525c2343859b747f861dda6, type: 2}
   currWeapon: {fileID: 0}
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}

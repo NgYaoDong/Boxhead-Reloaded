@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 176756484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy FP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 2107449248}
   - component: {fileID: 748159853}
   - component: {fileID: 8467054270018160278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleboar
   m_TagString: Enemy
   m_Icon: {fileID: 0}
