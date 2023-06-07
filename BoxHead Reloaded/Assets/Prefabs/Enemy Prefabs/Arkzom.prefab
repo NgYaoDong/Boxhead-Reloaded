@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 950005938}
   - component: {fileID: 950005939}
   - component: {fileID: -550052210389195455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arkzom
   m_TagString: Enemy
   m_Icon: {fileID: 0}

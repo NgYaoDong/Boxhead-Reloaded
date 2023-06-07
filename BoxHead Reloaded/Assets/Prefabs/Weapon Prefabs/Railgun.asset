@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Railgun
   m_EditorClassIdentifier: 
   currWeaponSpr: {fileID: 908433303, guid: f5a6cc08702cc6945a7bcc16b5867dea, type: 3}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 4790366182379669272, guid: 73907aede4a7b54458892b5f8a98a0be,
+    type: 3}
   _clip: {fileID: 0}
-  fireRate: 1
+  fireRate: 0.5
   pellets: 1
   ammo: 30
