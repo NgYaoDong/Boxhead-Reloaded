@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
+using Unity.VisualScripting;
 
 public class PlayerWeapon : MonoBehaviour
 {
@@ -30,11 +31,13 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (!InGame.isPaused)
         {
-            if (Input.GetButton("Fire1") && Time.time >= nextTimeOfFire)
+            if (Input.GetButton("Fire1") && currWeapon.currAmmo > 0 && Time.time >= nextTimeOfFire)
             {
                 currWeapon.Shoot();
-                gunAnimator.SetTrigger("Shoot");
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
+                Debug.Log(currWeapon.currAmmo);
+                if (weaponNum == 3 || weaponNum == 6) return;
+                gunAnimator.SetTrigger("Shoot");
             }
 
             if (Input.GetKeyDown(KeyCode.I))
@@ -42,6 +45,12 @@ public class PlayerWeapon : MonoBehaviour
                 weaponNum++;
                 if (weaponNum + 1 > weapons.Length) weaponNum = 0;
                 currWeapon = weapons[weaponNum];
+                while (currWeapon.currAmmo == 0)
+                {
+                    weaponNum++;
+                    if (weaponNum + 1 > weapons.Length) weaponNum = 0;
+                    currWeapon = weapons[weaponNum];
+                }
                 weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
             }
 

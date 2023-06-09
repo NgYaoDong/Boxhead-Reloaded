@@ -11,7 +11,8 @@ public class Weapon : ScriptableObject
 
     public float fireRate = 1;
     public int pellets = 1;
-    public long ammo = 30;
+    public float currAmmo = Mathf.Infinity;
+    public float maxAmmo = Mathf.Infinity;
 
     public void Shoot()
     {
@@ -20,5 +21,11 @@ public class Weapon : ScriptableObject
             Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
         }
         if (_clip) AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.1f);
+        currAmmo--;
+    }
+
+    public void AddAmmo()
+    {
+        currAmmo = maxAmmo;
     }
 }

@@ -14,7 +14,10 @@ public class GameManager : MonoBehaviour
     {
         float x = Random.Range(minX, maxX);
         float y = Random.Range(minY, maxY);
-        Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
+        GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
+        Weapon[] weapons = player.GetComponent<PlayerWeapon>().weapons;
+        foreach (Weapon weapon in weapons)
+            weapon.AddAmmo();
     }
 
     private void Update()
