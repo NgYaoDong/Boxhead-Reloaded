@@ -28,6 +28,6 @@ public class RailgunBeam : MonoBehaviour
                 enemyHit.collider.GetComponent<EnemyMovement>().Attacked(damage);
             }
         }
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 0.04f);
     }
 }

@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rigidBody;
     [SerializeField] private Animator bottomAnimator;
-    private Collider2D colli;
 
     private Vector2 movement;
     private CinemachineConfiner2D confiner;
@@ -19,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
         confiner = GetComponentInChildren<CinemachineConfiner2D>();
         confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
-        colli = GetComponent<Collider2D>();
     }
 
     private void Update()
@@ -43,15 +41,5 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rigidBody.MovePosition(rigidBody.position + moveSpeed * Time.fixedDeltaTime * movement.normalized);
-    }
-
-    private IEnumerator OnCollisionEnter2D(Collision2D target)
-    {
-        if (target.gameObject.CompareTag("Bullet"))
-        {
-            colli.enabled = false;
-            yield return new WaitForSeconds(0.04f);
-            colli.enabled = true;
-        }
     }
 }

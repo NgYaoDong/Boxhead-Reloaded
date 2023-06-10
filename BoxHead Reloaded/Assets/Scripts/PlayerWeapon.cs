@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
-using Unity.VisualScripting;
 
 public class PlayerWeapon : MonoBehaviour
 {
     private int weaponNum = 0;
     public Weapon[] weapons;
     public Weapon currWeapon;
+    [SerializeField] private AudioClip ammoEmpty;
     private float nextTimeOfFire = 0;
 
     private Transform aimTransform;
@@ -31,7 +31,19 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (!InGame.isPaused)
         {
-            if (Input.GetButton("Fire1") && currWeapon.currAmmo > 0 && Time.time >= nextTimeOfFire)
+            Aiming();
+
+            if (Input.GetButton("Fire1")) Firing();
+
+            if (Input.GetKeyDown(KeyCode.I)) Switch();
+        }
+    }
+
+    private void Firing()
+    {
+        if (currWeapon.currAmmo >= 0 && Time.time >= nextTimeOfFire)
+        {
+            if (currWeapon.currAmmo > 0)
             {
                 currWeapon.Shoot();
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
@@ -39,23 +51,24 @@ public class PlayerWeapon : MonoBehaviour
                 if (weaponNum == 3 || weaponNum == 6) return;
                 gunAnimator.SetTrigger("Shoot");
             }
-
-            if (Input.GetKeyDown(KeyCode.I))
+            else if (currWeapon.currAmmo == 0)
             {
-                weaponNum++;
-                if (weaponNum + 1 > weapons.Length) weaponNum = 0;
-                currWeapon = weapons[weaponNum];
-                while (currWeapon.currAmmo == 0)
-                {
-                    weaponNum++;
-                    if (weaponNum + 1 > weapons.Length) weaponNum = 0;
-                    currWeapon = weapons[weaponNum];
-                }
-                weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
+                AudioSource.PlayClipAtPoint(ammoEmpty, GameObject.Find("FirePoint").transform.position);
+                nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
             }
-
-            Aiming();
         }
+    }
+
+    private void Switch()
+    {
+        do
+        {
+            weaponNum++;
+            if (weaponNum + 1 > weapons.Length) weaponNum = 0;
+            currWeapon = weapons[weaponNum];
+        } while (currWeapon.currAmmo == 0);
+
+        weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
     }
 
     private void Aiming()

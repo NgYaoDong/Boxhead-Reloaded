@@ -15,8 +15,8 @@ MonoBehaviour:
   currWeaponSpr: {fileID: 1292523470, guid: f5a6cc08702cc6945a7bcc16b5867dea, type: 3}
   bulletPrefab: {fileID: 3047025573826780127, guid: 007b5bc186d7d5147a6a26f525cf8e62,
     type: 3}
-  _clip: {fileID: 8300000, guid: f5c9ea41c09cd3d4290c5b5e86739e28, type: 3}
+  _clip: {fileID: 8300000, guid: 47817fe0362f9fd498a4b7571c51f115, type: 3}
   fireRate: 7.5
   pellets: 1
-  currAmmo: 299452
-  maxAmmo: 300000
+  currAmmo: 16
+  maxAmmo: 30

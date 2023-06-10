@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.CompareTag("Player")) return;
+        if (target.gameObject.CompareTag("Enemy")) target.gameObject.GetComponent<EnemyMovement>().Attacked(damage);
         if (explosion != null) Instantiate(explosion,transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

@@ -34,7 +34,7 @@ public class SpreadBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.CompareTag("Player")) return;
+        if (target.gameObject.CompareTag("Enemy")) target.gameObject.GetComponent<EnemyMovement>().Attacked(damage);
         Destroy(gameObject);
     }
 }
