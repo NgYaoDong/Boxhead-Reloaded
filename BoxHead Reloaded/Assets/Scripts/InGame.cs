@@ -46,7 +46,7 @@ public class InGame : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2, LoadSceneMode.Single);
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
     public void QuitGame()

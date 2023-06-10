@@ -1,0 +1,5371 @@
+fileFormatVersion: 2
+guid: f8e3b0bd244f00c4f9f94baa2d686c3b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orphenoch_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2306
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e951be1a0c2f8541b4b8ad408f54d5e
+      internalID: 1252706946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2306
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4113cffbc2c8319419c6bc41e15fcb43
+      internalID: 847024731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2306
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce523ef88d334a43892525c3373d7fd
+      internalID: 162235804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2306
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43f06d222ac5a64c8b0813353f4593a
+      internalID: 1358210328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2306
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3193db2b623b19345aeae4f3c5b05fd3
+      internalID: 439751044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2306
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a6a8ae7168e1f49aca9fb938ad985c
+      internalID: 1362884793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2306
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0017e6ad99714684e9db39a97e47b6a4
+      internalID: 1737107832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2242
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb417c693246447b4d7428cb2d359a
+      internalID: 999003325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2242
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f903f3d56919b3940889d1d7d914905a
+      internalID: 2110138192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2242
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144b869642cbbd4aac296725efa3e14
+      internalID: -1770962618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2242
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae192fc6a6be2c24b865912f14fd3acf
+      internalID: 1317293766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2242
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf7774bf22db20498b699ba8693ef27
+      internalID: 1261552965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2242
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2593573c7fa64f87072ea2b501515
+      internalID: 775686979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2242
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f67bf3aa9b8a940883e8b7c01f028b
+      internalID: 2079197699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2178
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6748b71843c3ad84891ae0b5d6fb0944
+      internalID: 564637567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2178
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f588234c53e60469053b8a549d729e
+      internalID: 424078210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2178
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb48740d623872428fe7b8faef79a74
+      internalID: 694824909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2178
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f73ee7e75bb01b4a9ead227d5e64a62
+      internalID: 1610135055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2178
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130496851f14605468e0c41d084f42d6
+      internalID: -249147694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2178
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a923b425aeb5ed540bc615debc211293
+      internalID: 1618168963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2178
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59d5591cf7fd6b4d8711daa5f38f271
+      internalID: -1652535924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2114
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112ca511434be7d419650bad11c6ecb1
+      internalID: 583065957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2114
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d846d201055b36141aa4136483b07334
+      internalID: 986853516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2114
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a912bb9e8c48634389cf7eb85417336
+      internalID: 149701990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2114
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e541909feb5364393e6069d7e20f35
+      internalID: -1806863842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2114
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca01c12fc5f94848b7036a3ad46b488
+      internalID: -235942055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2114
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5735ba1df5dbdbc47a5d0d4cf8a0c819
+      internalID: 748746802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2114
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0531327d38c5f314d8e5ffac9d8c55ff
+      internalID: -371180053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2050
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3979fb77856f64eb5d0f658ae16a03
+      internalID: 1065923153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2048
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08189b592a9c8f498d69e4628292eab
+      internalID: 1236769081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2048
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268c02de1b9c023468ed082dabfb632a
+      internalID: -1349891057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2048
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ea2ab159cc7434e9c5dfb86124d790
+      internalID: -1079573506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2048
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4d642fa9f6a5049947880cf525c874
+      internalID: -1292066766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2048
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c667bee59bd1340b5c380e5041e876
+      internalID: -1170164869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2048
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c0f00d972d1f04fac978c50e164319
+      internalID: -387258636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_35
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2048
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6944b70bbca034d83f6b4c4cf3e969
+      internalID: -1253422966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1986
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172002c6112066c41838a9d69f212429
+      internalID: -1752406048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1986
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6786cd22c4be96418c83249121409fc
+      internalID: 129017815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1986
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9144c2f4c1eb54eb17d3fe9d8f814e
+      internalID: -1449165010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1986
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e74cbeae7068254d9cb29778e7e284c
+      internalID: 249610523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1986
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce0f7fea84ef3842bc1736bc952af73
+      internalID: 1339863305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1986
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62810e23ed100d542a39c8e2bd7f4e0f
+      internalID: -378193807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1986
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7714e8e93f8d1b419dad62ffeae8427
+      internalID: 129310517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1986
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df983b8fcf901464383ee81ca8935310
+      internalID: -1321456016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1922
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788e0df4d72a2545aacaadfd565a121
+      internalID: -211403223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1923
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d847d2c52e6851541b2b217f64755790
+      internalID: 843135136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1923
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b234128932b8a40a0565e83984a88e
+      internalID: -1458416962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1923
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0895b16a5da99de448b40dfe25f6d477
+      internalID: 1342250371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_48
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1923
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295b6c747a09fad418ce2f47967edeed
+      internalID: 919465505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_49
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1923
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbd1a9f68abe314e988080d32acc887
+      internalID: 158269097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1923
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c7ab82b9e29844d88968644147959f
+      internalID: 1912236241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1923
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264e1cb63a9ff5644ab343525f6ffe7e
+      internalID: 312330840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_52
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1858
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c730eedac6a143a99d6b38bbac0c8
+      internalID: -1932232861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1858
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa33e272b1bc58641a10d1c82797bc55
+      internalID: -1765670505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1858
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf22787271392848abdd78362f0edec
+      internalID: 1281828431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1858
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf40a57793777942b5fe177f0ab39eb
+      internalID: 730249356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1858
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff925afd0463394eaa30b65ce980f38
+      internalID: -1491816252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1858
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1362f94c848fa04eb469894d1c584ae
+      internalID: 2001956187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1858
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f0d825cc7fb4d42bf5a719df980bf1
+      internalID: -1191830238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1858
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1be9c90a14cd7e48a6b102827977183
+      internalID: -611362841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1795
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de169e471b03fc4883d8a3f6bf8df10
+      internalID: 427847449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1795
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56d811ffc8ab7c43891345ef362d713
+      internalID: -293393592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1794
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e1a16d38a60044c9947fe97a098562
+      internalID: 1571902622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1793
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e68181a9d35f6488020c7907b18efa
+      internalID: 474124956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1794
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe8a6fd5476aeb4095644de7c8a44f5
+      internalID: 866072152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1795
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6308aded1f648b34eb61a2959259a1b3
+      internalID: 1113998000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1794
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419c97ab0f299a49b0acbdd4af4f688
+      internalID: 976839484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1793
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47272c14288a3f74e8b8a4b3cfd9a99e
+      internalID: 138318300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1794
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce0cef4c2e80ae428e6222c20cffefe
+      internalID: 1609476675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1730
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0b74df9ffa5446ad784a66435e036
+      internalID: -975657127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1730
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206bc43d94cf6104480eff7d7f5b3bd0
+      internalID: 1247691232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1731
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9f1b5e909da0a4d96229c1fc24cc6c
+      internalID: -838713753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1731
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e2551fcf0c85846952eba895d11067
+      internalID: -826371489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_73
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1730
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d7c74f8230b7342a6ec5fa0a76ffeb
+      internalID: 1978013630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_74
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1730
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e620780d997cb5d4d8a9ff1f1ced4120
+      internalID: 1715457463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_75
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1730
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615e97c7aa2896e4e9f01b437263bbd5
+      internalID: 1360279893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_76
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1730
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19a04b15909174eaf9eb2f28197649
+      internalID: 45855451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_77
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1730
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c1f376fa530794ebf70a02b401a6ef
+      internalID: 2000658189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1666
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ebaa8bc98ef746a40aa4d31504e2f
+      internalID: -745708118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1666
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7560a9484a7197848b5ed9c145b711e7
+      internalID: 736556075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1665
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c07772e294a3fc46be67e322d8a727c
+      internalID: 1857488437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1665
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf9a9f864869064897f4ffebe4153d7
+      internalID: 1840348434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1665
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de520297dd955f747918b850fb159df7
+      internalID: -618851192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1666
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a621c743006f8449ba3f4e713dc0615
+      internalID: 748231442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1665
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb41cbc65f510642bb01a65fa174233
+      internalID: -731924927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1665
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563944136ad6b794d9c77eb3a35451a1
+      internalID: -1909338700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1665
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a409ebea8990f418fc9cf8cc94eb68
+      internalID: 68676500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_87
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1602
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56abb40c42a2655468af00e75bee37ae
+      internalID: -1509670354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1602
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4d02f67e261394393cee5cb67668ef
+      internalID: 1166936348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1603
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24b065435b59dc47aadd7a39465b6d1
+      internalID: -594778213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1603
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f37ab941bf37514fbefa98614e229a9
+      internalID: 445239046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1602
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac03f7253de8544d9467f699cc4b55c
+      internalID: 1111296204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1602
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d74b201c295214981b4253107e6840
+      internalID: -2109626624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1602
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73e9c5090690f54dbccb1095f1ee8d4
+      internalID: 1040154671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1602
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae62a8bbf87300d4ab3eb218f8d42b50
+      internalID: -1025723112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1602
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43efa0a7603064545a9e88c653d70c0b
+      internalID: -1922364762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1538
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c82b87508f044ab4130aa57852c7a
+      internalID: -765540217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1537
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e38ef6e3252c4c4da11d6d564cbcc2e
+      internalID: 78210009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1537
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4e51cd792ae546bcb3c39829b8baa
+      internalID: -1539513194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1537
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb3e35fbe92b7e40953a23a76be6524
+      internalID: -1324451628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1537
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18aefc731a0c414894b17e4fe094a6d
+      internalID: 899310107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1537
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2434619d4b0bce40ac92e2d559d3aea
+      internalID: 371116103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_102
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1474
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fd429c8847fd74993296ad69e716eb
+      internalID: -674657090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1474
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ec4d34113c4d043a8110ef67b7960b
+      internalID: -1565488938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1474
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec9b800949e4f479107f2f5be0edd2
+      internalID: -894852518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1474
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a14e960d63d84409373b9ee9812123
+      internalID: -1062952560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1474
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea5811f95b485439419ac9349c74d7
+      internalID: -472686885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1474
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd51d41c937aad4fae33cdf5dff1a0e
+      internalID: -173457172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1410
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99128877ccb41145910c308b3160f1a
+      internalID: -802309175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1410
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7554b7fc17e33904996220bc03f95fd4
+      internalID: 171965055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1410
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc57aab9cdc1f44b9738b5d979fa79
+      internalID: 1674912506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_111
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1410
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab97f015818615741a7fbc45eb1351c6
+      internalID: -794054183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1410
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f24a8e5f3ebf4191eef0c568d2c96
+      internalID: -433876349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1410
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65323a3200607954fb65875d781a8bf3
+      internalID: 1902992674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_114
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1346
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf4021c5860e6d458a711824933dc80
+      internalID: -655741935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_115
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1346
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559930893e7e4e242ae3508f2fb99021
+      internalID: 1827172346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1346
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575b373f3c08ad8429d63b89649275a5
+      internalID: -1922865154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1346
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ef601df7b78f43a2342f3692a0a27
+      internalID: 1465394255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1346
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2378ee6c480b54549a3a7b51ff33b9f5
+      internalID: 1587705324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1346
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851b6d56ddb95d345975b4117e4b18d1
+      internalID: -972199677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_120
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51518f6cd97eca24fad6d2a2c3da17de
+      internalID: 1995498795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_121
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1308
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3de50caddbaa2e4cac384851b153294
+      internalID: 609795788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_122
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cb4cc0ebd8665479078f620998f285
+      internalID: 2088992802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_123
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a59b1745c5e64faeb7974aa223959
+      internalID: -1101525286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_124
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9a75ccdc84dd438d3e91df5e28ba8
+      internalID: 15831579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_125
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7267eebb2cb933b4f9f2ea900bda9a70
+      internalID: 2113010818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_126
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b581d435c8e2eb94094f9e8101959c43
+      internalID: -479243093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_127
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a95d4ed0b05bf48bdbabdc2bb9c37b
+      internalID: -2063751867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_128
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666a4efce18c23c4ba3c46d927aefd80
+      internalID: 1496729325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_129
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5524472540ec814db46040949f40eef
+      internalID: 1174464119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_130
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a126be2f7dbe489d03aef87ee9f4b
+      internalID: 181902059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_131
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906d0c86d4befaf4a9639e7634b997bc
+      internalID: -407486311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_132
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1309
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2054a3782d8c204d8b87d8e212d76ca
+      internalID: 1496309885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fdab1b5d1fb9f47989988152683a15
+      internalID: -2899188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc45cf812439614bb347e3c4f2fbe62
+      internalID: 1258117318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_135
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2436d74dabbd84641ba361a8bad7a6eb
+      internalID: 1941894838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_136
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2ea4aa63258d4e93602c8ce08be0d
+      internalID: -1236199082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_137
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d50b03c189c2947b1f5a8a078e8d71
+      internalID: 1526218897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_138
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1244
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c54cd294e31da240923c30c85e8f6e3
+      internalID: 973189779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_139
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1244
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e02fe19ae6f9ac4b9fdeb332c6108ee
+      internalID: -395251578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_140
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1244
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe242330451aa04b83db6eba3181860
+      internalID: 739728823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_141
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1244
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc3666fa10da9648b84ab82c91aec85
+      internalID: 330509263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_142
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371f5fd175d7ab7419a6ab26be6d8c24
+      internalID: -359287242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_143
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e555eb0d2344084459b0012b59937bab
+      internalID: 111658280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_144
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3016fef89833f6a46ba446149eb86dbf
+      internalID: -1302642295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_145
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1244
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745025572b048924b948eb98afae268e
+      internalID: 1034473420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_146
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7f7dfb5ffa7aa4c8a0313bbb708ce9
+      internalID: -1543528175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_147
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7196fc28513389f489345510c9667c81
+      internalID: 1541470394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_148
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f26d66fd6709947b4e925b2df64357
+      internalID: -156185145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_149
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c57ab3d538f14eb025db354be918e
+      internalID: 231493354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_150
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9612f274d982044998654672d0dab6
+      internalID: 1127497598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_151
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3169b5764377bd4a96bdf63b13506a1
+      internalID: -1622668044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_152
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1177
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38f81ce6ecddb440888040c6d7d611b
+      internalID: 1410572161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_153
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1177
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046938ce45760f4aaf95aac47fe190b
+      internalID: -1616987765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_154
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcc09786de643b418f88f8e3fb078ac
+      internalID: -881265741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_155
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328aed83379b2c942a6b549882134418
+      internalID: 594916198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_156
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311fcf3bc5daa344183e30dccdbce1bb
+      internalID: -1875552630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_157
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d308525f2e3c45c458aa083216cd4aeb
+      internalID: 1120243347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_158
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1176
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b110bfa0071f6a449618e7310a29036
+      internalID: 1810926386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_159
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b28b9e310560b42b8ab8d1e6b33ce1
+      internalID: 1910831121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_160
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1077c349dd7de949b59054accb5d28e
+      internalID: -1479017273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_161
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc0b0241efaab4eaffef9cc98e808b
+      internalID: -157302936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_162
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650c08ccb2e2bd047ad7bb698ec917e0
+      internalID: -1481094090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_163
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7d265fa3057c9499b0d6c567d74fe8
+      internalID: 187119369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_164
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158cb6a6cf1c7ca4a9d84ed509a3bb3b
+      internalID: -415121253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_165
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a191fe0c58ce04e883a7cafef2a6db
+      internalID: -1860066570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_166
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1116
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef686eaeb30be594aa49bb4fba7b72ff
+      internalID: 835545564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_167
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1116
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075e9adbfe42b7240b54546eb188d312
+      internalID: 336287772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_168
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512e7f390cae5774497a6f339d13c9e0
+      internalID: -548520404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_169
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4324a0ada360d6469fd2dd6b3bd04ca
+      internalID: -995805957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_170
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db4b04e59d8aa84f84828ea0a715475
+      internalID: -2141765778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_171
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de717ed76103d6244b84ad63f2fbe1f6
+      internalID: -555224236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1026
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3df6173a066c5c48a9755b175488c7c
+      internalID: -1437746478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_173
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1026
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f29d22155226446889ad0d75c6433c
+      internalID: -1240732594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_174
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1026
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a42345601aa52e478d866423481c829
+      internalID: 1155140756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1027
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c3fa0e8b568c49a3cdfd1fd58dccc
+      internalID: 773291404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1027
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139856d8f643c4c4c8496a3fe09a691a
+      internalID: -733763680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1025
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2592bcfc877f8574a87a00f3b0228d1a
+      internalID: -10811605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_178
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 931
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4979dc358e43fd43b1a5ff8a5cb78ca
+      internalID: 521811406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_179
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 931
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2d83bde572f7f4a9675bb48d1042a7
+      internalID: 1298896876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_180
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 930
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2632441ea7cb7f24d95daf8992891102
+      internalID: -18995760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_181
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 929
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856e3456c6e6d854b92ef5f30f94e48b
+      internalID: 200683107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_182
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 930
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6ca5efd769a694b9a8246a237ccb9f
+      internalID: 317075262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_183
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 931
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29352c9c915ac04085bf393b5cd80a3
+      internalID: 1434289531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_184
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 930
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9ed056e66d4704ca73da7c731a2f91
+      internalID: -841139322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_185
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 929
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593a2c5dfbd25d846a6377df5948737f
+      internalID: 467092261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_186
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 930
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa093090808fb24a86847277a62bca9
+      internalID: -1321088943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_187
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 802
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca85b8f5087314d939c553e4da8549
+      internalID: -367153596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_188
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 802
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32783aee651e65044912e6e2315d8baa
+      internalID: 1466856358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_189
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 803
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aed9534c0f325245aaf4fbe14e7db1c
+      internalID: -1208890071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_190
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 803
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3b925fcd3628458cc351c19d5c08e
+      internalID: -92991184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_191
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 802
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e721f4a09921a10479909738ead96b91
+      internalID: 253931834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_192
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 802
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddad8021b497f54b9442dc593516d9c
+      internalID: 724814156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_193
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 802
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3bfe651d35fdb4aa85d83670d05b1b
+      internalID: -617134376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_194
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 802
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c3c5528c2abf745bda1771097ff4b3
+      internalID: -216630254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_195
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 802
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cbb1c6ecba5034fbc6df736759cd12
+      internalID: -956753944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_196
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 674
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889be6b56fde53745af972eb6c837d98
+      internalID: 857256321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_197
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 674
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03910224cffc05438a27ded67607ba8
+      internalID: 242403145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_198
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 673
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ed16e3ecf9524cb8369142a1888c0
+      internalID: -491719237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_199
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 673
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c88cf129d9e064c80e42cb5f83648e
+      internalID: -105082325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_200
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 673
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675598084566a18469f145810d9a9331
+      internalID: -1880811916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_201
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 674
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab8407865fcd2e47b4a4ba10c4c1faa
+      internalID: 417916917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_202
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 673
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ce5eeef64e7241ac30a0da4f64508
+      internalID: -330813433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_203
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 671
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24130b93ab0423846ab5abca7878fcb8
+      internalID: 950132617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_204
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 673
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163ccd753ae9b99428b1f4a30503c903
+      internalID: 712770356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_205
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 546
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ea386fadc082641b80e652dfdd3a3b
+      internalID: -1636073038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_206
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 546
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68681d05e58f1f743ad1664ca9a304a3
+      internalID: 1381485389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_207
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 547
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6577d463b3ba73f4fb105c9017e099fa
+      internalID: 359927543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_208
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 547
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd9f7e00b387f49b234552bc93d71a
+      internalID: -42725488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_209
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 546
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6543582cf3769694e9390791df729045
+      internalID: 1901112362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_210
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 546
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd160eeb565d444ea03968a0e47340a
+      internalID: 1978331688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_211
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 546
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6682e641298be42835c9e422d3029f
+      internalID: 2052753612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_212
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 546
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc090ec83da77540a4cda5df6d421e1
+      internalID: -404251523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_213
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 546
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ac06b4311dc3448ac0ad3ccd77d030
+      internalID: -182958663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_214
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 418
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89db0028db7354048bf24aab4aade7c0
+      internalID: 1198023169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_215
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 417
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf8dc42c2e7c24e8a1f729b02bdb2f
+      internalID: -1806006918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_216
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 417
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd900773431d5448873fb2e928fc1de
+      internalID: 1609431626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_217
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 417
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fbb43cacd8fe04e824d37bf1c79b7c
+      internalID: -132226896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_218
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 417
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3af202a1e1714bb53dab787eb02ca
+      internalID: 916257848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_219
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 417
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc26dfc7f5c3134c978e6400f9b4dc1
+      internalID: 1762570553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_220
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 290
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb7d80d8fad9634fa3a807d49a997c8
+      internalID: -55362338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_221
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 281
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0edaba9000f024c9a5983ea16143aa
+      internalID: -462277514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_222
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 281
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfafa15e0b3d8545be8801493cbd5c2
+      internalID: -1192624545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_223
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 285
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89872635b72e8d44697ff9916c494026
+      internalID: -1073486469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_224
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 290
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9873fbd08b87d429e8063a94376044
+      internalID: -1152811108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_225
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 290
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f09c818e0394247b5d0953d8a0d5f8
+      internalID: 5074306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_226
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 162
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a4076f024dc145bf8ebe52eebdb69
+      internalID: -1414443336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_227
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 162
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f31030ce9d68c41aa8d7f7970b5dca
+      internalID: 1410903289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_228
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 162
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f55214ff2af134b99bc2bcabf13e40
+      internalID: -1302758745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_229
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 162
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e60c1635249c44d809c868386ca7e8
+      internalID: 1613768180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_230
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 148
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171a94ab4a9f27f4da3d6fbbb5680db9
+      internalID: -1679694189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_231
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 161
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1816bf717a6c4419517a887e807d6d
+      internalID: 579771244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_232
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 34
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f17ab9b5cbd5342b854539c14b3318
+      internalID: 216858056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_233
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 25
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224965d46d45914c8d06171595b95a0
+      internalID: 1912374548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_234
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 25
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e6f66eb304334f91094078edcee61
+      internalID: 286483119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_235
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 29
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a047c85ac33aa4293b8550c791cdc3
+      internalID: 1963403536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_236
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 34
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92885d58c435c784e89add77618d287e
+      internalID: 279007769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orphenoch_237
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 34
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7105f0081b5178459b9e8b0b7d26434
+      internalID: -1924336915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Orphenoch_0: 1252706946
+      Orphenoch_1: 847024731
+      Orphenoch_10: 1317293766
+      Orphenoch_100: 899310107
+      Orphenoch_101: 371116103
+      Orphenoch_102: -674657090
+      Orphenoch_103: -1565488938
+      Orphenoch_104: -894852518
+      Orphenoch_105: -1062952560
+      Orphenoch_106: -472686885
+      Orphenoch_107: -173457172
+      Orphenoch_108: -802309175
+      Orphenoch_109: 171965055
+      Orphenoch_11: 1261552965
+      Orphenoch_110: 1674912506
+      Orphenoch_111: -794054183
+      Orphenoch_112: -433876349
+      Orphenoch_113: 1902992674
+      Orphenoch_114: -655741935
+      Orphenoch_115: 1827172346
+      Orphenoch_116: -1922865154
+      Orphenoch_117: 1465394255
+      Orphenoch_118: 1587705324
+      Orphenoch_119: -972199677
+      Orphenoch_12: 775686979
+      Orphenoch_120: 1995498795
+      Orphenoch_121: 609795788
+      Orphenoch_122: 2088992802
+      Orphenoch_123: -1101525286
+      Orphenoch_124: 15831579
+      Orphenoch_125: 2113010818
+      Orphenoch_126: -479243093
+      Orphenoch_127: -2063751867
+      Orphenoch_128: 1496729325
+      Orphenoch_129: 1174464119
+      Orphenoch_13: 2079197699
+      Orphenoch_130: 181902059
+      Orphenoch_131: -407486311
+      Orphenoch_132: 1496309885
+      Orphenoch_133: -2899188
+      Orphenoch_134: 1258117318
+      Orphenoch_135: 1941894838
+      Orphenoch_136: -1236199082
+      Orphenoch_137: 1526218897
+      Orphenoch_138: 973189779
+      Orphenoch_139: -395251578
+      Orphenoch_14: 564637567
+      Orphenoch_140: 739728823
+      Orphenoch_141: 330509263
+      Orphenoch_142: -359287242
+      Orphenoch_143: 111658280
+      Orphenoch_144: -1302642295
+      Orphenoch_145: 1034473420
+      Orphenoch_146: -1543528175
+      Orphenoch_147: 1541470394
+      Orphenoch_148: -156185145
+      Orphenoch_149: 231493354
+      Orphenoch_15: 424078210
+      Orphenoch_150: 1127497598
+      Orphenoch_151: -1622668044
+      Orphenoch_152: 1410572161
+      Orphenoch_153: -1616987765
+      Orphenoch_154: -881265741
+      Orphenoch_155: 594916198
+      Orphenoch_156: -1875552630
+      Orphenoch_157: 1120243347
+      Orphenoch_158: 1810926386
+      Orphenoch_159: 1910831121
+      Orphenoch_16: 694824909
+      Orphenoch_160: -1479017273
+      Orphenoch_161: -157302936
+      Orphenoch_162: -1481094090
+      Orphenoch_163: 187119369
+      Orphenoch_164: -415121253
+      Orphenoch_165: -1860066570
+      Orphenoch_166: 835545564
+      Orphenoch_167: 336287772
+      Orphenoch_168: -548520404
+      Orphenoch_169: -995805957
+      Orphenoch_17: 1610135055
+      Orphenoch_170: -2141765778
+      Orphenoch_171: -555224236
+      Orphenoch_172: -1437746478
+      Orphenoch_173: -1240732594
+      Orphenoch_174: 1155140756
+      Orphenoch_175: 773291404
+      Orphenoch_176: -733763680
+      Orphenoch_177: -10811605
+      Orphenoch_178: 521811406
+      Orphenoch_179: 1298896876
+      Orphenoch_18: -249147694
+      Orphenoch_180: -18995760
+      Orphenoch_181: 200683107
+      Orphenoch_182: 317075262
+      Orphenoch_183: 1434289531
+      Orphenoch_184: -841139322
+      Orphenoch_185: 467092261
+      Orphenoch_186: -1321088943
+      Orphenoch_187: -367153596
+      Orphenoch_188: 1466856358
+      Orphenoch_189: -1208890071
+      Orphenoch_19: 1618168963
+      Orphenoch_190: -92991184
+      Orphenoch_191: 253931834
+      Orphenoch_192: 724814156
+      Orphenoch_193: -617134376
+      Orphenoch_194: -216630254
+      Orphenoch_195: -956753944
+      Orphenoch_196: 857256321
+      Orphenoch_197: 242403145
+      Orphenoch_198: -491719237
+      Orphenoch_199: -105082325
+      Orphenoch_2: 162235804
+      Orphenoch_20: -1652535924
+      Orphenoch_200: -1880811916
+      Orphenoch_201: 417916917
+      Orphenoch_202: -330813433
+      Orphenoch_203: 950132617
+      Orphenoch_204: 712770356
+      Orphenoch_205: -1636073038
+      Orphenoch_206: 1381485389
+      Orphenoch_207: 359927543
+      Orphenoch_208: -42725488
+      Orphenoch_209: 1901112362
+      Orphenoch_21: 583065957
+      Orphenoch_210: 1978331688
+      Orphenoch_211: 2052753612
+      Orphenoch_212: -404251523
+      Orphenoch_213: -182958663
+      Orphenoch_214: 1198023169
+      Orphenoch_215: -1806006918
+      Orphenoch_216: 1609431626
+      Orphenoch_217: -132226896
+      Orphenoch_218: 916257848
+      Orphenoch_219: 1762570553
+      Orphenoch_22: 986853516
+      Orphenoch_220: -55362338
+      Orphenoch_221: -462277514
+      Orphenoch_222: -1192624545
+      Orphenoch_223: -1073486469
+      Orphenoch_224: -1152811108
+      Orphenoch_225: 5074306
+      Orphenoch_226: -1414443336
+      Orphenoch_227: 1410903289
+      Orphenoch_228: -1302758745
+      Orphenoch_229: 1613768180
+      Orphenoch_23: 149701990
+      Orphenoch_230: -1679694189
+      Orphenoch_231: 579771244
+      Orphenoch_232: 216858056
+      Orphenoch_233: 1912374548
+      Orphenoch_234: 286483119
+      Orphenoch_235: 1963403536
+      Orphenoch_236: 279007769
+      Orphenoch_237: -1924336915
+      Orphenoch_24: -1806863842
+      Orphenoch_25: -235942055
+      Orphenoch_26: 748746802
+      Orphenoch_27: -371180053
+      Orphenoch_28: 1065923153
+      Orphenoch_29: 1236769081
+      Orphenoch_3: 1358210328
+      Orphenoch_30: -1349891057
+      Orphenoch_31: -1079573506
+      Orphenoch_32: -1292066766
+      Orphenoch_33: -1170164869
+      Orphenoch_34: -387258636
+      Orphenoch_35: -1253422966
+      Orphenoch_36: -1752406048
+      Orphenoch_37: 129017815
+      Orphenoch_38: -1449165010
+      Orphenoch_39: 249610523
+      Orphenoch_4: 439751044
+      Orphenoch_40: 1339863305
+      Orphenoch_41: -378193807
+      Orphenoch_42: 129310517
+      Orphenoch_43: -1321456016
+      Orphenoch_44: -211403223
+      Orphenoch_45: 843135136
+      Orphenoch_46: -1458416962
+      Orphenoch_47: 1342250371
+      Orphenoch_48: 919465505
+      Orphenoch_49: 158269097
+      Orphenoch_5: 1362884793
+      Orphenoch_50: 1912236241
+      Orphenoch_51: 312330840
+      Orphenoch_52: -1932232861
+      Orphenoch_53: -1765670505
+      Orphenoch_54: 1281828431
+      Orphenoch_55: 730249356
+      Orphenoch_56: -1491816252
+      Orphenoch_57: 2001956187
+      Orphenoch_58: -1191830238
+      Orphenoch_59: -611362841
+      Orphenoch_6: 1737107832
+      Orphenoch_60: 427847449
+      Orphenoch_61: -293393592
+      Orphenoch_62: 1571902622
+      Orphenoch_63: 474124956
+      Orphenoch_64: 866072152
+      Orphenoch_65: 1113998000
+      Orphenoch_66: 976839484
+      Orphenoch_67: 138318300
+      Orphenoch_68: 1609476675
+      Orphenoch_69: -975657127
+      Orphenoch_7: 999003325
+      Orphenoch_70: 1247691232
+      Orphenoch_71: -838713753
+      Orphenoch_72: -826371489
+      Orphenoch_73: 1978013630
+      Orphenoch_74: 1715457463
+      Orphenoch_75: 1360279893
+      Orphenoch_76: 45855451
+      Orphenoch_77: 2000658189
+      Orphenoch_78: -745708118
+      Orphenoch_79: 736556075
+      Orphenoch_8: 2110138192
+      Orphenoch_80: 1857488437
+      Orphenoch_81: 1840348434
+      Orphenoch_82: -618851192
+      Orphenoch_83: 748231442
+      Orphenoch_84: -731924927
+      Orphenoch_85: -1909338700
+      Orphenoch_86: 68676500
+      Orphenoch_87: -1509670354
+      Orphenoch_88: 1166936348
+      Orphenoch_89: -594778213
+      Orphenoch_9: -1770962618
+      Orphenoch_90: 445239046
+      Orphenoch_91: 1111296204
+      Orphenoch_92: -2109626624
+      Orphenoch_93: 1040154671
+      Orphenoch_94: -1025723112
+      Orphenoch_95: -1922364762
+      Orphenoch_96: -765540217
+      Orphenoch_97: 78210009
+      Orphenoch_98: -1539513194
+      Orphenoch_99: -1324451628
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

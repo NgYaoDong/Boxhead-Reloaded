@@ -975,10 +975,10 @@ GameObject:
   m_Component:
   - component: {fileID: 331790091227170041}
   - component: {fileID: 331790091227170040}
-  - component: {fileID: 331790091227170043}
   - component: {fileID: 2096898380789102149}
   - component: {fileID: 3619525449230465320}
   - component: {fileID: 3563837176597451141}
+  - component: {fileID: 331790091227170043}
   - component: {fileID: 1724578345}
   - component: {fileID: 4023907646444408607}
   m_Layer: 6
@@ -996,7 +996,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331790091227170042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.035, y: -0.014, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1060,20 +1060,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &331790091227170043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331790091227170042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f21538329172c864bbd9f460957def4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  bottomAnimator: {fileID: 6780288184353362999}
 --- !u!50 &2096898380789102149
 Rigidbody2D:
   serializedVersion: 4
@@ -1132,6 +1118,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &331790091227170043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331790091227170042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21538329172c864bbd9f460957def4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  bottomAnimator: {fileID: 6780288184353362999}
 --- !u!114 &1724578345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,6 +1170,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c52552e2eb857b2469599358da235db3, type: 2}
   - {fileID: 11400000, guid: a8db99ced525c2343859b747f861dda6, type: 2}
   currWeapon: {fileID: 0}
+  ammoEmpty: {fileID: 8300000, guid: 5c27367b5c4a3fc4f96c5540b18ebd22, type: 3}
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}
 --- !u!1 &6615751596859263532

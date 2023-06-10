@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
-  dmgRadius: 20
+  explode: {fileID: 8300000, guid: 80fc50118b7527a4a8b7e891ee370b92, type: 3}
 --- !u!58 &-8113585756213966690
 CircleCollider2D:
   m_ObjectHideFlags: 0

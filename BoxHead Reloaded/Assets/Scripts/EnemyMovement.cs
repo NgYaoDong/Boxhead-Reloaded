@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float attackDamage = 10f;
     [SerializeField] private float attackDelay = 1f;
     [SerializeField] private float setHealth = 100f;
+    [SerializeField] private Animator blood;
 
     private float health;
     private float canAttack;
@@ -40,6 +41,8 @@ public class EnemyMovement : MonoBehaviour
             animator.SetFloat("LastMoveX", ai.velocity.normalized.x);
             animator.SetFloat("LastMoveY", ai.velocity.normalized.y);
         }
+
+        if (health <= 0.4 * setHealth) blood.SetBool("LowHealth", true);
     }
 
     public void Attacked(float damage)
@@ -48,6 +51,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (health <= 0f)
         {
+            blood.transform.gameObject.SetActive(false);
             StartCoroutine(Death());
         }
     }
@@ -75,14 +79,6 @@ public class EnemyMovement : MonoBehaviour
             {
                 canAttack += Time.deltaTime;
             }
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D target)
-    {
-        if (target.gameObject.CompareTag("Bullet"))
-        {
-            Attacked(target.gameObject.GetComponent<Bullet>().damage);
         }
     }
 }
