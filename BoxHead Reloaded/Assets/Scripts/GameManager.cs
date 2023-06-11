@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     private bool canPause = true;
     void Start()
     {
+        if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Stop();
         float x = Random.Range(minX, maxX);
         float y = Random.Range(minY, maxY);
         GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);

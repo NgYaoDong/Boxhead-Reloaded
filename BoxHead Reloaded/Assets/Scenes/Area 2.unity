@@ -350,8 +350,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: -15.2, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.852701, y: -6.114912, z: -58.90357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -421,7 +421,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9059b280f8bcd8341bdb476fe31ddafd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.04
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -512,13 +512,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675124354}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.852701, y: -6.114912, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698885833
 GameObject:
@@ -550,7 +550,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &698885835
 MonoBehaviour:
@@ -567,10 +567,10 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
-  minX: 7
-  maxX: 15
-  minY: -15
-  maxY: 13
+  minX: 13
+  maxX: 31
+  minY: -11
+  maxY: -2
   inGame: {fileID: 1187854026}
   empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1 &763230847
@@ -639,7 +639,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861678408
 GameObject:
@@ -671,7 +671,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &861678410
 MonoBehaviour:
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAMA7IewifKOneQIAAC4FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoXxF2D31hJCekjChHZy8UXYa6xBljySHCAZ/nu1so1dekK8tx9vn1b+IkzoGjIj1Uax/FnmQL5PCJ7Jt8lAPsGZHqTYsU/oY95ZbkoMoi7mjRomLe5jmpYVGMWyH+LAMdizYCNYIVW1zg+wktpoCxeUa7CUkgazhYW+JuRsf6YJplzsKVji6dOeEm9ytccMhAE1hAb+LA68edLFTxcz3w/icBEuurxpMouCOPHj9dRbuhKNyDitashxnqHSvO8Ztp2EnbSLwKkyyTnTnUxiLrWzYVeXoAB9yBm1Uztp/gzllMAOpUGJ4+zXotBgOlMUvTwwZe1ry5KfsvW0ovrYCvugvMFGsZPUlnz+j536ji6UrJ76rr6HHUzJsuMbvWRUm5HlY/hhJNy5c6L8SPcc3ksQL3KjZCNySxrVYGqjIXgY/t4GW5WQHQe8lXoHNvVgd+92f784w9XNfl5xVu2RmkUtsOPS2e3WApS9mF9WsFsa3ZWwKKr4o+E3PYy3qyMemdLGUt2UAuXtZaMwlKydZzhNY1ZSCXBwJ7oGQbm5bG0Zc3+Bd9yo7R3zSPEddc07rn8edykOHuI9747aytPtsnQpT8+gy9fGcCZgEI3Ei/VpJYVo92vsSZ+2a1RBs1HaoWH5v6tFFtTfh7BIonkQLZfzcBrHSeHFURJF8yIMo4C43WPCzkn5thXa2WNvTQzFhd2z/vMy2Shau13PFT1t2GclR5YzUchdpgDEa1vhJhyUbWIfZb7OmTVoB8Yw4e6bfKWEy+wIeXorlLpJ12ejaDpUSUnNPqRBJCUr9z1JCcK3Xd4q+GBwwuZ9sSu5/gVQSwMEFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZomGScaqZpYmpkYm5uamxroWFZZqBhYmliYlpmrGxiZFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAwDsh7CJ8o6d5AgAALgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
+    dataString: UEsDBBQAAAgIAABAIewifKOneQIAAC4FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoXxF2D31hJCekjChHZy8UXYa6xBljySHCAZ/nu1so1dekK8tx9vn1b+IkzoGjIj1Uax/FnmQL5PCJ7Jt8lAPsGZHqTYsU/oY95ZbkoMoi7mjRomLe5jmpYVGMWyH+LAMdizYCNYIVW1zg+wktpoCxeUa7CUkgazhYW+JuRsf6YJplzsKVji6dOeEm9ytccMhAE1hAb+LA68edLFTxcz3w/icBEuurxpMouCOPHj9dRbuhKNyDitashxnqHSvO8Ztp2EnbSLwKkyyTnTnUxiLrWzYVeXoAB9yBm1Uztp/gzllMAOpUGJ4+zXotBgOlMUvTwwZe1ry5KfsvW0ovrYCvugvMFGsZPUlnz+j536ji6UrJ76rr6HHUzJsuMbvWRUm5HlY/hhJNy5c6L8SPcc3ksQL3KjZCNySxrVYGqjIXgY/t4GW5WQHQe8lXoHNvVgd+92f784w9XNfl5xVu2RmkUtsOPS2e3WApS9mF9WsFsa3ZWwKKr4o+E3PYy3qyMemdLGUt2UAuXtZaMwlKydZzhNY1ZSCXBwJ7oGQbm5bG0Zc3+Bd9yo7R3zSPEddc07rn8edykOHuI9747aytPtsnQpT8+gy9fGcCZgEI3Ei/VpJYVo92vsSZ+2a1RBs1HaoWH5v6tFFtTfh7BIonkQLZfzcBrHSeHFURJF8yIMo4C43WPCzkn5thXa2WNvTQzFhd2z/vMy2Shau13PFT1t2GclR5YzUchdpgDEa1vhJhyUbWIfZb7OmTVoB8Yw4e6bfKWEy+wIeXorlLpJ12ejaDpUSUnNPqRBJCUr9z1JCcK3Xd4q+GBwwuZ9sSu5/gVQSwMEFAAACAgAAEAh7HtWDwltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZomGScaqZpYmpkYm5uamxroWFZZqBhYmliYlpmrGxiZFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAEAh7CJ8o6d5AgAALgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAEAh7HtWDwltAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -950,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 4947670762668341466, guid: 1c667284215ae428e9047eea978a354b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4947670762668341466, guid: 1c667284215ae428e9047eea978a354b,
         type: 3}
@@ -1150,7 +1150,7 @@ PolygonCollider2D:
       - {x: 25.865538, y: -15.694116}
       - {x: 25.745085, y: -15.094655}
       - {x: 35.248695, y: -5.403422}
-      - {x: 36.220737, y: -5.4370317}
+      - {x: 36.238106, y: -5.4023}
       - {x: 36.262386, y: 4.8261743}
 --- !u!66 &1774534771
 CompositeCollider2D:
@@ -1200,8 +1200,8 @@ CompositeCollider2D:
         Y: -150946544
       - X: 352486944
         Y: -54034220
-      - X: 362207360
-        Y: -54370316
+      - X: 362381056
+        Y: -54023000
       - X: 362623872
         Y: 48261744
   m_CompositePaths:
@@ -1209,8 +1209,8 @@ CompositeCollider2D:
     - - {x: -3.5586884, y: -15.706879}
       - {x: 25.86553, y: -15.694078}
       - {x: 25.745094, y: -15.094645}
-      - {x: 35.248707, y: -5.4034224}
-      - {x: 36.220737, y: -5.437001}
+      - {x: 35.248703, y: -5.403422}
+      - {x: 36.238106, y: -5.402271}
       - {x: 36.26236, y: 4.8261743}
       - {x: 35.26633, y: 4.816982}
       - {x: 25.694155, y: 14.478584}

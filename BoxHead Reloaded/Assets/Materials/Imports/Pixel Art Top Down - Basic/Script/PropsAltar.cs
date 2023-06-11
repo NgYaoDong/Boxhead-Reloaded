@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //when something get into the alta, make the runes glow
 namespace Cainos.PixelArtTopDown_Basic
@@ -17,6 +18,7 @@ namespace Cainos.PixelArtTopDown_Basic
         private void OnTriggerEnter2D(Collider2D other)
         {
             targetColor = new Color(1, 1, 1, 1);
+            if (other.CompareTag("Player") && SceneManager.GetActiveScene().name != "Area 4") StartCoroutine(NextLvl());
         }
 
         private void OnTriggerExit2D(Collider2D other)
@@ -32,6 +34,12 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 r.color = curColor;
             }
+        }
+
+        private IEnumerator NextLvl() 
+        {
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
         }
     }
 }

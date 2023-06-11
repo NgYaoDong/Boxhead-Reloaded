@@ -41,12 +41,13 @@ public class InGame : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene("Area 1", LoadSceneMode.Single);
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Play();
     }
 
     public void QuitGame()
