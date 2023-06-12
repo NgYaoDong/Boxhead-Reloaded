@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,10 +120,10 @@ TextureImporter:
       name: Arkzom_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 1280
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Arkzom_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 1280
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Arkzom_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 1280
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Arkzom_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 206
         y: 1280
-        width: 64
-        height: 64
+        width: 36
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Arkzom_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 263
         y: 1280
-        width: 64
-        height: 64
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Arkzom_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 1280
-        width: 64
-        height: 64
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Arkzom_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 398
         y: 1280
-        width: 64
-        height: 64
+        width: 36
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: Arkzom_7
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 1216
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Arkzom_8
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 1216
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Arkzom_9
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 1216
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Arkzom_10
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 1216
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: Arkzom_11
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 1216
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Arkzom_12
       rect:
         serializedVersion: 2
-        x: 320
+        x: 335
         y: 1216
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Arkzom_13
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 1216
-        width: 64
-        height: 64
+        width: 29
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Arkzom_14
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 1152
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: Arkzom_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 1152
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: Arkzom_16
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 1152
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: Arkzom_17
       rect:
         serializedVersion: 2
-        x: 192
+        x: 206
         y: 1152
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: Arkzom_18
       rect:
         serializedVersion: 2
-        x: 256
+        x: 263
         y: 1152
-        width: 64
-        height: 64
+        width: 50
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: Arkzom_19
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 1152
-        width: 64
-        height: 64
+        width: 48
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: Arkzom_20
       rect:
         serializedVersion: 2
-        x: 384
+        x: 399
         y: 1152
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: Arkzom_21
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 1088
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: Arkzom_22
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 1088
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: Arkzom_23
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 1088
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: Arkzom_24
       rect:
         serializedVersion: 2
-        x: 192
+        x: 210
         y: 1088
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,10 +645,10 @@ TextureImporter:
       name: Arkzom_25
       rect:
         serializedVersion: 2
-        x: 256
+        x: 269
         y: 1088
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: Arkzom_26
       rect:
         serializedVersion: 2
-        x: 320
+        x: 333
         y: 1088
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,10 +687,10 @@ TextureImporter:
       name: Arkzom_27
       rect:
         serializedVersion: 2
-        x: 384
+        x: 400
         y: 1088
-        width: 64
-        height: 64
+        width: 29
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,10 +708,10 @@ TextureImporter:
       name: Arkzom_28
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 1024
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,10 +729,10 @@ TextureImporter:
       name: Arkzom_29
       rect:
         serializedVersion: 2
-        x: 64
+        x: 82
         y: 1024
-        width: 64
-        height: 64
+        width: 29
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +750,10 @@ TextureImporter:
       name: Arkzom_30
       rect:
         serializedVersion: 2
-        x: 128
+        x: 146
         y: 1024
-        width: 64
-        height: 64
+        width: 28
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,10 +771,10 @@ TextureImporter:
       name: Arkzom_31
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 1024
-        width: 64
-        height: 64
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,10 +792,10 @@ TextureImporter:
       name: Arkzom_32
       rect:
         serializedVersion: 2
-        x: 256
+        x: 275
         y: 1024
-        width: 64
-        height: 64
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -813,10 +813,10 @@ TextureImporter:
       name: Arkzom_33
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 1024
-        width: 64
-        height: 64
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,10 +834,10 @@ TextureImporter:
       name: Arkzom_34
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 1024
-        width: 64
-        height: 64
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +855,10 @@ TextureImporter:
       name: Arkzom_35
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 1024
-        width: 64
-        height: 64
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: Arkzom_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 960
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -897,10 +897,10 @@ TextureImporter:
       name: Arkzom_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 960
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,10 +918,10 @@ TextureImporter:
       name: Arkzom_38
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 960
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -939,10 +939,10 @@ TextureImporter:
       name: Arkzom_39
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 960
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -960,10 +960,10 @@ TextureImporter:
       name: Arkzom_40
       rect:
         serializedVersion: 2
-        x: 256
+        x: 271
         y: 960
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,10 +981,10 @@ TextureImporter:
       name: Arkzom_41
       rect:
         serializedVersion: 2
-        x: 320
+        x: 332
         y: 960
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1002,10 +1002,10 @@ TextureImporter:
       name: Arkzom_42
       rect:
         serializedVersion: 2
-        x: 384
+        x: 399
         y: 960
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1023,10 +1023,10 @@ TextureImporter:
       name: Arkzom_43
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 960
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1044,10 +1044,10 @@ TextureImporter:
       name: Arkzom_44
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 896
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1065,10 +1065,10 @@ TextureImporter:
       name: Arkzom_45
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 896
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,10 +1086,10 @@ TextureImporter:
       name: Arkzom_46
       rect:
         serializedVersion: 2
-        x: 128
+        x: 147
         y: 896
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1107,10 +1107,10 @@ TextureImporter:
       name: Arkzom_47
       rect:
         serializedVersion: 2
-        x: 192
-        y: 896
-        width: 64
-        height: 64
+        x: 210
+        y: 897
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: Arkzom_48
       rect:
         serializedVersion: 2
-        x: 256
-        y: 896
-        width: 64
-        height: 64
+        x: 275
+        y: 897
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,10 +1149,10 @@ TextureImporter:
       name: Arkzom_49
       rect:
         serializedVersion: 2
-        x: 320
+        x: 340
         y: 896
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1170,10 +1170,10 @@ TextureImporter:
       name: Arkzom_50
       rect:
         serializedVersion: 2
-        x: 384
-        y: 896
-        width: 64
-        height: 64
+        x: 403
+        y: 897
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1191,10 +1191,10 @@ TextureImporter:
       name: Arkzom_51
       rect:
         serializedVersion: 2
-        x: 448
-        y: 896
-        width: 64
-        height: 64
+        x: 466
+        y: 897
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1212,10 +1212,10 @@ TextureImporter:
       name: Arkzom_52
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 832
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: Arkzom_53
       rect:
         serializedVersion: 2
-        x: 64
+        x: 82
         y: 832
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1254,10 +1254,10 @@ TextureImporter:
       name: Arkzom_54
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 832
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1275,10 +1275,10 @@ TextureImporter:
       name: Arkzom_55
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 832
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1296,10 +1296,10 @@ TextureImporter:
       name: Arkzom_56
       rect:
         serializedVersion: 2
-        x: 256
+        x: 275
         y: 832
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1317,10 +1317,10 @@ TextureImporter:
       name: Arkzom_57
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 832
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,10 +1338,10 @@ TextureImporter:
       name: Arkzom_58
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 832
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1359,10 +1359,10 @@ TextureImporter:
       name: Arkzom_59
       rect:
         serializedVersion: 2
-        x: 448
+        x: 465
         y: 832
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1380,10 +1380,10 @@ TextureImporter:
       name: Arkzom_60
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1401,10 +1401,10 @@ TextureImporter:
       name: Arkzom_61
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1422,10 +1422,10 @@ TextureImporter:
       name: Arkzom_62
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1443,10 +1443,10 @@ TextureImporter:
       name: Arkzom_63
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1464,10 +1464,10 @@ TextureImporter:
       name: Arkzom_64
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1485,10 +1485,10 @@ TextureImporter:
       name: Arkzom_65
       rect:
         serializedVersion: 2
-        x: 320
+        x: 337
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1506,10 +1506,10 @@ TextureImporter:
       name: Arkzom_66
       rect:
         serializedVersion: 2
-        x: 384
+        x: 401
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1527,10 +1527,10 @@ TextureImporter:
       name: Arkzom_67
       rect:
         serializedVersion: 2
-        x: 448
+        x: 465
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1548,10 +1548,10 @@ TextureImporter:
       name: Arkzom_68
       rect:
         serializedVersion: 2
-        x: 512
+        x: 529
         y: 768
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1569,10 +1569,10 @@ TextureImporter:
       name: Arkzom_69
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 704
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1590,10 +1590,10 @@ TextureImporter:
       name: Arkzom_70
       rect:
         serializedVersion: 2
-        x: 64
+        x: 82
         y: 704
-        width: 64
-        height: 64
+        width: 28
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1611,10 +1611,10 @@ TextureImporter:
       name: Arkzom_71
       rect:
         serializedVersion: 2
-        x: 128
+        x: 146
         y: 704
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1632,10 +1632,10 @@ TextureImporter:
       name: Arkzom_72
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 704
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1653,10 +1653,10 @@ TextureImporter:
       name: Arkzom_73
       rect:
         serializedVersion: 2
-        x: 256
+        x: 275
         y: 704
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1674,10 +1674,10 @@ TextureImporter:
       name: Arkzom_74
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 704
-        width: 64
-        height: 64
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1695,10 +1695,10 @@ TextureImporter:
       name: Arkzom_75
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 704
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1716,10 +1716,10 @@ TextureImporter:
       name: Arkzom_76
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 704
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1737,10 +1737,10 @@ TextureImporter:
       name: Arkzom_77
       rect:
         serializedVersion: 2
-        x: 512
+        x: 531
         y: 704
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1758,10 +1758,10 @@ TextureImporter:
       name: Arkzom_78
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1779,10 +1779,10 @@ TextureImporter:
       name: Arkzom_79
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1800,10 +1800,10 @@ TextureImporter:
       name: Arkzom_80
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1821,10 +1821,10 @@ TextureImporter:
       name: Arkzom_81
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1842,10 +1842,10 @@ TextureImporter:
       name: Arkzom_82
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1863,10 +1863,10 @@ TextureImporter:
       name: Arkzom_83
       rect:
         serializedVersion: 2
-        x: 320
+        x: 337
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1884,10 +1884,10 @@ TextureImporter:
       name: Arkzom_84
       rect:
         serializedVersion: 2
-        x: 384
+        x: 401
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1905,10 +1905,10 @@ TextureImporter:
       name: Arkzom_85
       rect:
         serializedVersion: 2
-        x: 448
+        x: 465
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1926,10 +1926,10 @@ TextureImporter:
       name: Arkzom_86
       rect:
         serializedVersion: 2
-        x: 512
+        x: 529
         y: 640
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1947,10 +1947,10 @@ TextureImporter:
       name: Arkzom_87
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 576
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1968,10 +1968,10 @@ TextureImporter:
       name: Arkzom_88
       rect:
         serializedVersion: 2
-        x: 64
+        x: 82
         y: 576
-        width: 64
-        height: 64
+        width: 28
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1989,10 +1989,10 @@ TextureImporter:
       name: Arkzom_89
       rect:
         serializedVersion: 2
-        x: 128
+        x: 146
         y: 576
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2010,10 +2010,10 @@ TextureImporter:
       name: Arkzom_90
       rect:
         serializedVersion: 2
-        x: 192
+        x: 210
         y: 576
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2031,10 +2031,10 @@ TextureImporter:
       name: Arkzom_91
       rect:
         serializedVersion: 2
-        x: 256
+        x: 274
         y: 576
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2052,10 +2052,10 @@ TextureImporter:
       name: Arkzom_92
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 576
-        width: 64
-        height: 64
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2073,10 +2073,10 @@ TextureImporter:
       name: Arkzom_93
       rect:
         serializedVersion: 2
-        x: 384
+        x: 402
         y: 576
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2094,10 +2094,10 @@ TextureImporter:
       name: Arkzom_94
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 576
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2115,10 +2115,10 @@ TextureImporter:
       name: Arkzom_95
       rect:
         serializedVersion: 2
-        x: 512
+        x: 531
         y: 576
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2136,10 +2136,10 @@ TextureImporter:
       name: Arkzom_96
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 512
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2157,10 +2157,10 @@ TextureImporter:
       name: Arkzom_97
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 512
-        width: 64
-        height: 64
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2178,10 +2178,10 @@ TextureImporter:
       name: Arkzom_98
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 512
-        width: 64
-        height: 64
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2199,10 +2199,10 @@ TextureImporter:
       name: Arkzom_99
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 512
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2220,10 +2220,10 @@ TextureImporter:
       name: Arkzom_100
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 512
-        width: 64
-        height: 64
+        width: 37
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2241,10 +2241,10 @@ TextureImporter:
       name: Arkzom_101
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 512
-        width: 64
-        height: 64
+        width: 41
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2262,10 +2262,10 @@ TextureImporter:
       name: Arkzom_102
       rect:
         serializedVersion: 2
-        x: 0
+        x: 20
         y: 448
-        width: 64
-        height: 64
+        width: 24
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2283,10 +2283,10 @@ TextureImporter:
       name: Arkzom_103
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 448
-        width: 64
-        height: 64
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2304,10 +2304,10 @@ TextureImporter:
       name: Arkzom_104
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 448
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2325,10 +2325,10 @@ TextureImporter:
       name: Arkzom_105
       rect:
         serializedVersion: 2
-        x: 192
+        x: 203
         y: 448
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2346,10 +2346,10 @@ TextureImporter:
       name: Arkzom_106
       rect:
         serializedVersion: 2
-        x: 256
+        x: 264
         y: 448
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2367,10 +2367,10 @@ TextureImporter:
       name: Arkzom_107
       rect:
         serializedVersion: 2
-        x: 320
+        x: 331
         y: 448
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2388,10 +2388,10 @@ TextureImporter:
       name: Arkzom_108
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 384
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2409,10 +2409,10 @@ TextureImporter:
       name: Arkzom_109
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 384
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2430,10 +2430,10 @@ TextureImporter:
       name: Arkzom_110
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 384
-        width: 64
-        height: 64
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2451,10 +2451,10 @@ TextureImporter:
       name: Arkzom_111
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 384
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2472,10 +2472,10 @@ TextureImporter:
       name: Arkzom_112
       rect:
         serializedVersion: 2
-        x: 256
+        x: 273
         y: 384
-        width: 64
-        height: 64
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2493,10 +2493,10 @@ TextureImporter:
       name: Arkzom_113
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 384
-        width: 64
-        height: 64
+        width: 42
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2514,10 +2514,10 @@ TextureImporter:
       name: Arkzom_114
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 320
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2535,10 +2535,10 @@ TextureImporter:
       name: Arkzom_115
       rect:
         serializedVersion: 2
-        x: 64
+        x: 85
         y: 320
-        width: 64
-        height: 64
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2556,10 +2556,10 @@ TextureImporter:
       name: Arkzom_116
       rect:
         serializedVersion: 2
-        x: 128
+        x: 148
         y: 320
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2577,10 +2577,10 @@ TextureImporter:
       name: Arkzom_117
       rect:
         serializedVersion: 2
-        x: 192
+        x: 211
         y: 320
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2598,10 +2598,10 @@ TextureImporter:
       name: Arkzom_118
       rect:
         serializedVersion: 2
-        x: 256
+        x: 276
         y: 320
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2619,10 +2619,10 @@ TextureImporter:
       name: Arkzom_119
       rect:
         serializedVersion: 2
-        x: 320
+        x: 340
         y: 320
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2640,10 +2640,10 @@ TextureImporter:
       name: Arkzom_120
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 256
-        width: 64
-        height: 64
+        width: 31
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2661,10 +2661,10 @@ TextureImporter:
       name: Arkzom_121
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2682,10 +2682,10 @@ TextureImporter:
       name: Arkzom_122
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2703,10 +2703,10 @@ TextureImporter:
       name: Arkzom_123
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2724,10 +2724,10 @@ TextureImporter:
       name: Arkzom_124
       rect:
         serializedVersion: 2
-        x: 256
+        x: 274
         y: 256
-        width: 64
-        height: 64
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2745,10 +2745,10 @@ TextureImporter:
       name: Arkzom_125
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 256
-        width: 64
-        height: 64
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2766,10 +2766,10 @@ TextureImporter:
       name: Arkzom_126
       rect:
         serializedVersion: 2
-        x: 384
+        x: 403
         y: 256
-        width: 64
-        height: 64
+        width: 27
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2787,10 +2787,10 @@ TextureImporter:
       name: Arkzom_127
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
         y: 256
-        width: 64
-        height: 64
+        width: 28
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2808,10 +2808,10 @@ TextureImporter:
       name: Arkzom_128
       rect:
         serializedVersion: 2
-        x: 512
+        x: 531
         y: 256
-        width: 64
-        height: 64
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2829,10 +2829,10 @@ TextureImporter:
       name: Arkzom_129
       rect:
         serializedVersion: 2
-        x: 576
+        x: 594
         y: 256
-        width: 64
-        height: 64
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2850,10 +2850,10 @@ TextureImporter:
       name: Arkzom_130
       rect:
         serializedVersion: 2
-        x: 640
+        x: 657
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2871,10 +2871,10 @@ TextureImporter:
       name: Arkzom_131
       rect:
         serializedVersion: 2
-        x: 704
+        x: 721
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2892,10 +2892,10 @@ TextureImporter:
       name: Arkzom_132
       rect:
         serializedVersion: 2
-        x: 768
+        x: 785
         y: 256
-        width: 64
-        height: 64
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2913,10 +2913,10 @@ TextureImporter:
       name: Arkzom_133
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 192
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2934,10 +2934,10 @@ TextureImporter:
       name: Arkzom_134
       rect:
         serializedVersion: 2
-        x: 64
+        x: 83
         y: 192
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2955,10 +2955,10 @@ TextureImporter:
       name: Arkzom_135
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 192
-        width: 64
-        height: 64
+        width: 32
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2976,10 +2976,10 @@ TextureImporter:
       name: Arkzom_136
       rect:
         serializedVersion: 2
-        x: 192
+        x: 205
         y: 192
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2997,10 +2997,10 @@ TextureImporter:
       name: Arkzom_137
       rect:
         serializedVersion: 2
-        x: 256
+        x: 269
         y: 192
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3018,10 +3018,10 @@ TextureImporter:
       name: Arkzom_138
       rect:
         serializedVersion: 2
-        x: 320
+        x: 332
         y: 192
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3039,10 +3039,10 @@ TextureImporter:
       name: Arkzom_139
       rect:
         serializedVersion: 2
-        x: 384
+        x: 396
         y: 192
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3060,10 +3060,10 @@ TextureImporter:
       name: Arkzom_140
       rect:
         serializedVersion: 2
-        x: 448
+        x: 461
         y: 192
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3081,10 +3081,10 @@ TextureImporter:
       name: Arkzom_141
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 192
-        width: 64
-        height: 64
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3102,10 +3102,10 @@ TextureImporter:
       name: Arkzom_142
       rect:
         serializedVersion: 2
-        x: 576
+        x: 589
         y: 192
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3123,10 +3123,10 @@ TextureImporter:
       name: Arkzom_143
       rect:
         serializedVersion: 2
-        x: 640
+        x: 653
         y: 192
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3144,10 +3144,10 @@ TextureImporter:
       name: Arkzom_144
       rect:
         serializedVersion: 2
-        x: 704
+        x: 717
         y: 192
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3165,10 +3165,10 @@ TextureImporter:
       name: Arkzom_145
       rect:
         serializedVersion: 2
-        x: 768
+        x: 781
         y: 192
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3186,10 +3186,10 @@ TextureImporter:
       name: Arkzom_146
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 128
-        width: 64
-        height: 64
+        width: 31
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3207,10 +3207,10 @@ TextureImporter:
       name: Arkzom_147
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 128
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3228,10 +3228,10 @@ TextureImporter:
       name: Arkzom_148
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 128
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3249,10 +3249,10 @@ TextureImporter:
       name: Arkzom_149
       rect:
         serializedVersion: 2
-        x: 192
+        x: 209
         y: 128
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3270,10 +3270,10 @@ TextureImporter:
       name: Arkzom_150
       rect:
         serializedVersion: 2
-        x: 256
+        x: 274
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3291,10 +3291,10 @@ TextureImporter:
       name: Arkzom_151
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3312,10 +3312,10 @@ TextureImporter:
       name: Arkzom_152
       rect:
         serializedVersion: 2
-        x: 384
+        x: 402
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3333,10 +3333,10 @@ TextureImporter:
       name: Arkzom_153
       rect:
         serializedVersion: 2
-        x: 448
+        x: 466
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3354,10 +3354,10 @@ TextureImporter:
       name: Arkzom_154
       rect:
         serializedVersion: 2
-        x: 512
+        x: 530
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3375,10 +3375,10 @@ TextureImporter:
       name: Arkzom_155
       rect:
         serializedVersion: 2
-        x: 576
+        x: 594
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3396,10 +3396,10 @@ TextureImporter:
       name: Arkzom_156
       rect:
         serializedVersion: 2
-        x: 640
+        x: 658
         y: 128
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3417,10 +3417,10 @@ TextureImporter:
       name: Arkzom_157
       rect:
         serializedVersion: 2
-        x: 704
+        x: 722
         y: 128
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3438,10 +3438,10 @@ TextureImporter:
       name: Arkzom_158
       rect:
         serializedVersion: 2
-        x: 768
+        x: 786
         y: 128
-        width: 64
-        height: 64
+        width: 28
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3459,10 +3459,10 @@ TextureImporter:
       name: Arkzom_159
       rect:
         serializedVersion: 2
-        x: 0
+        x: 19
         y: 64
-        width: 64
-        height: 64
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3480,10 +3480,10 @@ TextureImporter:
       name: Arkzom_160
       rect:
         serializedVersion: 2
-        x: 64
+        x: 82
         y: 64
-        width: 64
-        height: 64
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3501,10 +3501,10 @@ TextureImporter:
       name: Arkzom_161
       rect:
         serializedVersion: 2
-        x: 128
+        x: 145
         y: 64
-        width: 64
-        height: 64
+        width: 32
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3522,10 +3522,10 @@ TextureImporter:
       name: Arkzom_162
       rect:
         serializedVersion: 2
-        x: 192
+        x: 208
         y: 64
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3543,10 +3543,10 @@ TextureImporter:
       name: Arkzom_163
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 64
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3564,10 +3564,10 @@ TextureImporter:
       name: Arkzom_164
       rect:
         serializedVersion: 2
-        x: 320
+        x: 339
         y: 64
-        width: 64
-        height: 64
+        width: 33
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3585,10 +3585,10 @@ TextureImporter:
       name: Arkzom_165
       rect:
         serializedVersion: 2
-        x: 384
+        x: 401
         y: 64
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3606,10 +3606,10 @@ TextureImporter:
       name: Arkzom_166
       rect:
         serializedVersion: 2
-        x: 448
+        x: 463
         y: 64
-        width: 64
-        height: 64
+        width: 36
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3627,10 +3627,10 @@ TextureImporter:
       name: Arkzom_167
       rect:
         serializedVersion: 2
-        x: 512
+        x: 525
         y: 64
-        width: 64
-        height: 64
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3648,10 +3648,10 @@ TextureImporter:
       name: Arkzom_168
       rect:
         serializedVersion: 2
-        x: 576
+        x: 592
         y: 64
-        width: 64
-        height: 64
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3669,10 +3669,10 @@ TextureImporter:
       name: Arkzom_169
       rect:
         serializedVersion: 2
-        x: 640
+        x: 657
         y: 64
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3690,10 +3690,10 @@ TextureImporter:
       name: Arkzom_170
       rect:
         serializedVersion: 2
-        x: 704
+        x: 721
         y: 64
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3711,10 +3711,10 @@ TextureImporter:
       name: Arkzom_171
       rect:
         serializedVersion: 2
-        x: 768
+        x: 785
         y: 64
-        width: 64
-        height: 64
+        width: 34
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3732,10 +3732,10 @@ TextureImporter:
       name: Arkzom_172
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 0
-        width: 64
-        height: 64
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3753,10 +3753,10 @@ TextureImporter:
       name: Arkzom_173
       rect:
         serializedVersion: 2
-        x: 64
+        x: 81
         y: 0
-        width: 64
-        height: 64
+        width: 33
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3774,10 +3774,10 @@ TextureImporter:
       name: Arkzom_174
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 0
-        width: 64
-        height: 64
+        width: 35
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3795,10 +3795,10 @@ TextureImporter:
       name: Arkzom_175
       rect:
         serializedVersion: 2
-        x: 192
+        x: 208
         y: 0
-        width: 64
-        height: 64
+        width: 35
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3816,10 +3816,10 @@ TextureImporter:
       name: Arkzom_176
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 274
+        y: 1
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3837,10 +3837,10 @@ TextureImporter:
       name: Arkzom_177
       rect:
         serializedVersion: 2
-        x: 320
+        x: 338
         y: 0
-        width: 64
-        height: 64
+        width: 34
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

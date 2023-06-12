@@ -1131,6 +1131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  recoveryTime: 0.75
   bottomAnimator: {fileID: 6780288184353362999}
 --- !u!114 &1724578345
 MonoBehaviour:
