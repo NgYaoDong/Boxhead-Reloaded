@@ -153,8 +153,8 @@ GameObject:
   - component: {fileID: 2107449246}
   - component: {fileID: 2107449247}
   - component: {fileID: 2107449248}
-  - component: {fileID: 748159853}
   - component: {fileID: 8467054270018160278}
+  - component: {fileID: 748159853}
   m_Layer: 8
   m_Name: Skeleboar
   m_TagString: Enemy
@@ -170,7 +170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8377160740320051863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8425317, y: 2.0455458, z: 0.16009298}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -265,8 +265,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013420403, y: 0.009214401}
-  m_Size: {x: 0.81941664, y: 1.3705673}
+  m_Offset: {x: 0, y: -0.010099053}
+  m_Size: {x: 0.8857143, y: 1.1844413}
   m_Direction: 0
 --- !u!95 &8377160740320051861
 Animator:
@@ -373,20 +373,6 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
---- !u!114 &748159853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8377160740320051863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bfb6be7ca685184aa199b4bc8aaf24c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1123615921107374684, guid: d74aad53af6d51e4aa5a50dffabf4865, type: 3}
-  attackDelay: 2
 --- !u!114 &8467054270018160278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,3 +389,17 @@ MonoBehaviour:
   attackDelay: 0.5
   setHealth: 150
   blood: {fileID: 1005171346}
+--- !u!114 &748159853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8377160740320051863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfb6be7ca685184aa199b4bc8aaf24c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1123615921107374684, guid: d74aad53af6d51e4aa5a50dffabf4865, type: 3}
+  attackDelay: 2
