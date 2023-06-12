@@ -56,7 +56,7 @@ This game is a single player game where the player will attempt to survive a hor
     * Uzi: Fast rate of fire, Single shot
     * Shotgun: Medium rate of fire, AOE shot
     * AK47: Fast rate of fire, High damage single shot
-    * Greande: AOE damage;
+    * Grenade: AOE damage
   * Players
     * Silver Trooper
   * Enemies
