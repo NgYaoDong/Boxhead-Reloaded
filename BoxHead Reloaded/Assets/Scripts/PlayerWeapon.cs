@@ -54,6 +54,7 @@ public class PlayerWeapon : MonoBehaviour
             {
                 currWeapon.Shoot();
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
+
                 if (weaponNum == 3 || weaponNum == 6) return;
                 gunAnimator.SetTrigger("Shoot");
             }

@@ -273,6 +273,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd361a29d807b0f4f813034500c77437, type: 3}
+--- !u!114 &309642327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3557994914141767169, guid: fd361a29d807b0f4f813034500c77437,
+    type: 3}
+  m_PrefabInstance: {fileID: 309642326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd803a42b128a45a6b1aced0de155434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,18 +770,6 @@ MonoBehaviour:
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
   showGraphs: 1
---- !u!114 &864413369 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3557994914141767169, guid: fd361a29d807b0f4f813034500c77437,
-    type: 3}
-  m_PrefabInstance: {fileID: 309642326}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd803a42b128a45a6b1aced0de155434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1095161962
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,88 +848,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1130153333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f76d1ace7b2845929f697c3574ce52c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2128ff0a700964500b9cde908c4f77e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - noOfNonBoss: 5
-    noOfBoss: 0
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 1
+    skeleboar: 1
+    dopant: 1
+    orphenoch: 1
     spawnInterval: 1
     waveInterval: 30
-  - noOfNonBoss: 5
-    noOfBoss: 1
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 2
+    skeleboar: 2
+    dopant: 2
+    orphenoch: 2
     spawnInterval: 1
     waveInterval: 30
-  - noOfNonBoss: 10
-    noOfBoss: 1
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 10
-    noOfBoss: 3
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 15
-    noOfBoss: 3
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 15
-    noOfBoss: 5
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 20
-    noOfBoss: 5
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 20
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 25
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 30
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 3
+    skeleboar: 3
+    dopant: 3
+    orphenoch: 3
     spawnInterval: 1
     waveInterval: 30
   spawnPoints:
@@ -937,7 +875,15 @@ MonoBehaviour:
   - {fileID: 1854169821}
   - {fileID: 1095161963}
   - {fileID: 1815994660}
-  waveUI: {fileID: 864413369}
+  - {fileID: 1568605408}
+  - {fileID: 1627645665}
+  waveUI: {fileID: 309642327}
+  enemies:
+  - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+  - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - {fileID: 8377160740320051863, guid: e9758897b8267bc40b1e9545152b22f4, type: 3}
+  - {fileID: 820336299427592225, guid: 37638d7c8706e1b4eb4c55268bae2811, type: 3}
+  trigger: {fileID: 1166996695}
 --- !u!1001 &1166996694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1007,6 +953,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c667284215ae428e9047eea978a354b, type: 3}
+--- !u!114 &1166996695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2440844624672683831, guid: 1c667284215ae428e9047eea978a354b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1166996694}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edd0f787bc46de479f0d96bba16e2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187854026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2906281107207517309, guid: fd361a29d807b0f4f813034500c77437,
@@ -1246,8 +1204,9 @@ Rigidbody2D:
 --- !u!1 &1815994659
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8447352945361730211, guid: 85070ba30d8c5447d8d5ed591cca17db,
+    type: 3}
+  m_PrefabInstance: {fileID: 8447352943952223104}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -1262,8 +1221,9 @@ GameObject:
 --- !u!4 &1815994660
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+    type: 3}
+  m_PrefabInstance: {fileID: 8447352943952223104}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815994659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1305,3 +1265,72 @@ Transform:
   m_Father: {fileID: 1130153334}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8447352943952223104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1130153334}
+    m_Modifications:
+    - target: {fileID: 8447352945361730211, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_Name
+      value: SpawnPoint (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447352945361730212, guid: 85070ba30d8c5447d8d5ed591cca17db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85070ba30d8c5447d8d5ed591cca17db, type: 3}

@@ -846,88 +846,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1130153333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f76d1ace7b2845929f697c3574ce52c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2128ff0a700964500b9cde908c4f77e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - noOfNonBoss: 5
-    noOfBoss: 0
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 1
+    skeleboar: 1
+    dopant: 0
+    orphenoch: 0
     spawnInterval: 1
     waveInterval: 30
-  - noOfNonBoss: 5
-    noOfBoss: 1
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 2
+    skeleboar: 2
+    dopant: 0
+    orphenoch: 0
     spawnInterval: 1
     waveInterval: 30
-  - noOfNonBoss: 10
-    noOfBoss: 1
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 10
-    noOfBoss: 3
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 15
-    noOfBoss: 3
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 15
-    noOfBoss: 5
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 20
-    noOfBoss: 5
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 20
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 25
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
-    spawnInterval: 1
-    waveInterval: 30
-  - noOfNonBoss: 30
-    noOfBoss: 7
-    non_Boss:
-    - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
-    Boss:
-    - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - arkzom: 3
+    skeleboar: 3
+    dopant: 0
+    orphenoch: 0
     spawnInterval: 1
     waveInterval: 30
   spawnPoints:
@@ -936,12 +874,30 @@ MonoBehaviour:
   - {fileID: 1095161963}
   - {fileID: 1815994660}
   waveUI: {fileID: 864413369}
+  enemies:
+  - {fileID: 820336299427592225, guid: ac3b9618a84cd6544945351fc915f266, type: 3}
+  - {fileID: 8377160740320051863, guid: 105bb162b25905e4f8f45ec57c327561, type: 3}
+  - {fileID: 8377160740320051863, guid: e9758897b8267bc40b1e9545152b22f4, type: 3}
+  - {fileID: 820336299427592225, guid: 37638d7c8706e1b4eb4c55268bae2811, type: 3}
+  trigger: {fileID: 1217414611}
 --- !u!1 &1187854026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2906281107207517309, guid: fd361a29d807b0f4f813034500c77437,
     type: 3}
   m_PrefabInstance: {fileID: 309642326}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1217414611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7311091625720334970, guid: 631151a1185694b27b5fe33e208b5b5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4947670763199676166}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edd0f787bc46de479f0d96bba16e2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1774534768
 GameObject:
   m_ObjectHideFlags: 0
