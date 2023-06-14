@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float attackDamage = 10f;
     [SerializeField] private float attackDelay = 1f;
     [SerializeField] private float setHealth = 100f;
+    [SerializeField] private GameObject weaponBox;
     [SerializeField] private Animator blood;
 
     private float health;

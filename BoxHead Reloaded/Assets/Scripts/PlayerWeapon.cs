@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerWeapon : MonoBehaviour
 {

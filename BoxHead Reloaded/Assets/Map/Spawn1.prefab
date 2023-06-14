@@ -56,31 +56,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Coffin H
       objectReference: {fileID: 0}
-    - target: {fileID: 2055102311959635369, guid: 42d58802fe231b14c8692b0c06082f5d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055102311959635374, guid: 42d58802fe231b14c8692b0c06082f5d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.9922278
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055102311959635374, guid: 42d58802fe231b14c8692b0c06082f5d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.77984476
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055102311959635374, guid: 42d58802fe231b14c8692b0c06082f5d,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.00964725
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055102311959635374, guid: 42d58802fe231b14c8692b0c06082f5d,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.37910295
-      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 42d58802fe231b14c8692b0c06082f5d,
         type: 3}
       propertyPath: m_RootOrder
@@ -138,33 +113,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42d58802fe231b14c8692b0c06082f5d, type: 3}
---- !u!1 &5043524731957296320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2055102311959635369, guid: 42d58802fe231b14c8692b0c06082f5d,
-    type: 3}
-  m_PrefabInstance: {fileID: 6447751344639318377}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &6171633531136921717
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5043524731957296320}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!4 &5043524731957296326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: 42d58802fe231b14c8692b0c06082f5d,

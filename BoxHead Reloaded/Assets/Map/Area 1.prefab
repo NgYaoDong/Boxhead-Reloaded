@@ -17014,6 +17014,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 45544064}
     m_Modifications:
+    - target: {fileID: 6171633531136921717, guid: 2798dccb7f2d147d39e4e108c57b8028,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171633531136921717, guid: 2798dccb7f2d147d39e4e108c57b8028,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6447751345495378629, guid: 2798dccb7f2d147d39e4e108c57b8028,
         type: 3}
       propertyPath: m_RootOrder

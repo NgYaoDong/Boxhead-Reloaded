@@ -29,6 +29,14 @@ public class CharacterSelection : MonoBehaviour
     void Spawn(int SpawnInd)
     {
         PlayerPrefs.SetInt("SpawnInd", SpawnInd);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+        GameObject player = characters[SpawnInd];
+        Weapon[] weapons = player.GetComponent<PlayerWeapon>().weapons;
+        foreach (Weapon weapon in weapons)
+        {
+            if (weapon.name == "Pistol") weapon.isActive = true;
+            else weapon.isActive = false;
+        }
+        if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
     }
 }

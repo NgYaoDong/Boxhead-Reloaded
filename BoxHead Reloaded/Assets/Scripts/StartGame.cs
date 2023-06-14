@@ -7,6 +7,13 @@ public class StartGame : MonoBehaviour
 {
     public void PlayGame()
     {
+        PlayerPrefs.SetInt("Mode", 0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+    }
+
+    public void PlayInfinite()
+    {
+        PlayerPrefs.SetInt("Mode", 1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
     }
 
