@@ -13,12 +13,14 @@ public class PlayerMovement : MonoBehaviour
     private float timer;
     private Vector2 movement;
     private CinemachineConfiner2D confiner;
+    private Renderer rend;
 
     private void Start()
     {
         confiner = GetComponentInChildren<CinemachineConfiner2D>();
         confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
+        rend = GetComponent<Renderer>();
     }
 
     private void Update()
@@ -55,10 +57,15 @@ public class PlayerMovement : MonoBehaviour
         if (moveSpeed < 5f)
         {
             timer += Time.deltaTime;
+            Color32 lightBlue = new(0, 169, 255, 255);
+            rend.material.color = lightBlue;
+            bottomAnimator.GetComponentInParent<Renderer>().material.color = lightBlue;
             if (timer > recoveryTime)
             {
                 timer = 0;
                 moveSpeed = 5f;
+                rend.material.color = Color.white;
+                bottomAnimator.GetComponentInParent<Renderer>().material.color = Color.white;
             }
         }
     }

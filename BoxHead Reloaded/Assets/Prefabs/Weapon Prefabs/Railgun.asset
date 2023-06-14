@@ -16,7 +16,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4790366182379669272, guid: 73907aede4a7b54458892b5f8a98a0be,
     type: 3}
   _clip: {fileID: 8300000, guid: 7fa1c346415ac7a45a0c1218a78d1260, type: 3}
-  fireRate: 100
+  fireRate: 30
   pellets: 1
-  currAmmo: 924
-  maxAmmo: 1000
+  currAmmo: 0
+  maxAmmo: 300

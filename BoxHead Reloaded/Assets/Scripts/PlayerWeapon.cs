@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
+using TMPro;
 
 public class PlayerWeapon : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class PlayerWeapon : MonoBehaviour
     private Transform weaponTransform;
     [SerializeField] private Animator topAnimator;
     [SerializeField] private Animator gunAnimator;
+    [SerializeField] private TextMeshPro ammoDisplay;
 
     private void Awake()
     {
@@ -25,6 +27,8 @@ public class PlayerWeapon : MonoBehaviour
         weaponTransform = aimTransform.Find("Weapon");
         currWeapon = weapons[weaponNum];
         weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
+        if (currWeapon.name == "Pistol") ammoDisplay.text = currWeapon.name + ": \u221E";
+        else ammoDisplay.text = currWeapon.name + ": " + currWeapon.currAmmo.ToString();
     }
 
     private void Update()
@@ -35,7 +39,10 @@ public class PlayerWeapon : MonoBehaviour
 
             if (Input.GetButton("Fire1")) Firing();
 
-            if (Input.GetKeyDown(KeyCode.I)) Switch();
+            if (Input.GetMouseButtonDown(1)) Switch();
+
+            if (currWeapon.name == "Pistol") ammoDisplay.text = currWeapon.name + ": \u221E";
+            else ammoDisplay.text = currWeapon.name + ": " + currWeapon.currAmmo.ToString();
         }
     }
 
@@ -47,7 +54,6 @@ public class PlayerWeapon : MonoBehaviour
             {
                 currWeapon.Shoot();
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
-                Debug.Log(currWeapon.currAmmo);
                 if (weaponNum == 3 || weaponNum == 6) return;
                 gunAnimator.SetTrigger("Shoot");
             }
