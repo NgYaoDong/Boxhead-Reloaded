@@ -3,43 +3,65 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-//when something get into the alta, make the runes glow
-namespace Cainos.PixelArtTopDown_Basic
+public class PropsAltar : MonoBehaviour
 {
+    public List<SpriteRenderer> runes;
+    public float lerpSpeed;
 
-    public class PropsAltar : MonoBehaviour
+    private Color curColor;
+    private Color targetColor;
+    public bool start = false;
+    public bool end = false;
+    public bool finish = false;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        public List<SpriteRenderer> runes;
-        public float lerpSpeed;
+        targetColor = new Color(1, 1, 1, 1);
 
-        private Color curColor;
-        private Color targetColor;
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            targetColor = new Color(1, 1, 1, 1);
-            if (other.CompareTag("Player") && SceneManager.GetActiveScene().name != "Area 4") StartCoroutine(NextLvl());
-        }
-
-        private void OnTriggerExit2D(Collider2D other)
-        {
-            targetColor = new Color(1, 1, 1, 0);
-        }
-
-        private void Update()
-        {
-            curColor = Color.Lerp(curColor, targetColor, lerpSpeed * Time.deltaTime);
-
-            foreach (var r in runes)
-            {
-                r.color = curColor;
+        if (other.CompareTag("Player") && finish) {
+            if (SceneManager.GetActiveScene().name != "Area 4") {
+                StartCoroutine(NextLvl());
+            } else {
+                end = true;
             }
+        } else {
+            start = true;
         }
+    }
 
-        private IEnumerator NextLvl() 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        targetColor = new Color(1, 1, 1, 0);
+    }
+
+    private void Update()
+    {
+        curColor = Color.Lerp(curColor, targetColor, lerpSpeed * Time.deltaTime);
+
+        foreach (var r in runes)
         {
-            yield return new WaitForSeconds(2f);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+            r.color = curColor;
         }
+    }
+
+    public void TurnOn()
+    {
+        gameObject.SetActive(true);
+    }
+
+    public void TurnOff()
+    {
+        gameObject.SetActive(false);
+    }
+
+    public void Switch()
+    {
+        start = false;
+    }
+
+    private IEnumerator NextLvl() 
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
     }
 }
