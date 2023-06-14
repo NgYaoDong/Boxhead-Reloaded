@@ -567,10 +567,8 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
-  minX: -11
-  maxX: 27
-  minY: -6
-  maxY: 5
+  minSpawn: {x: -11, y: -6}
+  maxSpawn: {x: 27, y: 5}
   inGame: {fileID: 1187854026}
   empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1 &763230847
@@ -819,7 +817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1130153334
 Transform:
   m_ObjectHideFlags: 0

@@ -18,6 +18,6 @@ public class StartGame : MonoBehaviour
 
     public void Feedback()
     {
-        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSdimHszS5tCvvCZWsIpwyKqPyQVmg1LdCKNov8k8K40ye5zdQ/viewform");
+        Application.OpenURL("https://forms.gle/DEUkzzpUgy15bGSG9");
     }
 }

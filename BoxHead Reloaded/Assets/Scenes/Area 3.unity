@@ -579,10 +579,8 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
-  minX: 7
-  maxX: 15
-  minY: -15
-  maxY: 13
+  minSpawn: {x: 7, y: -15}
+  maxSpawn: {x: 15, y: 13}
   inGame: {fileID: 1187854026}
   empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1 &763230847

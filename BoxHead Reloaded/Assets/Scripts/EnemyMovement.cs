@@ -15,11 +15,13 @@ public class EnemyMovement : MonoBehaviour
     private Transform destination;
     private Animator animator;
     private Collider2D colli;
+    private Renderer rend;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         colli = GetComponent<Collider2D>();
+        rend = GetComponent<Renderer>();
         health = setHealth;
     }
 
@@ -48,12 +50,20 @@ public class EnemyMovement : MonoBehaviour
     public void Attacked(float damage)
     {
         health -= damage;
+        StartCoroutine(ChangeColor());
 
         if (health <= 0f)
         {
             blood.transform.gameObject.SetActive(false);
             StartCoroutine(Death());
         }
+    }
+
+    private IEnumerator ChangeColor()
+    {
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        rend.material.color = Color.white;
     }
 
     private IEnumerator Death()

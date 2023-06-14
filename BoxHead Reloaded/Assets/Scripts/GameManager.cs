@@ -6,15 +6,15 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> characters = new();
-    [SerializeField] private float minX, maxX, minY, maxY;
+    [SerializeField] private Vector2 minSpawn, maxSpawn;
     [SerializeField] private GameObject inGame;
     [SerializeField] private GameObject empty;
     private bool canPause = true;
     void Start()
     {
         if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Stop();
-        float x = Random.Range(minX, maxX);
-        float y = Random.Range(minY, maxY);
+        float x = Random.Range(minSpawn.x, maxSpawn.x);
+        float y = Random.Range(minSpawn.y, maxSpawn.y);
         GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
         Weapon[] weapons = player.GetComponent<PlayerWeapon>().weapons;
         foreach (Weapon weapon in weapons)
