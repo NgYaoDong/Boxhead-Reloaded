@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 /* weapons[0] == Pistol
  * weapons[1] == SMG
  * weapons[2] == Shotgun
@@ -14,11 +13,32 @@ using UnityEngine;
 
 public class WeaponBox : MonoBehaviour
 {
+    [SerializeField] private Weapon[] weapons;
+
+    Weapon Reload()
+    {
+        List<Weapon> possibleReload = new();
+        foreach (Weapon weapon in weapons)
+        {
+            if (weapon.name != "Pistol" && weapon.isActive)
+            {
+                possibleReload.Add(weapon);
+            }
+        }
+        if (possibleReload.Count > 0)
+        {
+            Weapon reloadWeapon = possibleReload[Random.Range(0, possibleReload.Count)];
+            return reloadWeapon;
+        }
+        return null;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerWeapon>().weapons[0].AddAmmo(); // make weapon become max ammo
+            Weapon reloadWeapon = Reload();
+            FindObjectOfType<GameManager>().Reloading(reloadWeapon);
+            reloadWeapon.AddAmmo();
             Destroy(gameObject);
         }
     }

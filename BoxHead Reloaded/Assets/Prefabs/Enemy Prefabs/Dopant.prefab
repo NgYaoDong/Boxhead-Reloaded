@@ -388,6 +388,8 @@ MonoBehaviour:
   attackDamage: 0
   attackDelay: 0.5
   setHealth: 80
+  weaponBox: {fileID: 6487912473034146891, guid: a20568f1ca20c99419bbdf099884b6e9,
+    type: 3}
   blood: {fileID: 1005171346}
 --- !u!114 &748159853
 MonoBehaviour:

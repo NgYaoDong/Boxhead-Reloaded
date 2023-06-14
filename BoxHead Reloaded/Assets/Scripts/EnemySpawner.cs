@@ -131,8 +131,8 @@ public class EnemySpawner : MonoBehaviour
     {
         trigger.Switch();
         StartCoroutine(waveUI.StartAnimation());
+        trigger.TurnOff();
         yield return new WaitForSeconds(3);
         startWave = true;
-        trigger.TurnOff();
     }
 }

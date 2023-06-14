@@ -20,3 +20,4 @@ MonoBehaviour:
   pellets: 1
   currAmmo: 100
   maxAmmo: 100
+  isActive: 1

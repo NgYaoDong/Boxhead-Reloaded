@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 [CreateAssetMenu(fileName = "New Weapon", menuName = "Weapon")]
 public class Weapon : ScriptableObject
@@ -14,13 +16,14 @@ public class Weapon : ScriptableObject
     public float currAmmo = Mathf.Infinity;
     public float maxAmmo = Mathf.Infinity;
 
+    public bool isActive;
     public void Shoot()
     {
         for (int i = 0; i < pellets; i++)
         {
             Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
         }
-        if (_clip) AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.25f);
+        AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.25f);
         currAmmo--;
     }
 
