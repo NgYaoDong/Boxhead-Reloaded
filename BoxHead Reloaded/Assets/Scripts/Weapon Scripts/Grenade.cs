@@ -27,7 +27,7 @@ public class Grenade : MonoBehaviour
     {
         if (rb.velocity.sqrMagnitude > 1)
         {
-            rb.velocity /= 1.01f;
+            rb.velocity /= 1.05f;
             transform.Rotate(0, 0, Random.Range(-90, 90));
         }
         else if (rb.velocity.sqrMagnitude <= 1)

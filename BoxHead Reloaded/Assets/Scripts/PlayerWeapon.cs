@@ -47,7 +47,7 @@ public class PlayerWeapon : MonoBehaviour
             {
                 currWeapon.Shoot();
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
-                Debug.Log(currWeapon.currAmmo);
+                //Debug.Log(currWeapon.currAmmo);
                 if (weaponNum == 3 || weaponNum == 6) return;
                 gunAnimator.SetTrigger("Shoot");
             }
