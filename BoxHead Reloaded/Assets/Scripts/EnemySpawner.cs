@@ -98,7 +98,7 @@ public class EnemySpawner : MonoBehaviour
             } else {
                 canSpawn = false;
                 waitFinish = false;
-                coroutine = StartCoroutine(Wait());
+                if (currentWaveNumber + 1 < waves.Length) coroutine = StartCoroutine(Wait());
                 return;
             }
 
@@ -116,7 +116,7 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator Wait()
     {
         yield return new WaitForSeconds(currentWave.waveInterval - 3);
-        StartCoroutine(NextWave());
+        if (currentWaveNumber < waves.Length) StartCoroutine(NextWave());
     }
 
     private IEnumerator NextWave()
