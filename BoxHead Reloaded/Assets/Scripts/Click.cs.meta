@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d73d8ec6a25097c439b6330b319b7c11
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - compressedClip: {fileID: 8300000, guid: 4289298757b304a4592bf6f24c102fab, type: 3}
+  - uncompressedClip: {fileID: 8300000, guid: d3808361fb216754e8ba516679cf970c, type: 3}
+  - source: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

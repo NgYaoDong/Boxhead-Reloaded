@@ -15,6 +15,11 @@ public class WeaponBox : MonoBehaviour
 {
     [SerializeField] private Weapon[] weapons;
 
+    private void Start()
+    {
+        Destroy(gameObject, 30f);
+    }
+
     Weapon Reload()
     {
         List<Weapon> possibleReload = new();

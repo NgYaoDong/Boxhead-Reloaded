@@ -351,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 25.7, y: -2.78, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -567,8 +567,8 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
-  minSpawn: {x: -11, y: -6}
-  maxSpawn: {x: 27, y: 5}
+  minSpawn: {x: -9.5, y: -2.5}
+  maxSpawn: {x: 25.5, y: 1.5}
   inGame: {fileID: 1187854026}
   empty: {fileID: 895118400531605516, guid: 3993105d1c9f3a548a74125335452841, type: 3}
 --- !u!1 &763230847
