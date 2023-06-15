@@ -928,6 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1061432463934625064}
+  healthBar: {fileID: 5798783206289965598}
   Healthcamera: {fileID: 0}
   target: {fileID: 1264388928206016981}
   offset: {x: 0, y: 1, z: 0}
@@ -1415,7 +1416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.59075165, g: 1, b: 0.5235849, a: 1}
+  m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

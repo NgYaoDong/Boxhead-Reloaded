@@ -18,6 +18,6 @@ public class Explosion : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy")) 
             collision.gameObject.GetComponent<EnemyMovement>().Attacked(damage);
         if (collision.gameObject.CompareTag("Player"))
-            collision.gameObject.GetComponent<PlayerHealth>().Attacked(damage / 2);
+            collision.gameObject.GetComponent<PlayerHealth>().Attacked(0.25f * damage);
     }
 }

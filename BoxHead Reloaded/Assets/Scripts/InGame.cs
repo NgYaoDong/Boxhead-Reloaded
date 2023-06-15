@@ -11,6 +11,7 @@ public class InGame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI reloadedWeapon;
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
+
     private void Awake()
     {
         ResumeGame();
@@ -58,6 +59,7 @@ public class InGame : MonoBehaviour
     public void MainMenu()
     {
         GunsOff();
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
         if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Play();
     }
@@ -70,10 +72,6 @@ public class InGame : MonoBehaviour
 
     private void GunsOff()
     {
-        foreach (Weapon weapon in weapons)
-        {
-            if (weapon.name == "Pistol") continue;
-            else weapon.isActive = false;
-        }
+        foreach (Weapon weapon in weapons) if (weapon.name != "Pistol") weapon.isActive = false;
     }
 }

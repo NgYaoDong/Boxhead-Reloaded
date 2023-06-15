@@ -17,6 +17,7 @@ public class EnemyMovement : MonoBehaviour
     private Animator animator;
     private Collider2D colli;
     private Renderer rend;
+    private int dropChance;
 
     private void Start()
     {
@@ -24,6 +25,7 @@ public class EnemyMovement : MonoBehaviour
         colli = GetComponent<Collider2D>();
         rend = GetComponent<Renderer>();
         health = setHealth;
+        dropChance = Random.Range(0, 10);
     }
 
     private void Update()
@@ -74,6 +76,7 @@ public class EnemyMovement : MonoBehaviour
         AIPath ai = GetComponent<AIPath>();
         ai.maxSpeed = 0f;
         yield return new WaitForSeconds(1.017f);
+        if (dropChance == 0) Instantiate(weaponBox, transform.position, Quaternion.identity); 
         Destroy(gameObject);
     }
 

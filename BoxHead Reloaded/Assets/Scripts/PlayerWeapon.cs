@@ -28,8 +28,7 @@ public class PlayerWeapon : MonoBehaviour
         weaponTransform = aimTransform.Find("Weapon");
         currWeapon = weapons[weaponNum];
         weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
-        if (currWeapon.name == "Pistol") ammoDisplay.text = currWeapon.name + ": \u221E";
-        else ammoDisplay.text = currWeapon.name + ": " + currWeapon.currAmmo.ToString();
+        Display();
     }
 
     private void Update()
@@ -40,12 +39,17 @@ public class PlayerWeapon : MonoBehaviour
 
             if (Input.GetButton("Fire1")) Firing();
 
-            if (Input.GetMouseButtonDown(1)) Switch();
+            if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) Switch();
 
-            if (currWeapon.name == "Pistol") ammoDisplay.text = currWeapon.name + ": \u221E";
-            else ammoDisplay.text = currWeapon.name + ": " + currWeapon.currAmmo.ToString();
+            Display();
         }
     }
+
+    private void Display()
+    {
+        if (currWeapon.name == "Pistol") ammoDisplay.text = currWeapon.name + ": \u221E";
+        else ammoDisplay.text = currWeapon.name + ": " + currWeapon.currAmmo.ToString();
+    }    
 
     private void Firing()
     {
@@ -74,7 +78,7 @@ public class PlayerWeapon : MonoBehaviour
             weaponNum++;
             if (weaponNum + 1 > weapons.Length) weaponNum = 0;
             currWeapon = weapons[weaponNum];
-        } while (currWeapon.currAmmo == 0);
+        } while (currWeapon.currAmmo == 0 || !currWeapon.isActive);
 
         weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
     }

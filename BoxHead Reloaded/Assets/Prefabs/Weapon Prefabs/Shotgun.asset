@@ -18,6 +18,6 @@ MonoBehaviour:
   _clip: {fileID: 8300000, guid: 1da76334fd75c6041bdaca058fd1f8d1, type: 3}
   fireRate: 1
   pellets: 5
-  currAmmo: 25
+  currAmmo: 0
   maxAmmo: 25
-  isActive: 1
+  isActive: 0
