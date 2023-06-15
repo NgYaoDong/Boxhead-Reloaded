@@ -56,6 +56,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Coffin V
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635374, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.0016034
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635374, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4409213
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635374, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0043041557
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635374, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.72046065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635374, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -111,7 +136,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1130998587569365688, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
 --- !u!4 &5481865320406129169 stripped
 Transform:
