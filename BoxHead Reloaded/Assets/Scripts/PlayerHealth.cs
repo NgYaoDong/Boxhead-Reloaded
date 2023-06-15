@@ -32,6 +32,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= damage;
         StartCoroutine(ChangeColor());
+        FindObjectOfType<InGame>().Blood();
         healthBar.UpdateHealthBar(health, setHealth);
         time = 0f;
 

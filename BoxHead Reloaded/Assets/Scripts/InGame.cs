@@ -8,6 +8,7 @@ public class InGame : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelComplete;
     [SerializeField] private GameObject gameOver;
+    [SerializeField] private GameObject bloodOverlay;
     [SerializeField] private TextMeshProUGUI reloadedWeapon;
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
@@ -24,6 +25,11 @@ public class InGame : MonoBehaviour
     {
         reloadedWeapon.text = "Picked Up " + reloadWeapon.name;
         reloadedWeapon.GetComponent<Animator>().SetTrigger("Reload");
+    }
+
+    public void Blood()
+    {
+        bloodOverlay.GetComponent<Animator>().SetTrigger("Blood");
     }
 
     public void PauseGame()

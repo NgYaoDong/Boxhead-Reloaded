@@ -25,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
         colli = GetComponent<Collider2D>();
         rend = GetComponent<Renderer>();
         health = setHealth;
-        dropChance = Random.Range(0, 10);
+        dropChance = Random.Range(0, 5);
     }
 
     private void Update()
