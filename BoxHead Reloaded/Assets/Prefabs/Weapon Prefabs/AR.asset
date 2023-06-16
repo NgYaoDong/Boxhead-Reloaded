@@ -19,5 +19,5 @@ MonoBehaviour:
   fireRate: 7.5
   pellets: 1
   currAmmo: 0
-  maxAmmo: 50
+  maxAmmo: 60
   isActive: 0

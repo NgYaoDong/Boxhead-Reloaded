@@ -83,8 +83,8 @@ public class EnemyMovement : MonoBehaviour
         colli.enabled = false;
         AIPath ai = GetComponent<AIPath>();
         ai.maxSpeed = 0f;
-        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.6f);
-        yield return new WaitForSeconds(1.017f);
+        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.4f);
+        yield return new WaitForSeconds(1f);
         if (dropChance == 2) Instantiate(weaponBox, transform.position, Quaternion.identity); 
         Destroy(gameObject);
     }
