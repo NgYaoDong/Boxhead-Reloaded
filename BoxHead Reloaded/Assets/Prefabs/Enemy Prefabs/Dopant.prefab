@@ -243,9 +243,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000000
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 1
@@ -394,6 +394,7 @@ MonoBehaviour:
   enemySpawn: {fileID: 8300000, guid: 2b7121015ba5fff4193b85b2bc0bfae1, type: 3}
   enemyHurt: {fileID: 8300000, guid: 832580d150d7baf4aaf65b16989ee05e, type: 3}
   enemyDie: {fileID: 8300000, guid: 9baab32037e7d3848b1b95a033967f59, type: 3}
+  enemyAttack: {fileID: 0}
 --- !u!114 &748159853
 MonoBehaviour:
   m_ObjectHideFlags: 0

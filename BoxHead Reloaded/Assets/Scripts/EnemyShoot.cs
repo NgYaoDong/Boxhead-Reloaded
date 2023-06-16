@@ -27,7 +27,7 @@ public class EnemyShoot : MonoBehaviour
 
     private void Shoot()
     {
-        AudioSource.PlayClipAtPoint(attackClip, aimTransform.position, 0.4f);
+        AudioSource.PlayClipAtPoint(attackClip, aimTransform.position, 0.6f);
         Instantiate(bullet, aimTransform.position, Quaternion.identity);
     }
 }
