@@ -60,7 +60,7 @@ public class EnemyMovement : MonoBehaviour
         health -= damage;
         if (health > 0)
         {
-            AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.4f);
+            AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.2f);
             StartCoroutine(ChangeColor());
         }
         else if (health <= 0f)
@@ -83,7 +83,7 @@ public class EnemyMovement : MonoBehaviour
         colli.enabled = false;
         AIPath ai = GetComponent<AIPath>();
         ai.maxSpeed = 0f;
-        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.4f);
+        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.2f);
         yield return new WaitForSeconds(1f);
         if (dropChance == 2) Instantiate(weaponBox, transform.position, Quaternion.identity); 
         Destroy(gameObject);

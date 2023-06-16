@@ -18,7 +18,7 @@ public class WeaponBox : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 30f);
+        Destroy(gameObject, 60f);
     }
 
     Weapon Reload()
