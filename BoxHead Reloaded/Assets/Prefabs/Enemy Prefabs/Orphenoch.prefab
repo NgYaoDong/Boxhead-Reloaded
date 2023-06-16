@@ -358,3 +358,7 @@ MonoBehaviour:
   weaponBox: {fileID: 6487912473034146891, guid: a20568f1ca20c99419bbdf099884b6e9,
     type: 3}
   blood: {fileID: 1037254665}
+  enemySpawn: {fileID: 8300000, guid: 2b7121015ba5fff4193b85b2bc0bfae1, type: 3}
+  enemyHurt: {fileID: 8300000, guid: 832580d150d7baf4aaf65b16989ee05e, type: 3}
+  enemyDie: {fileID: 8300000, guid: 9baab32037e7d3848b1b95a033967f59, type: 3}
+  enemyAttack: {fileID: 8300000, guid: 49eaa7859e52d9849a18fdc4e5f954ac, type: 3}

@@ -139,5 +139,5 @@ MonoBehaviour:
   bulletDamage: 0
   bulletSpeed: 25
   slow: 1
-  speedNerf: 0.5
+  slowedSpeed: 2.5
   timeTillDestroy: 10

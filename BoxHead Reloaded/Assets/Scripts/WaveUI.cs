@@ -9,6 +9,7 @@ public class WaveUI : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private TextMeshProUGUI waveCountText;
     [SerializeField] private TextMeshProUGUI waveNumberText;
+    [SerializeField] private AudioClip waveClip;
 
     private int currentWave = 1;
     private int total;
@@ -29,6 +30,7 @@ public class WaveUI : MonoBehaviour
     public IEnumerator StartAnimation()
     {
         animator.SetBool("WaveIncoming", true);
+        //AudioSource.PlayClipAtPoint(waveClip, Camera.main.transform.position, 0.15f);
         yield return new WaitForSeconds(5.5f);
         animator.SetBool("WaveIncoming", false);
     }

@@ -6,6 +6,7 @@ public class EnemyShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bullet;
     [SerializeField] private float attackDelay = 2f;
+    [SerializeField] private AudioClip attackClip;
     private Transform aimTransform;
     private float timer;
 
@@ -26,6 +27,7 @@ public class EnemyShoot : MonoBehaviour
 
     private void Shoot()
     {
+        AudioSource.PlayClipAtPoint(attackClip, aimTransform.position, 0.4f);
         Instantiate(bullet, aimTransform.position, Quaternion.identity);
     }
 }

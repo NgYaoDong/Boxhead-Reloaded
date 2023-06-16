@@ -391,6 +391,9 @@ MonoBehaviour:
   weaponBox: {fileID: 6487912473034146891, guid: a20568f1ca20c99419bbdf099884b6e9,
     type: 3}
   blood: {fileID: 1005171346}
+  enemySpawn: {fileID: 8300000, guid: 2b7121015ba5fff4193b85b2bc0bfae1, type: 3}
+  enemyHurt: {fileID: 8300000, guid: 832580d150d7baf4aaf65b16989ee05e, type: 3}
+  enemyDie: {fileID: 8300000, guid: 9baab32037e7d3848b1b95a033967f59, type: 3}
 --- !u!114 &748159853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,3 +408,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1123615921107374684, guid: 4117002994597954a873326124244ec3, type: 3}
   attackDelay: 5
+  attackClip: {fileID: 8300000, guid: 7fe31aeee029ec447bb89743c286417b, type: 3}

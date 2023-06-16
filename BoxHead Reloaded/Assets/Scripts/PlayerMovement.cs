@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private AudioClip spawnClip;
     public float moveSpeed = 5f;
     [SerializeField] private float recoveryTime = 0.5f;
+    [SerializeField] private AudioClip slowClip;
 
     private Rigidbody2D rigidBody;
     [SerializeField] private Animator bottomAnimator;
@@ -21,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
         rend = GetComponent<Renderer>();
+        AudioSource.PlayClipAtPoint(spawnClip, transform.position);
     }
 
     private void Update()
@@ -31,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
             Animate();
         }
     }
+
     private void FixedUpdate()
     {
         rigidBody.MovePosition(rigidBody.position + moveSpeed * Time.fixedDeltaTime * movement.normalized);
@@ -68,5 +72,11 @@ public class PlayerMovement : MonoBehaviour
                 bottomAnimator.GetComponentInParent<Renderer>().material.color = Color.white;
             }
         }
+    }
+
+    public void SlowEffect()
+    {
+        FindObjectOfType<InGame>().Slow();
+        AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.4f);
     }
 }

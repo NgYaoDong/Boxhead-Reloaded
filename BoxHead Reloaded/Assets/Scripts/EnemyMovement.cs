@@ -10,6 +10,10 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float setHealth = 100f;
     [SerializeField] private GameObject weaponBox;
     [SerializeField] private Animator blood;
+    [SerializeField] private AudioClip enemySpawn;
+    [SerializeField] private AudioClip enemyHurt;
+    [SerializeField] private AudioClip enemyDie;
+    [SerializeField] private AudioClip enemyAttack;
 
     private float health;
     private float canAttack;
@@ -26,6 +30,7 @@ public class EnemyMovement : MonoBehaviour
         rend = GetComponent<Renderer>();
         health = setHealth;
         dropChance = Random.Range(0, 5);
+        AudioSource.PlayClipAtPoint(enemySpawn, transform.position);
     }
 
     private void Update()
@@ -53,9 +58,12 @@ public class EnemyMovement : MonoBehaviour
     public void Attacked(float damage)
     {
         health -= damage;
-        StartCoroutine(ChangeColor());
-
-        if (health <= 0f)
+        if (health > 0)
+        {
+            AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.4f);
+            StartCoroutine(ChangeColor());
+        }
+        else if (health <= 0f)
         {
             blood.transform.gameObject.SetActive(false);
             StartCoroutine(Death());
@@ -75,8 +83,9 @@ public class EnemyMovement : MonoBehaviour
         colli.enabled = false;
         AIPath ai = GetComponent<AIPath>();
         ai.maxSpeed = 0f;
+        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.6f);
         yield return new WaitForSeconds(1.017f);
-        if (dropChance == 0) Instantiate(weaponBox, transform.position, Quaternion.identity); 
+        if (dropChance == 2) Instantiate(weaponBox, transform.position, Quaternion.identity); 
         Destroy(gameObject);
     }
 
@@ -87,6 +96,7 @@ public class EnemyMovement : MonoBehaviour
             if (attackDelay <= canAttack)
             {
                 collision.gameObject.GetComponent<PlayerHealth>().Attacked(attackDamage);
+                if (enemyAttack) AudioSource.PlayClipAtPoint(enemyAttack, transform.position, 0.3f);
                 canAttack = 0f;
             }
             else

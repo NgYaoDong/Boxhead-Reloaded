@@ -137,6 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
-  damage: 10
+  damage: 20
   timeTillDestroy: 0.2
   angleRange: 15

@@ -818,6 +818,7 @@ MonoBehaviour:
   animator: {fileID: 864413368}
   waveCountText: {fileID: 4919334883141992653}
   waveNumberText: {fileID: 3557994913887866095}
+  waveClip: {fileID: 8300000, guid: 3d6ab77c42c41334498ada48d79563dc, type: 3}
 --- !u!1 &3557994913887863569
 GameObject:
   m_ObjectHideFlags: 0

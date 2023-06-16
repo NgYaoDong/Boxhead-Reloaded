@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 1566902122}
   - component: {fileID: 1566902124}
   - component: {fileID: 1566902123}
+  - component: {fileID: 3161899626699152619}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -652,6 +653,23 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+--- !u!114 &3161899626699152619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566902121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &2024958434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,8 +1116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21538329172c864bbd9f460957def4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnClip: {fileID: 8300000, guid: 2c1e9997c1069de4a858f8ab42184029, type: 3}
   moveSpeed: 5
   recoveryTime: 0.75
+  slowClip: {fileID: 8300000, guid: 5b9c69a26ccfe414da380f57220c89ae, type: 3}
   bottomAnimator: {fileID: 7762818421482151505}
 --- !u!114 &-4740429307720906862
 MonoBehaviour:
@@ -1117,7 +1137,10 @@ MonoBehaviour:
   healDelay: 5
   healAmount: 10
   healthBar: {fileID: 0}
+  hurtSound: {fileID: 8300000, guid: 1ee126d5f7fd3f94a83c1628b2925721, type: 3}
+  deathSound: {fileID: 8300000, guid: f03423ea7e8b6664b880c0b4802bbd18, type: 3}
   bottom: {fileID: 53495355}
+  vcam: {fileID: 451630839}
 --- !u!114 &-7415947052194396592
 MonoBehaviour:
   m_ObjectHideFlags: 0

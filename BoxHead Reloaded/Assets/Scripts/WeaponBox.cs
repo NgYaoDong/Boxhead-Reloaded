@@ -13,6 +13,7 @@ using UnityEngine;
 
 public class WeaponBox : MonoBehaviour
 {
+    [SerializeField] private AudioClip reloadClip;
     [SerializeField] private Weapon[] weapons;
 
     private void Start()
@@ -43,6 +44,7 @@ public class WeaponBox : MonoBehaviour
         {
             Weapon reloadWeapon = Reload();
             FindObjectOfType<GameManager>().Reloading(reloadWeapon);
+            AudioSource.PlayClipAtPoint(reloadClip, transform.position);
             reloadWeapon.AddAmmo();
             Destroy(gameObject);
         }

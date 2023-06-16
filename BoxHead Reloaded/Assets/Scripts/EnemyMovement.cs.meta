@@ -3,7 +3,10 @@ guid: 8296370a34a6b57418cd3d9164ebc07a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - weaponBox: {instanceID: 0}
+  - blood: {instanceID: 0}
+  - enemySpawn: {fileID: 8300000, guid: 2b7121015ba5fff4193b85b2bc0bfae1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

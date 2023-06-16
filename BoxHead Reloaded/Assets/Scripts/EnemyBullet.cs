@@ -29,7 +29,10 @@ public class EnemyBullet : MonoBehaviour
             if (target.gameObject.CompareTag("Player") && !slow)
                 target.gameObject.GetComponent<PlayerHealth>().Attacked(bulletDamage);
             if (target.gameObject.CompareTag("Player") && slow)
+            {
                 target.gameObject.GetComponent<PlayerMovement>().moveSpeed = slowedSpeed;
+                target.gameObject.GetComponent<PlayerMovement>().SlowEffect();
+            }
             Destroy(gameObject);
         }
     }

@@ -9,6 +9,7 @@ public class InGame : MonoBehaviour
     [SerializeField] private GameObject levelComplete;
     [SerializeField] private GameObject gameOver;
     [SerializeField] private GameObject bloodOverlay;
+    [SerializeField] private GameObject slowOverlay;
     [SerializeField] private TextMeshProUGUI reloadedWeapon;
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
@@ -30,6 +31,11 @@ public class InGame : MonoBehaviour
     public void Blood()
     {
         bloodOverlay.GetComponent<Animator>().SetTrigger("Blood");
+    }
+
+    public void Slow()
+    {
+        slowOverlay.GetComponent<Animator>().SetTrigger("Slow");
     }
 
     public void PauseGame()

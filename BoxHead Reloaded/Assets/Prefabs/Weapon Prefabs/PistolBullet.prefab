@@ -116,4 +116,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 50
   explosion: {fileID: 0}
-  damage: 10
+  damage: 15

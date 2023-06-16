@@ -3,7 +3,11 @@ guid: cd803a42b128a45a6b1aced0de155434
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - waveCountText: {instanceID: 0}
+  - waveNumberText: {instanceID: 0}
+  - waveClip: {fileID: 8300000, guid: b89190f08fb448343a94bd71f22698e3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
