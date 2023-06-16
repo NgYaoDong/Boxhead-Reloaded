@@ -13,6 +13,7 @@ public class WaveUI : MonoBehaviour
 
     private int currentWave = 1;
     private int total;
+    private bool playing = false;
 
     public void SetCount(int totalWaves)
     {
@@ -30,8 +31,12 @@ public class WaveUI : MonoBehaviour
     public IEnumerator StartAnimation()
     {
         animator.SetBool("WaveIncoming", true);
-        //AudioSource.PlayClipAtPoint(waveClip, Camera.main.transform.position, 0.15f);
+        if (!playing) {
+            playing = true;
+            AudioSource.PlayClipAtPoint(waveClip, Camera.main.transform.position, 0.05f);
+        }
         yield return new WaitForSeconds(5.5f);
+        playing = false;
         animator.SetBool("WaveIncoming", false);
     }
 }

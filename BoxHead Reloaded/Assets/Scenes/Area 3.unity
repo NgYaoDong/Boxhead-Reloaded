@@ -960,34 +960,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - arkzom: 20
-    skeleboar: 5
+  - arkzom: 30
+    skeleboar: 9
     dopant: 2
-    orphenoch: 1
+    orphenoch: 5
     spawnInterval: 0.6
     waveInterval: 50
-  - arkzom: 20
-    skeleboar: 7
+  - arkzom: 30
+    skeleboar: 12
     dopant: 2
-    orphenoch: 3
+    orphenoch: 7
     spawnInterval: 0.55
     waveInterval: 50
-  - arkzom: 25
-    skeleboar: 7
+  - arkzom: 35
+    skeleboar: 12
     dopant: 3
-    orphenoch: 3
+    orphenoch: 7
     spawnInterval: 0.5
     waveInterval: 50
-  - arkzom: 30
-    skeleboar: 9
+  - arkzom: 35
+    skeleboar: 15
     dopant: 3
-    orphenoch: 3
+    orphenoch: 10
     spawnInterval: 0.45
     waveInterval: 50
-  - arkzom: 30
-    skeleboar: 9
+  - arkzom: 40
+    skeleboar: 15
     dopant: 4
-    orphenoch: 4
+    orphenoch: 10
     spawnInterval: 0.4
     waveInterval: 50
   spawnPoints:

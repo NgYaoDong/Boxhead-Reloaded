@@ -1037,29 +1037,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - arkzom: 5
-    skeleboar: 0
-    dopant: 0
-    orphenoch: 0
-    spawnInterval: 1
-    waveInterval: 30
   - arkzom: 10
     skeleboar: 1
     dopant: 0
     orphenoch: 0
-    spawnInterval: 0.9
-    waveInterval: 30
-  - arkzom: 12
-    skeleboar: 2
-    dopant: 0
-    orphenoch: 0
-    spawnInterval: 0.65
+    spawnInterval: 0.75
     waveInterval: 30
   - arkzom: 15
     skeleboar: 3
     dopant: 0
     orphenoch: 0
-    spawnInterval: 0.6
+    spawnInterval: 0.7
+    waveInterval: 30
+  - arkzom: 20
+    skeleboar: 5
+    dopant: 0
+    orphenoch: 0
+    spawnInterval: 0.65
     waveInterval: 30
   spawnPoints:
   - {fileID: 73621825}

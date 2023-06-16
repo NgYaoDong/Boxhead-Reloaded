@@ -778,7 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAMA7IeyHNhJifAIAADAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenWsPGGxDby1xnB6SeOJ2cuEiw2I0FhIjidhOxv+9KwGGuifEe/vx9mnhizCha8iMVBvF8meZA/k+IfZMvk0G8gnO9CDFjn1CH/POclPaIOpi3qhhEnHfpmlZgVEs+yEO3AZ7CDaCFVJV6/wAidRGI1xQrgEpJY3NFgh9TcgZH9PYplzwNF/Z0yeeYm9yxWMGwoAaQuezOAr9eLlcdhlTbxaFkRctg8WqS52Gs5UfenGwnnqRq9KIjNOqhtyONBQL+rbB3IUJHLaLsINlknOmO6XEXGrnREJr3eCcGJAzipM7eXN8LYEdStO93JJfi0KD6WxR9PLAFBrYViU/ZetqRfWx1fVBeWP7tMLbks//sVPf0YWS1VPf1fdsB1Oy7PhGLxnVZmT6GH4YZPvOnBPlR7rn8F6CeJEbJRuRI2lUY1MbDfOH4fU2WFJCdhzwVuod2NSD273Z/Q3bGa5u9nPCWbW31CxsgR2Xzm23GKDwXn6hYLc2uiuBqFXxR8NvehjvV0c8MqUNUt2Uwsrby0bZULJ2ntlpGpNIJcDBnegaBOXmssUy5v4C77hR2zvmkdovqWvecf0Hcpfi4CHe8+6orTzdLkuX8vQMunxtDGcCBtGWeEGfEilEu19jT/q0XaMKmo3SDg3L/10tsqT+PoBlHC7m4Wq1CKZRFBdeFMZhuCiCIJwTt3tM4JyUb1uhnT14a2IoLnDP+h/MZKNo7XY9V/S0YZ+VHFnORCF3mQIQr22Fm3BQ2AS/yXydMzRoB8Yw4e6bfKWEy+wIeXorlLpJ12ejaDpUSUnNPqSxSEoS90dJiYVvu7xV8MHgZJv3xa7k+hdQSwMEFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZomGScaqZpYmpkYm5uamxroWFZZqBhYmliYlpmrGxiZFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAwDsh7Ic2EmJ8AgAAMAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAwDsh7HtWDwltAAAAeAAAAAkAJAAAAAAAAAAAAAAAyQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACBAwAAAAA=
+    dataString: UEsDBBQAAAgIAMA7IewvBuL3fQIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxsQG7t9YhpIckTGgnF1+EvcYaZMkjyQGS4b93JdvYpSfEe/vx9mnlL8KEriEzUm0Uy59lDuT7hNgz+TYZyCc404MUO/YJfcw7y01pg6iLeaOGScR9m6ZlBUax7Ic4cBvsIdgIVkhVrfMDJFIbjXBBuQaklDQ2WyD0NSFn/JnGNuWCp/nKnj7xFHuTKx4zEAbUEDqfxVHox8vlssuYerMojLxoGSxWXeo0nK380IuD9dSLXJVGZJxWNeR2pKFY0LcN5i5M4LBdhB0sk5wz3Skl5lI7JxJa6wbnxICcUZzcyfNnIQIlsENprMxx+mtRaDCdMYpeHphCC9u65Kdsfa2oPrbKPihvbKdWelvy+T926ju6ULJ66rv6nu1gSpYd3+glo9qMbB/DDyPhzp4T5Ue65/BegniRGyUbkSNpVGNTGw3zh+HvbbCkhOw44K3UO7CpB797u/s7tjNc3eznhLNqbynnIwI7Lp3fbjVA4c38QsFucXRXAlGr4o+G3/Qw3rCOeGRKG6S6KYWVt5eNsqFk7Tyz0zQmkUqAgzvRNQjKzWWLZcz9Bd5xo7Z3zCO1b6lr3nH9E7lLcfAQ73l31FaebpelS3l6Bl2+NoYzAYNoS7ygT4kUot2vsSd92q5RBc1GaYeG5f+uFllSfx/AMg4X83C1WgTTKIoLLwrjMFwUQRDOids9JnBOyret0M4evDUxFBe4Z/0nZrJRtHa7nit62rDPSo4sZ6KQu0wBiNe2wk04KGyCrzJf5wwN2oExTLj7Jl8p4TI7Qp7eCqVu0vXZKJoOVVJSsw9pLJKSxH1TUmLh2y5vFXwwONnmfbEruf4FUEsDBBQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSWaJhknGqmaWJqZGJubmpsa6FhWWagYWJpYmJaZqxsYmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAMA7IewvBuL3fQIAADIFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAAAAAAAAAAAAAAMoCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAggMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -933,34 +933,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - arkzom: 25
-    skeleboar: 5
-    dopant: 2
-    orphenoch: 2
+  - arkzom: 40
+    skeleboar: 12
+    dopant: 5
+    orphenoch: 10
     spawnInterval: 0.4
     waveInterval: 60
-  - arkzom: 30
-    skeleboar: 7
-    dopant: 2
-    orphenoch: 4
+  - arkzom: 40
+    skeleboar: 15
+    dopant: 7
+    orphenoch: 12
     spawnInterval: 0.35
     waveInterval: 60
-  - arkzom: 30
-    skeleboar: 7
-    dopant: 3
-    orphenoch: 6
+  - arkzom: 45
+    skeleboar: 15
+    dopant: 7
+    orphenoch: 14
     spawnInterval: 0.3
     waveInterval: 60
-  - arkzom: 35
-    skeleboar: 9
-    dopant: 4
-    orphenoch: 7
+  - arkzom: 45
+    skeleboar: 17
+    dopant: 9
+    orphenoch: 16
     spawnInterval: 0.25
     waveInterval: 60
-  - arkzom: 35
-    skeleboar: 9
-    dopant: 4
-    orphenoch: 7
+  - arkzom: 50
+    skeleboar: 20
+    dopant: 10
+    orphenoch: 20
     spawnInterval: 0.2
     waveInterval: 60
   spawnPoints:

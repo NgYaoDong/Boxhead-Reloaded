@@ -1154,25 +1154,25 @@ MonoBehaviour:
   waves:
   - arkzom: 15
     skeleboar: 3
-    dopant: 1
+    dopant: 3
     orphenoch: 0
     spawnInterval: 0.75
     waveInterval: 40
   - arkzom: 20
     skeleboar: 5
-    dopant: 1
+    dopant: 3
     orphenoch: 0
     spawnInterval: 0.7
     waveInterval: 40
   - arkzom: 25
     skeleboar: 5
-    dopant: 2
+    dopant: 5
     orphenoch: 0
     spawnInterval: 0.65
     waveInterval: 40
   - arkzom: 25
     skeleboar: 7
-    dopant: 3
+    dopant: 5
     orphenoch: 0
     spawnInterval: 0.6
     waveInterval: 40
