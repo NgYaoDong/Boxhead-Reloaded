@@ -997,7 +997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAMA7IeyQ5q4OdAIAACwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoUxYD7cW0sI6SEJE9rJxRdhr7EGWfJIcoBk+O/dlW3s0hPivf14+7TyFxPKlpA4bTZGpM86BfZ9wOjMvg068gnO/KDVTnxCG/MuUpdTEPcxb9wJjfiY0qwuwBmR/FAHScEBgpUSmTbFOj3ASltnEc64tICU0Y6yFUJfA3bGn2FEKRc8TRZ0+sRTFAyueExAOTBd6GQ8Wk6CWdTED+ejGeYE8yZruBiFyIaL9TBY+gKVSiQvSkhpmq7O7NYx8mEK52wiaKZESylsI5K5S+lN2JU5GCAXUsFxZi8MBSGQgzjkjur1s1+zzIJrLDH88iAMmleXZT917WjB7bEW9sFlRY1q5XXJ5//Y4djTmdHFU9t1HFAHl4vk+MYvCbeuZ3gffugJ9+6cuDzyvYT3HNSL3hhdqRRJZypKrSxMHrq/t8FWOSTHDq+l3oFV2dndut3eLs1w9bOfV1IUe6JGYQ3spPZ2+6UAgxfzCwX7lbFNCURJxR8Lv/mhv1sN8SiMdUg1UyqSt9eVoVC29p7RNJVbaaPAw43oEhSX7rLFMu7+Au+4Xts75pHTK2qaN1z7OO5SPNzFB8EdtdWn22XZXJ+eweavlZNCQSeaiBf0aaWVqver70mbtqtMxpNe2qES6b+rxeZ8vJ/CPApnk3CxmE2Hy2WUBcswCsNZNp2GE+Z3Tyick8ttLbSxB29NdcUV7ln7cRlsDC/9rqeGnzbis9A9y4XK9C4xAOq1rnATDgab4KNM16lAg3bgnFD+vtlXzKROjpDGt0Kxn3R9dobHXZWYleJDO0JitvJfk5gRfNvlrYEPASdq3ha7sutfUEsDBBQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSWaJhknGqmaWJqZGJubmpsa6FhWWagYWJpYmJaZqxsYmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAMA7IeyQ5q4OdAIAACwFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAMA7Iex7Vg8JbQAAAHgAAAAJACQAAAAAAAAAAAAAAMECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAeQMAAAAA
+    dataString: UEsDBBQAAAgIAMA7IezlEVdzdQIAACwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoUxYD7cW0sI6SEJE9rJxRdhr7EGWfJIcoBk+O/dlW3s0hPivf14+7TyFxPKlpA4bTZGpM86BfZ9wOjMvg068gnO/KDVTnxCG/MuUpdTEPcxb9wJjfiY0qwuwBmR/FAHScEBgpUSmTbFOj3ASltnEc64tICU0Y6yFUJfA3bGn2FEKRc8TRZ0+sRTFAyueExAOTBd6GQ8Wk6CWdTED+ejGeYE8yZruBiFyIaL9TBY+gKVSiQvSkhpmq7O7NYx8mEK52wiaKZESylsI5K5S+lN2JU5GCAXUsFxZi9sPKLmOYhD7qheP/s1yyy4xhLDLw/CoHl1WfZT144W3B5rYR9cVtSoVl6XfP6PHY49nRldPLVdxwF1cLlIjm/8knDreob34YeecO/Oicsj30t4z0G96I3RlUqRdKai1MrC5KH7extslUNy7PBa6h1YlZ3drdvt7dIMVz/7eSVFsSdqFNbATmpvt18KMHgxv1CwXxnblECUVPyx8Jsf+rvVEI/CWIdUM6UieXtdGQpla+8ZTVO5lTYKPNyILkFx6S5bLOPuL/CO67W9Yx45vaKmecO1j+MuxcNdfBDcUVt9ul2WzfXpGWz+WjkpFHSiiXhBn1ZaqXq/+p60abvKZDzppR0qkf67WmzOx/spzKNwNgkXi9l0uFxGWbAMozCcZdNpOGF+94TCObnc1kIbe/DWVFdc4Z61H5fBxvDS73pq+GkjPgvds1yoTO8SA6Be6wo34WCwCT7KdJ0KNGgHzgnl75t9xUzq5AhpfCsU+0nXZ2d43FWJWSk+tCMkZiv/NYkZwbdd3hr4EHCi5m2xK7v+BVBLAwQUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0klmiYZJxqpmliamRibm5qbGuhYVlmoGFiaWJiWmasbGJkVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICADAOyHs5RFXc3UCAAAsBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAAAAAAAAAAAAAADCAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHoDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -1152,35 +1152,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - arkzom: 20
-    skeleboar: 5
+  - arkzom: 15
+    skeleboar: 3
     dopant: 1
     orphenoch: 0
     spawnInterval: 0.75
     waveInterval: 40
-  - arkzom: 25
+  - arkzom: 20
     skeleboar: 5
     dopant: 1
     orphenoch: 0
     spawnInterval: 0.7
     waveInterval: 40
   - arkzom: 25
-    skeleboar: 7
+    skeleboar: 5
     dopant: 2
     orphenoch: 0
     spawnInterval: 0.65
     waveInterval: 40
-  - arkzom: 30
-    skeleboar: 9
-    dopant: 2
-    orphenoch: 0
-    spawnInterval: 0.6
-    waveInterval: 40
-  - arkzom: 40
-    skeleboar: 9
+  - arkzom: 25
+    skeleboar: 7
     dopant: 3
     orphenoch: 0
-    spawnInterval: 0.5
+    spawnInterval: 0.6
     waveInterval: 40
   spawnPoints:
   - {fileID: 73621825}
