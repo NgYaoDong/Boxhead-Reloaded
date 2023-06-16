@@ -140,4 +140,4 @@ MonoBehaviour:
   bulletSpeed: 7
   slow: 0
   slowedSpeed: 5
-  timeTillDestroy: 15
+  timeTillDestroy: 1.5

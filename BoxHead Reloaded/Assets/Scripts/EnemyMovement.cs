@@ -30,7 +30,7 @@ public class EnemyMovement : MonoBehaviour
         rend = GetComponent<Renderer>();
         health = setHealth;
         dropChance = Random.Range(0, 5);
-        AudioSource.PlayClipAtPoint(enemySpawn, transform.position);
+        AudioSource.PlayClipAtPoint(enemySpawn, transform.position, 0.2f);
     }
 
     private void Update()
