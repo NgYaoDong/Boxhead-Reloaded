@@ -31,11 +31,13 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
+        waveUI.transform.Find("WaveCompleted").gameObject.SetActive(false);
         waveUI.SetCount(waves.Length);
         currentWaveNumber = 0;
         canSpawn = true;
         waitFinish = false;
         startWave = false;
+        waveUI.transform.Find("WaveReady").gameObject.SetActive(true);
         trigger.finish = false;
         trigger.TurnOn();
     }
@@ -65,6 +67,7 @@ public class EnemySpawner : MonoBehaviour
                 } else {
                     trigger.finish = true;
                     trigger.TurnOn();
+                    waveUI.transform.Find("WaveCompleted").gameObject.SetActive(true);
                 }
             }
     }
@@ -130,6 +133,7 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator StartWave() 
     {
         trigger.Switch();
+        waveUI.transform.Find("WaveReady").gameObject.SetActive(false);
         StartCoroutine(waveUI.StartAnimation());
         trigger.TurnOff();
         yield return new WaitForSeconds(3);

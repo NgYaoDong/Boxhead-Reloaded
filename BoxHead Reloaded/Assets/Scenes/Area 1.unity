@@ -198,6 +198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2121232623890852854, guid: fd361a29d807b0f4f813034500c77437,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2906281107207517305, guid: fd361a29d807b0f4f813034500c77437,
         type: 3}
       propertyPath: m_Pivot.x
@@ -307,6 +312,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InGameScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3557994912364464712, guid: fd361a29d807b0f4f813034500c77437,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3557994914141767169, guid: fd361a29d807b0f4f813034500c77437,
+        type: 3}
+      propertyPath: waveAreaText
+      value: 
+      objectReference: {fileID: 1424011846}
+    - target: {fileID: 7720744767044836699, guid: fd361a29d807b0f4f813034500c77437,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd361a29d807b0f4f813034500c77437, type: 3}
@@ -1235,6 +1255,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1419513727}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1424011846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3113414911259065060, guid: fd361a29d807b0f4f813034500c77437,
+    type: 3}
+  m_PrefabInstance: {fileID: 309642326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1774534768
 GameObject:
   m_ObjectHideFlags: 0

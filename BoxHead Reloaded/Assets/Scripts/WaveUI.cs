@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class WaveUI : MonoBehaviour
@@ -9,6 +10,7 @@ public class WaveUI : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private TextMeshProUGUI waveCountText;
     [SerializeField] private TextMeshProUGUI waveNumberText;
+    [SerializeField] private TextMeshProUGUI waveAreaText;
     [SerializeField] private AudioClip waveClip;
 
     private int currentWave = 1;
@@ -17,9 +19,16 @@ public class WaveUI : MonoBehaviour
 
     public void SetCount(int totalWaves)
     {
+        SetArea();
         total = totalWaves;
         waveNumberText.text = currentWave.ToString();
         waveCountText.text = currentWave.ToString() + "/" + total.ToString();
+        
+    }
+
+    public void SetArea()
+    {
+        waveAreaText.text = SceneManager.GetActiveScene().name;
     }
 
     public void UpdateWaveCount()
