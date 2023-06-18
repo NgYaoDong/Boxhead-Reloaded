@@ -5,10 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class Wave
 {
-    public int arkzom;
-    public int skeleboar;
-    public int dopant;
-    public int orphenoch;
+    public double arkzom;
+    public double skeleboar;
+    public double dopant;
+    public double orphenoch;
     public float spawnInterval;
     public float waveInterval;
 }
@@ -29,6 +29,10 @@ public class EnemySpawner : MonoBehaviour
     private bool canSpawn = true;
     private bool waitFinish = false;
     private bool startWave = false;
+    private bool waveCreated = false;
+    private double scale1 = 1.5;
+    private double scale2 = 1.4;
+    private double scale3 = 1.3;
 
     private void Start()
     {
@@ -92,34 +96,45 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnWave()
     {
         if (canSpawn && nextSpawnTime < Time.time && currentWaveNumber < waves.Length) {
-            if (infinite && currentWaveNumber != waves.Length) {
+            if (infinite && currentWaveNumber != waves.Length && !waveCreated) {
                 Wave waveRec = new Wave();
-                waveRec.arkzom = 2;
-                waveRec.skeleboar = 2;
-                waveRec.dopant = 2;
-                waveRec.orphenoch = 2;
-                waveRec.spawnInterval = 0.5f;
-                waveRec.waveInterval = 60f;
+                waveRec.arkzom = currentWave.arkzom * scale3;
+                waveRec.skeleboar = currentWave.skeleboar * scale2;
+                waveRec.dopant = currentWaveNumber > 1 ? currentWave.dopant * scale2 : 0.9;
+                waveRec.orphenoch = currentWaveNumber > 3 ? currentWave.orphenoch * scale1 : 0.9;
+                waveRec.spawnInterval = 0.75f;
+                waveRec.waveInterval = 120f;
                 waves[currentWaveNumber + 1] = waveRec;
+                waveCreated = true;
+                if (waveRec.arkzom > 50) scale3 = 1.2;
+                if (waveRec.arkzom > 100) scale3 = 1.1;
+                if (waveRec.arkzom > 300) scale3 = 1.05;
+                if (waveRec.skeleboar > 30) scale2 = 1.2;
+                if (waveRec.skeleboar > 75) scale2 = 1.1;
+                if (waveRec.skeleboar > 150) scale2 = 1.05;
+                if (waveRec.orphenoch > 30) scale1 = 1.3;
+                if (waveRec.orphenoch > 75) scale1 = 1.1;
+                if (waveRec.orphenoch > 150) scale1 = 1.05;
             }
 
             GameObject enemy = null;
 
-            if (currentWave.arkzom > 0) {
+            if (currentWave.arkzom >= 1) {
                 enemy = enemies[0];
                 currentWave.arkzom--;
-            } else if (currentWave.skeleboar > 0) {
+            } else if (currentWave.skeleboar >= 1) {
                 enemy = enemies[1];
                 currentWave.skeleboar--;
-            } else if (currentWave.dopant > 0) {
+            } else if (currentWave.dopant >= 1) {
                 enemy = enemies[2];
                 currentWave.dopant--;
-            } else if (currentWave.orphenoch > 0) {
+            } else if (currentWave.orphenoch >= 1) {
                 enemy = enemies[3];
                 currentWave.orphenoch--;
             } else {
                 canSpawn = false;
                 waitFinish = false;
+                waveCreated = false;
                 if (currentWaveNumber + 1 < waves.Length) coroutine = StartCoroutine(Wait());
                 return;
             }

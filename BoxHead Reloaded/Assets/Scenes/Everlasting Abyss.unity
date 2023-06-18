@@ -1041,12 +1041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - arkzom: 1
+  - arkzom: 3
     skeleboar: 1
-    dopant: 1
-    orphenoch: 1
-    spawnInterval: 0.5
-    waveInterval: 60
+    dopant: 0
+    orphenoch: 0
+    spawnInterval: 0.75
+    waveInterval: 120
   spawnPoints:
   - {fileID: 73621825}
   - {fileID: 1854169821}
