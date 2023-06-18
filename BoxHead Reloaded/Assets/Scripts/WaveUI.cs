@@ -22,8 +22,11 @@ public class WaveUI : MonoBehaviour
         SetArea();
         total = totalWaves;
         waveNumberText.text = currentWave.ToString();
-        waveCountText.text = currentWave.ToString() + "/" + total.ToString();
-        
+        if (total == 99) {
+            waveCountText.text = currentWave.ToString() + "/" + "\u221E";
+        } else {
+            waveCountText.text = currentWave.ToString() + "/" + total.ToString();
+        }
     }
 
     public void SetArea()

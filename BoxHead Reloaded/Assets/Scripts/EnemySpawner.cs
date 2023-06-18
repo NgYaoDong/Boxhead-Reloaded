@@ -20,7 +20,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private WaveUI waveUI;
     [SerializeField] private GameObject[] enemies;
     [SerializeField] private PropsAltar trigger;
-    
+    [SerializeField] private bool infinite;
+
     private Wave currentWave;
     private Coroutine coroutine;
     private int currentWaveNumber;
@@ -32,7 +33,14 @@ public class EnemySpawner : MonoBehaviour
     private void Start()
     {
         waveUI.transform.Find("WaveCompleted").gameObject.SetActive(false);
-        waveUI.SetCount(waves.Length);
+        if (infinite) {
+            waveUI.SetCount(99);
+            Wave temp = waves[0];
+            waves = new Wave[99];
+            waves[0] = temp;
+        } else {
+            waveUI.SetCount(waves.Length);
+        }
         currentWaveNumber = 0;
         canSpawn = true;
         waitFinish = false;
@@ -84,6 +92,17 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnWave()
     {
         if (canSpawn && nextSpawnTime < Time.time && currentWaveNumber < waves.Length) {
+            if (infinite && currentWaveNumber != waves.Length) {
+                Wave waveRec = new Wave();
+                waveRec.arkzom = 2;
+                waveRec.skeleboar = 2;
+                waveRec.dopant = 2;
+                waveRec.orphenoch = 2;
+                waveRec.spawnInterval = 0.5f;
+                waveRec.waveInterval = 60f;
+                waves[currentWaveNumber + 1] = waveRec;
+            }
+
             GameObject enemy = null;
 
             if (currentWave.arkzom > 0) {
