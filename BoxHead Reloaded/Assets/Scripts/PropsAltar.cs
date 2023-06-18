@@ -19,7 +19,7 @@ public class PropsAltar : MonoBehaviour
         targetColor = new Color(1, 1, 1, 1);
 
         if (other.CompareTag("Player") && finish) {
-            if (SceneManager.GetActiveScene().name != "Area 4") {
+            if (SceneManager.GetActiveScene().name != "Cursed Catacombs") {
                 StartCoroutine(NextLvl());
             } else {
                 end = true;

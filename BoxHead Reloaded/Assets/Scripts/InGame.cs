@@ -64,8 +64,8 @@ public class InGame : MonoBehaviour
     public void Retry()
     {
         GunsOff();
-        if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene("Area 1", LoadSceneMode.Single);
-        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+        if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene("Fresh Beginnings", LoadSceneMode.Single);
+        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("Everlasting Abyss", LoadSceneMode.Single);
     }
 
     public void MainMenu()
@@ -74,12 +74,6 @@ public class InGame : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
         if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Play();
-    }
-
-    public void QuitGame()
-    {
-        GunsOff();
-        Application.Quit();
     }
 
     private void GunsOff()

@@ -12,18 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterSelection.unity
     guid: ef7b085384608d44a9f20400af77eee8
   - enabled: 1
-    path: Assets/Scenes/Area 1.unity
+    path: Assets/Scenes/Fresh Beginnings.unity
     guid: e562fb4d94baa4a70a262643d008875f
   - enabled: 1
-    path: Assets/Scenes/Area 2.unity
+    path: Assets/Scenes/Fate's Nexus.unity
     guid: 9bab59bf0b136436382dde1be9176ef6
   - enabled: 1
-    path: Assets/Scenes/Area 3.unity
+    path: Assets/Scenes/Galactic Enigma.unity
     guid: 13549adc3726047ffabe7c73059921c2
   - enabled: 1
-    path: Assets/Scenes/Area 4.unity
+    path: Assets/Scenes/Cursed Catacombs.unity
     guid: fbe97cc854cc44dfaacc0e6d5f44c7e1
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Everlasting Abyss.unity
+    guid: d099b301a2a154bc0b133070eed7bf74
   m_configObjects: {}

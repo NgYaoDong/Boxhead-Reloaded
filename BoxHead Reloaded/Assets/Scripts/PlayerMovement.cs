@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
     private CinemachineConfiner2D confiner;
     private Renderer rend;
 
+    private GameObject checkpoint;
+    private Transform arrow;
+
     private void Start()
     {
         confiner = GetComponentInChildren<CinemachineConfiner2D>();
@@ -24,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
         rigidBody = GetComponent<Rigidbody2D>();
         rend = GetComponent<Renderer>();
         AudioSource.PlayClipAtPoint(spawnClip, transform.position);
+        checkpoint = GameObject.Find("Checkpoint");
+        arrow = transform.Find("Arrow");
     }
 
     private void Update()
@@ -32,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Recovery();
             Animate();
+            Arrow();
         }
     }
 
@@ -78,5 +84,17 @@ public class PlayerMovement : MonoBehaviour
     {
         FindObjectOfType<InGame>().Slow();
         AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.4f);
+    }
+
+    private void Arrow()
+    {
+        Vector2 dir = checkpoint.transform.position - arrow.position;
+        if (checkpoint.activeSelf && dir.sqrMagnitude > 20f)
+        {
+            arrow.gameObject.SetActive(true);
+            float angle = Mathf.Atan2(dir.y + 1.2f, dir.x) * Mathf.Rad2Deg;
+            arrow.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
+        else arrow.gameObject.SetActive(false);
     }
 }

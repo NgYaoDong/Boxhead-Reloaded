@@ -388,7 +388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Area 1 clear
+  m_text: 'Area cleared
 
 '
   m_isRightToLeft: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -474,7 +474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &450843350602594573
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1089,10 +1089,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1882, y: 1020}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &864413368
 Animator:
@@ -1130,6 +1130,7 @@ MonoBehaviour:
   animator: {fileID: 864413368}
   waveCountText: {fileID: 4919334883141992653}
   waveNumberText: {fileID: 3557994913887866095}
+  waveAreaText: {fileID: 1897594170182523484}
   waveClip: {fileID: 8300000, guid: 3d6ab77c42c41334498ada48d79563dc, type: 3}
 --- !u!1 &3557994913887863569
 GameObject:
@@ -1566,7 +1567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7826995676839689299
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1909,7 +1910,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 38, y: 108}
-  m_SizeDelta: {x: 100.63, y: 77.9361}
+  m_SizeDelta: {x: 500, y: 77.9361}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8700694703610047879
 CanvasRenderer:
@@ -1972,7 +1973,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

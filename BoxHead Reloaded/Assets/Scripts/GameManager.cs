@@ -23,7 +23,12 @@ public class GameManager : MonoBehaviour
             if (weapon.isActive) weapon.AddAmmo();
             else weapon.currAmmo = 0;
         }
-        if (PlayerPrefs.GetInt("Mode") == 1) foreach (Weapon weapon in weapons) weapon.isActive = true;
+        if (PlayerPrefs.GetInt("Mode") == 1)
+            foreach (Weapon weapon in weapons)
+            {
+                weapon.isActive = true;
+                weapon.maxAmmo *= 2;
+            }
         else CheckActive();
     }
 

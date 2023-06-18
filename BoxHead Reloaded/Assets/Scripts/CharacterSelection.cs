@@ -37,6 +37,6 @@ public class CharacterSelection : MonoBehaviour
             else weapon.isActive = false;
         }
         if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
-        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("Everlasting Abyss", LoadSceneMode.Single);
     }
 }
