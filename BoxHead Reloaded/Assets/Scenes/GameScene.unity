@@ -14272,20 +14272,8 @@ MonoBehaviour:
     skeleboar: 1
     dopant: 1
     orphenoch: 1
-    spawnInterval: 1
-    waveInterval: 30
-  - arkzom: 2
-    skeleboar: 2
-    dopant: 2
-    orphenoch: 2
-    spawnInterval: 1
-    waveInterval: 30
-  - arkzom: 3
-    skeleboar: 3
-    dopant: 3
-    orphenoch: 3
-    spawnInterval: 1
-    waveInterval: 30
+    spawnInterval: 0.5
+    waveInterval: 60
   spawnPoints:
   - {fileID: 73621825}
   - {fileID: 1854169821}
@@ -14298,6 +14286,7 @@ MonoBehaviour:
   - {fileID: 8377160740320051863, guid: e9758897b8267bc40b1e9545152b22f4, type: 3}
   - {fileID: 820336299427592225, guid: 37638d7c8706e1b4eb4c55268bae2811, type: 3}
   trigger: {fileID: 309397998}
+  infinite: 1
 --- !u!1001 &1139734704
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73621824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 6.81, z: 0}
+  m_LocalPosition: {x: -0.93, y: 9.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156142919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.41, y: -4.4, z: 0}
+  m_LocalPosition: {x: -9.2, y: -2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -208,11 +208,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2121232623890852854, guid: fd361a29d807b0f4f813034500c77437,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2906281107207517305, guid: fd361a29d807b0f4f813034500c77437,
         type: 3}
       propertyPath: m_Pivot.x
@@ -322,21 +317,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InGameScreen
-      objectReference: {fileID: 0}
-    - target: {fileID: 3557994912364464712, guid: fd361a29d807b0f4f813034500c77437,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3557994914141767169, guid: fd361a29d807b0f4f813034500c77437,
-        type: 3}
-      propertyPath: waveAreaText
-      value: 
-      objectReference: {fileID: 1424011846}
-    - target: {fileID: 7720744767044836699, guid: fd361a29d807b0f4f813034500c77437,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd361a29d807b0f4f813034500c77437, type: 3}
@@ -731,7 +711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861678408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13999987, z: 0}
+  m_LocalPosition: {x: 0.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -752,7 +732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAMA7IeySotUXcgIAACUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjG/PVW2sI6SEJE9rJxRdhr7EGWfJIcoBk+O9dyTJ26SnK2327b9+u+SJM6BoyI9VGsfxZ5kC+j4h9k2+jPvgEZ3qQYsc+oct5Z7kpbRJ1OW/UMIl4aGlaVmAUy36IA7fJAYKNYIVU1To/QCK10QgXlGvAkJLGsgVCXyNyxj/jpaVc8BXN7esTX8tgdMVnBsKA6lODhyhazibzMJ55yjh4mM6jIAxCz2yJjcg4rWrI7RQ9fzLtOrVpAufzGZafSc6Z9uKIudRu+ITWusHRMCFnFId1isKHBQIlsENpbMEh/bUoNBjvhaKXFVPoWluX/JStlRXVx1bZB+WN7bRwmtqSz/9Fx6ELF0pWT13XMLAdTMmy4xu9ZFSbgdNDeDUQ7uw5UX6kew7vJYgXuVGyETkGjWostdEQrfp/b4MlJWTHHm+l3oFNPdiXt7tbq53h6mY/J5xVe7fSuAV2XDq/3TWAws38QsHuVrQvgahV8UfDb3oYHpUPPDKlDYb8lMLK28tG2VSydp7ZaRqTSCXAwV50DYJyc9liGXO/wLvYoO1d5JHaz8c397Huq7ijOLjPD4K70FaebsvSpTw9gy5fG8OZgF60DbygT4kUor2voScdbdeogmYD2qFh+b+nRWY03E9gtoynUTyfTyfjxWJZBIt4GcfTYjKJI+Jujwmck/JtK9Tbg1sTfXGBd9b9qow2itbu1nNFTxv2WcmB5UwUcpcpAPHaVrgJB4VN8KvM1zlDg3ZgDBNu3+QrJVxmR8jTW6HUTbo+G0XTvkpKavYhjUVSkrifkZRY+HbLWwUfDE62eVfsSq5/AVBLAwQUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0klmiYZJxqpmliamRibm5qbGuhYVlmoGFiaWJiWmasbGJkVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICADAOyHskqLVF3ICAAAlBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAAAAAAAAAAAAAAC/AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHcDAAAAAA==
+    dataString: UEsDBBQAAAgIAMA7Iez/lc2xaQIAAB0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMmS2jAQ/RVK5zBljNlySzwMk8MM1JDUXHwRdhurkCWXlmEr/j0t2cYOOSHe6+X1U8tXwoSuIDVSrRTL3mQG5PuAuDP5NujIVzjRvRRbdoE25pNlpnBB1Md8UMMk4iOXpmUJRrH0h9hzFxwgaAXLpSqX2R5iqY1GOKdcA1JKGpctELoOyAl/hguXcsZTOHOnC54WweCGxxSEAdULDZ6iURhNw/EkanOajDrBipTTsoLMqe/yxtM2OvRhAudqItwMqeSc6UYUMefKDx3TSlscCQMyRnFIr2T0NEegALYvTNP+nr7Ocw2m8UDR8zNT6FZdl/yUtYUl1Yda2Rfl1nWae011ybf/2OHI07mS5WvbdRS4DqZg6eGDnlOqTc/hPvzcE+7tOVJ+oDsOnwWId7lS0ooMSaOsS7Uawufu732wuID00OG11AfQVp3f7YW21+lmuPnZTzFn5c5RT1ENbLn0fvstAIU38wsF+x3RTQlEnYo/Gn7TfX+ZGuKFKW2QaqYUTt5OWuVCydJ75qaxJpZKgIcb0RUIys15g2XM4wU+cL22D8wLdc+mad5w7Wt4SPFwFx8ED9RGHu+XpQt5fANdrK3hTEAn2hHv6FMshaj3q+9Jm7a1KqdpL21vWfbvapEpHe3GMF1EkzCazSbj4Xy+yIN5tIiiST4eRyHxu8cEzkn5phba2IO3JrriAves/ZoMVopWftczRY8rdillz3ImcrlNFYBY1xXuwkFhE3yV2TJjaNAWjGHC3ze5JoTL9ABZci+U+EmXJ6No0lVJSMW+pHFIQmL/+UiIg++7vFHwxeDomrfFbuT2F1BLAwQUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0klmiYZJxqpmliamRibm5qbGuhYVlmoGFiaWJiWmasbGJkVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICADAOyHs/5XNsWkCAAAdBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICADAOyHse1YPCW0AAAB4AAAACQAkAAAAAAAAAAAAAAC2AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAG4DAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -847,7 +827,7 @@ PrefabInstance:
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
@@ -919,11 +899,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7947911506248810475, guid: 3e9138e3c02b049d881b46a72e8dde82,
-        type: 3}
-      propertyPath: m_SpriteSortPoint
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9022992397736552408, guid: 3e9138e3c02b049d881b46a72e8dde82,
         type: 3}
       propertyPath: m_RootOrder
@@ -1010,7 +985,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095161962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.31, y: 0.17, z: 0}
+  m_LocalPosition: {x: -15.82, y: 1.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1101,7 +1076,7 @@ PrefabInstance:
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
@@ -1166,18 +1141,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1419513727}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1424011846 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3113414911259065060, guid: fd361a29d807b0f4f813034500c77437,
-    type: 3}
-  m_PrefabInstance: {fileID: 309642326}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1774534768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,7 +1303,7 @@ PrefabInstance:
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
@@ -1429,7 +1392,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815994659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -7.36, z: 0}
+  m_LocalPosition: {x: -1.07, y: -5.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1460,7 +1423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854169820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.7, y: -0.5, z: 0}
+  m_LocalPosition: {x: 14.96, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1477,7 +1440,7 @@ PrefabInstance:
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6487912473034146884, guid: a20568f1ca20c99419bbdf099884b6e9,
         type: 3}
