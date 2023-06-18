@@ -97,13 +97,15 @@ public class EnemySpawner : MonoBehaviour
     {
         if (canSpawn && nextSpawnTime < Time.time && currentWaveNumber < waves.Length) {
             if (infinite && currentWaveNumber != waves.Length && !waveCreated) {
-                Wave waveRec = new Wave();
-                waveRec.arkzom = currentWave.arkzom * scale3;
-                waveRec.skeleboar = currentWave.skeleboar * scale2;
-                waveRec.dopant = currentWaveNumber > 1 ? currentWave.dopant * scale2 : 0.9;
-                waveRec.orphenoch = currentWaveNumber > 3 ? currentWave.orphenoch * scale1 : 0.9;
-                waveRec.spawnInterval = 0.75f;
-                waveRec.waveInterval = 120f;
+                Wave waveRec = new()
+                {
+                    arkzom = currentWave.arkzom * scale3,
+                    skeleboar = currentWave.skeleboar * scale2,
+                    dopant = currentWaveNumber > 1 ? currentWave.dopant * scale2 : 0.9,
+                    orphenoch = currentWaveNumber > 3 ? currentWave.orphenoch * scale1 : 0.9,
+                    spawnInterval = 0.75f,
+                    waveInterval = 120f
+                };
                 waves[currentWaveNumber + 1] = waveRec;
                 waveCreated = true;
                 if (waveRec.arkzom > 50) scale3 = 1.2;
@@ -117,7 +119,7 @@ public class EnemySpawner : MonoBehaviour
                 if (waveRec.orphenoch > 150) scale1 = 1.05;
             }
 
-            GameObject enemy = null;
+            GameObject enemy;
 
             if (currentWave.arkzom >= 1) {
                 enemy = enemies[0];

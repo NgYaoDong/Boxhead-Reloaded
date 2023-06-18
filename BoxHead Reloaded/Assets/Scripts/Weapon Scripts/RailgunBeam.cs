@@ -21,6 +21,7 @@ public class RailgunBeam : MonoBehaviour
         beam.SetPosition(1, hitInfo.point);
 
         RaycastHit2D[] enemyHitInfo =  Physics2D.RaycastAll(transform.position, dir, hitInfo.distance, LayerMask.GetMask("Enemy"));
+
         foreach (RaycastHit2D enemyHit in enemyHitInfo)
         {
             if (enemyHit && enemyHit.collider.CompareTag("Enemy"))

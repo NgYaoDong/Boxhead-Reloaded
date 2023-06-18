@@ -20,6 +20,8 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField] private Animator gunAnimator;
     [SerializeField] private TextMeshPro ammoDisplay;
 
+    private int clickCount = 0;
+
     private void Awake()
     {
         Cursor.visible = false;
@@ -39,7 +41,7 @@ public class PlayerWeapon : MonoBehaviour
 
             if (Input.GetButton("Fire1")) Firing();
 
-            if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) Switch();
+            if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space) || clickCount == 5) Switch();
 
             Display();
         }
@@ -67,6 +69,7 @@ public class PlayerWeapon : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(ammoEmpty, GameObject.Find("FirePoint").transform.position);
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
+                clickCount++;
             }
         }
     }
@@ -80,6 +83,7 @@ public class PlayerWeapon : MonoBehaviour
             currWeapon = weapons[weaponNum];
         } while (currWeapon.currAmmo == 0 || !currWeapon.isActive);
 
+        clickCount = 0;
         weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
     }
 

@@ -674,7 +674,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &861377584
 PrefabInstance:
@@ -1067,6 +1067,7 @@ MonoBehaviour:
   - {fileID: 8377160740320051863, guid: e9758897b8267bc40b1e9545152b22f4, type: 3}
   - {fileID: 820336299427592225, guid: 37638d7c8706e1b4eb4c55268bae2811, type: 3}
   trigger: {fileID: 1217414611}
+  infinite: 0
 --- !u!1 &1187854026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2906281107207517309, guid: fd361a29d807b0f4f813034500c77437,
@@ -1609,7 +1610,7 @@ PrefabInstance:
     - target: {fileID: 4947670762668341466, guid: 631151a1185694b27b5fe33e208b5b5a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947670762668341466, guid: 631151a1185694b27b5fe33e208b5b5a,
         type: 3}

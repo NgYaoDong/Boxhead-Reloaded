@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
     public void SlowEffect()
     {
         FindObjectOfType<InGame>().Slow();
-        AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.4f);
+        AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.6f);
     }
 
     private void Arrow()

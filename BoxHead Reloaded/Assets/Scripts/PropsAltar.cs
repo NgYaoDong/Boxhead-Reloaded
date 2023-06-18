@@ -18,14 +18,14 @@ public class PropsAltar : MonoBehaviour
     {
         targetColor = new Color(1, 1, 1, 1);
 
-        if (other.CompareTag("Player") && finish) {
-            if (SceneManager.GetActiveScene().name != "Cursed Catacombs") {
-                StartCoroutine(NextLvl());
-            } else {
-                end = true;
+        if (other.CompareTag("Player"))
+        {
+            if (!finish) start = true;
+            else
+            {
+                if (SceneManager.GetActiveScene().name == "Cursed Catacombs") end = true;
+                else StartCoroutine(NextLvl());
             }
-        } else {
-            start = true;
         }
     }
 
