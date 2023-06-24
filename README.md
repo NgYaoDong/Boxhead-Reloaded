@@ -18,10 +18,10 @@ This game is a single player game where the player will attempt to survive a hor
 * Mouse Left Click - Fire
 * Mouse Right Click/Spacebar - Switch Weapon
 * Mouse Movement - Aim
-* Esc - Pause/Unpause
+* Esc - Pause/Resume
 ***
 **Setup for player**
-1. Launch our current game on itch.io here: [Latest build](https://physiquemetal.itch.io/boxhead-reloaded)
+1. Launch our current game on itch.io here: [Latest build](https://itch.io/embed-upload/8149649?color=333333)
 2. Click campaign/infinite mode to start and fight the zombies!
 
 ## Gamemodes
@@ -59,19 +59,19 @@ This game is a single player game where the player will attempt to survive a hor
   * Weapons
     * Pistol: Slow rate of fire, Single shot
     * SMG: Fast rate of fire, Single shot
-    * Shotgun: Medium rate of fire, AOE shot
+    * Shotgun: Medium rate of fire, Spread shot
     * AR: Fast rate of fire, High damage single shot
     * Grenade: AOE damage
     * Bazooka: AOE, Long range damage
-    * Railgun: High rate of fire, penetrate through enemies
+    * Railgun: Very fast rate of fire, penetrate through enemies
   * Players
     * Red Trooper
     * Silver Trooper
   * Enemies
-    * Arkzom: Slow movement, melee
+    * Arkzom: Medium movement, melee
     * Skeleboar: Slow movement, ranged
     * Orphenoch: Fast movement, melee
-    * Dopant: Slow movement, ranged, slow attack
+    * Dopant: Medium movement, ranged, attacks slow player
 ***
 * Future features
   * Setting Menu to control volume
