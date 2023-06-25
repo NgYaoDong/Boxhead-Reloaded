@@ -57,9 +57,9 @@ This game is a single player game where the player will attempt to survive a hor
     * Level 4 - Cursed Catacombs
     * Infinite Mode - Everlasting Abyss
   * Weapons
-    * Pistol: Slow rate of fire, Single shot
+    * Pistol: Medium rate of fire, Single shot
     * SMG: Fast rate of fire, Single shot
-    * Shotgun: Medium rate of fire, Spread shot
+    * Shotgun: Slow rate of fire, Spread shot
     * AR: Fast rate of fire, High damage single shot
     * Grenade: AOE damage
     * Bazooka: AOE, Long range damage
