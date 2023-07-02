@@ -73,7 +73,6 @@ public class InGame : MonoBehaviour
         GunsOff();
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
-        if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Play();
     }
 
     private void GunsOff()

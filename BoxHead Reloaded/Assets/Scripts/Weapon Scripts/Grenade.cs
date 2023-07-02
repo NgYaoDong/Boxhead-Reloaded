@@ -9,10 +9,12 @@ public class Grenade : MonoBehaviour
     public float damage = 10f;
     private Vector3 dir;
     private Rigidbody2D rb;
+    private Collider2D colli;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        colli = GetComponent<Collider2D>();
     }
 
     private void Start()
@@ -36,6 +38,16 @@ public class Grenade : MonoBehaviour
             StartCoroutine(Explode());
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.CompareTag("Enemy"))
+        {
+            rb.velocity *= 0f;
+            colli.enabled = false;
+        }
+    }
+    
     private IEnumerator Explode()
     {
         yield return new WaitForSeconds(0.75f);

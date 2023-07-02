@@ -13,13 +13,12 @@ public class GameManager : MonoBehaviour
     private bool canPause = true;
     void Start()
     {
-        if (BGM.instance) BGM.instance.GetComponent<AudioSource>().Stop();
         float x = Random.Range(minSpawn.x, maxSpawn.x);
         float y = Random.Range(minSpawn.y, maxSpawn.y);
         GameObject player = Instantiate(characters[PlayerPrefs.GetInt("SpawnInd")], new Vector2(x, y), Quaternion.identity);
         weapons = player.GetComponent<PlayerWeapon>().weapons;
         if (PlayerPrefs.GetInt("Mode") == 1) InfiniteMode();
-        else
+        else if (PlayerPrefs.GetInt("Mode") == 0)
         {
             CampaignMode();
             CheckActive();
@@ -74,7 +73,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && canPause) 
+        if (Input.GetKeyDown(KeyCode.P) && canPause) 
         {
             if (InGame.isPaused) inGame.GetComponent<InGame>().ResumeGame();
             else inGame.GetComponent<InGame>().PauseGame();

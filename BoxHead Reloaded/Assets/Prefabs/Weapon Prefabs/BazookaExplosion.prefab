@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6027317938575573741}
   - component: {fileID: 6027317938575573738}
   - component: {fileID: 7243453612034678582}
-  - component: {fileID: 613686350398187275}
   - component: {fileID: -8113585756213966690}
+  - component: {fileID: 613686350398187275}
   m_Layer: 0
   m_Name: BazookaExplosion
   m_TagString: Untagged
@@ -108,20 +108,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &613686350398187275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6027317938575573739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78947a57c32ba4c45919ec7cc93bc496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 100
-  explode: {fileID: 8300000, guid: 80fc50118b7527a4a8b7e891ee370b92, type: 3}
 --- !u!58 &-8113585756213966690
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,3 +124,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.13333334
+--- !u!114 &613686350398187275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027317938575573739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78947a57c32ba4c45919ec7cc93bc496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
+  explode: {fileID: 8300000, guid: 80fc50118b7527a4a8b7e891ee370b92, type: 3}
