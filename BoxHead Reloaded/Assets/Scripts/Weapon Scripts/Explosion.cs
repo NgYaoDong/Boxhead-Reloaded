@@ -10,7 +10,7 @@ public class Explosion : MonoBehaviour
     private void Awake()
     {
         Destroy(gameObject, 0.183f);
-        AudioSource.PlayClipAtPoint(explode, transform.position, 0.4f);
+        AudioSource.PlayClipAtPoint(explode, transform.position, 0.4f * PlayerPrefs.GetFloat("SFX"));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

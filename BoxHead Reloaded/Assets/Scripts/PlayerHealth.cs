@@ -41,7 +41,7 @@ public class PlayerHealth : MonoBehaviour
         {
             StartCoroutine(ChangeColor());
             FindObjectOfType<InGame>().Blood();
-            AudioSource.PlayClipAtPoint(hurtSound, transform.position, 0.4f);
+            AudioSource.PlayClipAtPoint(hurtSound, transform.position, 0.4f * PlayerPrefs.GetFloat("SFX"));
         }
         healthBar.UpdateHealthBar(health, setHealth);
         time = 0f;
@@ -69,7 +69,7 @@ public class PlayerHealth : MonoBehaviour
 
     private IEnumerator Death() 
     {
-        AudioSource.PlayClipAtPoint(deathSound, transform.position, 0.4f);
+        AudioSource.PlayClipAtPoint(deathSound, transform.position, 0.4f * PlayerPrefs.GetFloat("SFX"));
         animator.SetBool("Death", true);
         bottom.SetActive(false);
         yield return new WaitForSeconds(0.433f);

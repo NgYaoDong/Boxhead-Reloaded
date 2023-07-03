@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class InGame : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
@@ -14,12 +17,22 @@ public class InGame : MonoBehaviour
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
 
+    [SerializeField] private AudioMixer mixer;
+    [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider SFXSlider;
+
     private void Awake()
     {
         ResumeGame();
         transform.position = Camera.main.transform.position;
         levelComplete.SetActive(false);
         gameOver.SetActive(false);
+    }
+
+    private void Start()
+    {
+        musicSlider.value = PlayerPrefs.GetFloat("Music");
+        SFXSlider.value = PlayerPrefs.GetFloat("SFX");
     }
 
     public void ReloadText(Weapon reloadWeapon)
@@ -78,5 +91,17 @@ public class InGame : MonoBehaviour
     private void GunsOff()
     {
         foreach (Weapon weapon in weapons) if (weapon.name != "Pistol") weapon.isActive = false;
+    }
+
+    public void SetMusic(float sliderValue)
+    {
+        mixer.SetFloat("Music", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("Music", sliderValue);
+    }
+
+    public void SetSFX(float sliderValue)
+    {
+        mixer.SetFloat("SFX", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SFX", sliderValue);
     }
 }
