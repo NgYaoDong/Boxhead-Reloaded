@@ -21,7 +21,7 @@ public class Weapon : ScriptableObject
         {
             Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position, Quaternion.identity);
         }
-        AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.25f);
+        AudioSource.PlayClipAtPoint(_clip, GameObject.Find("FirePoint").transform.position, 0.25f * PlayerPrefs.GetFloat("SFX"));
         currAmmo--;
     }
 

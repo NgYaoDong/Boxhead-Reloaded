@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         confiner.m_BoundingShape2D = GameObject.Find("CamBounds").GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
         rend = GetComponent<Renderer>();
-        AudioSource.PlayClipAtPoint(spawnClip, transform.position);
+        AudioSource.PlayClipAtPoint(spawnClip, transform.position, PlayerPrefs.GetFloat("SFX"));
         checkpoint = GameObject.Find("Checkpoint");
         arrow = transform.Find("Arrow");
     }
@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
     public void SlowEffect()
     {
         FindObjectOfType<InGame>().Slow();
-        AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.6f);
+        AudioSource.PlayClipAtPoint(slowClip, transform.position, 0.6f * PlayerPrefs.GetFloat("SFX"));
     }
 
     private void Arrow()

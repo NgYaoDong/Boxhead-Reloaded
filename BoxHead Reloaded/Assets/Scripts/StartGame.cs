@@ -1,11 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour
 {
     [SerializeField] private List<GameObject> characters = new();
+    [SerializeField] private AudioMixer mixer;
+    [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider SFXSlider;
+
+    private void Start()
+    {
+        if (!PlayerPrefs.HasKey("Music"))
+        {
+            PlayerPrefs.SetFloat("Music", 1);
+        }
+        if (!PlayerPrefs.HasKey("SFX"))
+        {
+            PlayerPrefs.SetFloat("SFX", 1);
+        }
+        musicSlider.value = PlayerPrefs.GetFloat("Music");
+        SFXSlider.value = PlayerPrefs.GetFloat("SFX");
+    }
 
     public void PlayGame()
     {
@@ -44,5 +63,17 @@ public class StartGame : MonoBehaviour
     public void Feedback()
     {
         Application.OpenURL("https://forms.gle/DEUkzzpUgy15bGSG9");
+    }
+
+    public void SetMusic(float sliderValue)
+    {
+        mixer.SetFloat("Music", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("Music", sliderValue);
+    }
+
+    public void SetSFX(float sliderValue)
+    {
+        mixer.SetFloat("SFX", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SFX", sliderValue);
     }
 }

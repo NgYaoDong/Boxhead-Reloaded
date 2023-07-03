@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class PlayerWeapon : MonoBehaviour
 {
@@ -67,7 +66,7 @@ public class PlayerWeapon : MonoBehaviour
             }
             else if (currWeapon.currAmmo == 0)
             {
-                AudioSource.PlayClipAtPoint(ammoEmpty, GameObject.Find("FirePoint").transform.position);
+                AudioSource.PlayClipAtPoint(ammoEmpty, GameObject.Find("FirePoint").transform.position, PlayerPrefs.GetFloat("SFX"));
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
                 clickCount++;
             }

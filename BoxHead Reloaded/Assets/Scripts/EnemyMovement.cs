@@ -30,7 +30,7 @@ public class EnemyMovement : MonoBehaviour
         rend = GetComponent<Renderer>();
         health = setHealth;
         dropChance = Random.Range(0, 5);
-        AudioSource.PlayClipAtPoint(enemySpawn, transform.position, 0.2f);
+        AudioSource.PlayClipAtPoint(enemySpawn, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
     }
 
     private void Update()
@@ -60,7 +60,7 @@ public class EnemyMovement : MonoBehaviour
         health -= damage;
         if (health > 0)
         {
-            AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.2f);
+            AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
             StartCoroutine(ChangeColor());
         }
         else if (health <= 0f)
@@ -83,7 +83,7 @@ public class EnemyMovement : MonoBehaviour
         colli.enabled = false;
         AIPath ai = GetComponent<AIPath>();
         ai.maxSpeed = 0f;
-        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.2f);
+        AudioSource.PlayClipAtPoint(enemyDie, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
         yield return new WaitForSeconds(1f);
         if (dropChance == 2) Instantiate(weaponBox, transform.position, Quaternion.identity); 
         Destroy(gameObject);
@@ -96,7 +96,7 @@ public class EnemyMovement : MonoBehaviour
             if (attackDelay <= canAttack)
             {
                 collision.gameObject.GetComponent<PlayerHealth>().Attacked(attackDamage);
-                if (enemyAttack) AudioSource.PlayClipAtPoint(enemyAttack, transform.position, 0.3f);
+                if (enemyAttack) AudioSource.PlayClipAtPoint(enemyAttack, transform.position, 0.3f * PlayerPrefs.GetFloat("SFX"));
                 canAttack = 0f;
             }
             else
