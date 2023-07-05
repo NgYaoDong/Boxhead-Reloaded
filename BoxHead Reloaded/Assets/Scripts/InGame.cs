@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class InGame : MonoBehaviour
 {
+    [Header("UI Settings")]
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelComplete;
     [SerializeField] private GameObject gameOver;
@@ -17,6 +18,7 @@ public class InGame : MonoBehaviour
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
 
+    [Header("Sound Settings")]
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float setHealth = 100f;

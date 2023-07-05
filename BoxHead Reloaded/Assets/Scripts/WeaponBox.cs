@@ -47,7 +47,7 @@ public class WeaponBox : MonoBehaviour
             FindObjectOfType<GameManager>().Reloading(reloadWeapon);
             AudioSource.PlayClipAtPoint(reloadClip, transform.position, PlayerPrefs.GetFloat("SFX"));
             reloadWeapon.AddAmmo();
-            collision.GetComponent<Animator>().SetTrigger("Pickup");
+            collision.transform.Find("Pickup").GetComponent<Animator>().SetTrigger("Pickup");
             Destroy(gameObject);
         }
     }

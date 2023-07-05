@@ -5,15 +5,20 @@ using Pathfinding;
 
 public class EnemyMovement : MonoBehaviour
 {
+    [Header("Enemy Settings")]
     [SerializeField] private float attackDamage = 10f;
     [SerializeField] private float attackDelay = 1f;
     [SerializeField] private float setHealth = 100f;
-    [SerializeField] private GameObject weaponBox;
-    [SerializeField] private Animator blood;
+    
+    [Header("Sound Effects")]
     [SerializeField] private AudioClip enemySpawn;
     [SerializeField] private AudioClip enemyHurt;
     [SerializeField] private AudioClip enemyDie;
     [SerializeField] private AudioClip enemyAttack;
+
+    [Header("Miscellaneous")]
+    [SerializeField] private GameObject weaponBox;
+    [SerializeField] private Animator blood;
 
     private float health;
     private float canAttack;

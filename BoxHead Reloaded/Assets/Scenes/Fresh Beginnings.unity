@@ -605,6 +605,7 @@ MonoBehaviour:
   characters:
   - {fileID: 331790091227170042, guid: 19b911c75e2642e44ac20c9d46ac29a9, type: 3}
   - {fileID: 1264388928206016978, guid: a74f84e76ff6f314590b68c4165dee0a, type: 3}
+  - {fileID: 331790091227170042, guid: 294f92d1ae2f87041ba287ac69b0c955, type: 3}
   minSpawn: {x: 5.83, y: -13.14}
   maxSpawn: {x: 10, y: 12}
   inGame: {fileID: 1187854026}
