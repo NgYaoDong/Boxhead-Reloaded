@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
+    [Header("Bullet Settings")]
     [SerializeField] private float bulletDamage = 20f;
     [SerializeField] private float bulletSpeed = 5f;
+    [SerializeField] private float timeTillDestroy = 5f;
+
+    [Header("Slow Settings")]
     [SerializeField] private bool slow = false;
     [SerializeField] private float slowedSpeed = 2.5f;
-    [SerializeField] private float timeTillDestroy = 5f;
+
     private GameObject player;
     private Rigidbody2D rb;
 
