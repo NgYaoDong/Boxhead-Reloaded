@@ -7,10 +7,16 @@ using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour
 {
+    [Header("Characters")]
     [SerializeField] private List<GameObject> characters = new();
+    [SerializeField] private List<GameObject> characterSelection = new();
+
+    [Header("Audio Settings")]
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;
+
+    private int selectedCharacter = 0;
 
     private void Start()
     {
@@ -44,6 +50,29 @@ public class StartGame : MonoBehaviour
     public void SpawnSilver()
     {
         Spawn(1);
+    }
+
+    public void SpawnFang()
+    {
+        Spawn(2);
+    }
+
+    public void Next()
+    {
+        characterSelection[selectedCharacter].SetActive(false);
+        selectedCharacter++;
+        if (selectedCharacter == characterSelection.Count)
+            selectedCharacter = 0;
+        characterSelection[selectedCharacter].SetActive(true);
+    }
+    
+    public void Previous()
+    {
+        characterSelection[selectedCharacter].SetActive(false);
+        selectedCharacter--;
+        if (selectedCharacter == -1)
+            selectedCharacter = characterSelection.Count - 1;
+        characterSelection[selectedCharacter].SetActive(true);
     }
 
     void Spawn(int SpawnInd)

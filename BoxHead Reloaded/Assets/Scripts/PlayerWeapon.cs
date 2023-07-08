@@ -58,6 +58,7 @@ public class PlayerWeapon : MonoBehaviour
         {
             if (currWeapon.currAmmo > 0)
             {
+                clickCount = 0;
                 currWeapon.Shoot();
                 nextTimeOfFire = Time.time + 1 / currWeapon.fireRate;
 

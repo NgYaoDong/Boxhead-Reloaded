@@ -6,7 +6,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> characters = new();
+    
+    [Header("Spawn Settings")]
     [SerializeField] private Vector2 minSpawn, maxSpawn;
+
+    [Header("UI Screens")]
     [SerializeField] private GameObject inGame;
     [SerializeField] private GameObject empty;
     private Weapon[] weapons;

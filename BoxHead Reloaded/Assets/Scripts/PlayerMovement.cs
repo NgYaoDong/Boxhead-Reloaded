@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private AudioClip spawnClip;
     public float moveSpeed = 5f;
+
+    [Header("Slow Settings")]
     [SerializeField] private float recoveryTime = 0.5f;
     [SerializeField] private AudioClip slowClip;
 
@@ -19,6 +21,14 @@ public class PlayerMovement : MonoBehaviour
 
     private GameObject checkpoint;
     private Transform arrow;
+
+    [Header("Dash Settings")]
+    [SerializeField] private float dashSpeed = 90f;
+    [SerializeField] private float dashDuration = 0.2f;
+    [SerializeField] private float dashCooldown = 2f;
+    [SerializeField] private AudioClip dashClip;
+    private bool isDashing = false;
+    private bool canDash = true;
 
     private void Start()
     {
@@ -38,16 +48,19 @@ public class PlayerMovement : MonoBehaviour
             Recovery();
             Animate();
             Arrow();
+            if (transform.name == "Fang(Clone)" && Input.GetKeyDown(KeyCode.LeftShift) && canDash) StartCoroutine(Dash());
         }
     }
 
     private void FixedUpdate()
     {
+        if (isDashing) return;
         rigidBody.MovePosition(rigidBody.position + moveSpeed * Time.fixedDeltaTime * movement.normalized);
     }
 
-    private void Animate() 
+    private void Animate()
     {
+        if (isDashing) return;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -96,5 +109,17 @@ public class PlayerMovement : MonoBehaviour
             arrow.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }
         else arrow.gameObject.SetActive(false);
+    }
+
+    private IEnumerator Dash()
+    {
+        isDashing = true;
+        canDash = false;
+        rigidBody.velocity = new Vector2(movement.normalized.x * dashSpeed, movement.normalized.y * dashSpeed);
+        AudioSource.PlayClipAtPoint(dashClip, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
+        yield return new WaitForSeconds(dashDuration);
+        isDashing = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 }
