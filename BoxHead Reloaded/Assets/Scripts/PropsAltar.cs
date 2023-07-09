@@ -10,6 +10,7 @@ public class PropsAltar : MonoBehaviour
 
     private Color curColor;
     private Color targetColor;
+    private Spikes[] spikes;
     public bool start = false;
     public bool end = false;
     public bool finish = false;
@@ -46,11 +47,18 @@ public class PropsAltar : MonoBehaviour
 
     public void TurnOn()
     {
+        spikes = FindObjectsOfType<Spikes>();
+        foreach(var spike in spikes) {
+            spike.TurnOff();
+        }
         gameObject.SetActive(true);
     }
 
     public void TurnOff()
     {
+        foreach(var spike in spikes) {
+            spike.TurnOn();
+        }
         gameObject.SetActive(false);
     }
 
