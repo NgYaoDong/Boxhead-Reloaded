@@ -6,7 +6,7 @@ public class EnemyBullet : MonoBehaviour
 {
     [Header("Bullet Settings")]
     [SerializeField] private float bulletDamage = 20f;
-    [SerializeField] private float bulletSpeed = 5f;
+    public float bulletSpeed = 5f;
     [SerializeField] private float timeTillDestroy = 5f;
 
     [Header("Slow Settings")]
@@ -39,5 +39,10 @@ public class EnemyBullet : MonoBehaviour
             }
             Destroy(gameObject);
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 }

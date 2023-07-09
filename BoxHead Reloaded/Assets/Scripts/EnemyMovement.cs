@@ -63,7 +63,7 @@ public class EnemyMovement : MonoBehaviour
     public void Attacked(float damage)
     {
         health -= damage;
-        if (health > 0)
+        if (health > 0 && damage > 0)
         {
             AudioSource.PlayClipAtPoint(enemyHurt, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
             StartCoroutine(ChangeColor());
