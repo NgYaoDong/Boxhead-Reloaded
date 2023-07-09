@@ -10,18 +10,40 @@ public class Laser : MonoBehaviour
     [SerializeField] private AudioClip laserClip;
 
     [Header("Damage Settings")]
-    [SerializeField] private float damageInterval = 3f;
+    [SerializeField] private float damageInterval = 0.3f;
     [SerializeField] private float damage = 10f;
 
     private bool canShoot = true;
     private float damageTimer = 0f;
-    public bool turnOn = false;
+    public bool begin = false;
+    private bool turnOn = true;
+    private float on;
+    private float off;
 
     private void Update()
     {
-        if (turnOn)
+        if (on > 1f)
+        {
+            turnOn = false;
+            m_lineRenderer.enabled = false;
+            damage = 0f;
+            on = 0f;
+        }
+
+        if (off > 3f)
+        {
+            turnOn = true;
+            m_lineRenderer.enabled = true;
+            damage = 10f;
+            off = 0f;
+        }
+
+        if (begin && turnOn)
         {
             ShootLaser();
+            on += Time.deltaTime;
+        } else if (!turnOn) {
+            off += Time.deltaTime;
         }
 
         if (!canShoot)

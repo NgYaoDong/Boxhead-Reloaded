@@ -56,7 +56,7 @@ public class PropsAltar : MonoBehaviour
         }
         foreach(var laser in lasers)
         {
-            laser.turnOn = false;
+            laser.begin = false;
         }
         gameObject.SetActive(true);
     }
@@ -69,7 +69,7 @@ public class PropsAltar : MonoBehaviour
         }
         foreach (var laser in lasers)
         {
-            laser.turnOn = true;
+            laser.begin = true;
         }
         gameObject.SetActive(false);
     }
