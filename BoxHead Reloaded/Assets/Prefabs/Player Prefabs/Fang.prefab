@@ -6449,8 +6449,8 @@ MonoBehaviour:
   dashDuration: 0
   dashCooldown: 0
   dashClip: {fileID: 0}
-  aegisDuration: 0.2
-  aegisCooldown: 5
+  aegisDuration: 0
+  aegisCooldown: 0
   aegisClip: {fileID: 0}
   invisibleDuration: 5
   invisibleCooldown: 15

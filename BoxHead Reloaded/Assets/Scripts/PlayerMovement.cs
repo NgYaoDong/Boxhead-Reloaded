@@ -186,11 +186,14 @@ public class PlayerMovement : MonoBehaviour
         isAegis = false;
         foreach (Collider2D target in targets)
         {
-            if (target.name == "Arkzom(Clone)") target.GetComponent<AIPath>().maxSpeed = 2.5f;
-            else if (target.name == "Skeleboar(Clone)") target.GetComponent<AIPath>().maxSpeed = 2f;
-            else if (target.name == "Dopant(Clone)") target.GetComponent<AIPath>().maxSpeed = 2.5f;
-            else if (target.name == "Orphenoch(Clone)") target.GetComponent<AIPath>().maxSpeed = 4.5f;
-            else continue;
+            if (target)
+            {
+                if (target.name == "Arkzom(Clone)") target.GetComponent<AIPath>().maxSpeed = 2.5f;
+                else if (target.name == "Skeleboar(Clone)") target.GetComponent<AIPath>().maxSpeed = 2f;
+                else if (target.name == "Dopant(Clone)") target.GetComponent<AIPath>().maxSpeed = 2.5f;
+                else if (target.name == "Orphenoch(Clone)") target.GetComponent<AIPath>().maxSpeed = 4.5f;
+                else continue;
+            }
         }
         yield return new WaitForSeconds(aegisCooldown);
         canAegis = true;

@@ -588,7 +588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.75, y: -2.46, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1200,38 +1200,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[91].y
-      value: 15.221287
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[92].y
-      value: 15.221258
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_CompositePaths.m_Paths.Array.data[1].Array.data[78].y
-      value: 13.080716
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_CompositePaths.m_Paths.Array.data[1].Array.data[79].y
-      value: 13.080687
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_ColliderPaths.Array.data[11].m_ColliderPaths.Array.data[0].Array.data[0].Y
-      value: 152312864
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_ColliderPaths.Array.data[11].m_ColliderPaths.Array.data[0].Array.data[1].Y
-      value: 152312864
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_ColliderPaths.Array.data[11].m_ColliderPaths.Array.data[0].Array.data[2].Y
-      value: 136167152
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297044545, guid: 1c667284215ae428e9047eea978a354b, type: 3}
-      propertyPath: m_ColliderPaths.Array.data[11].m_ColliderPaths.Array.data[0].Array.data[3].Y
-      value: 136167152
-      objectReference: {fileID: 0}
     - target: {fileID: 4947670762668341466, guid: 1c667284215ae428e9047eea978a354b,
         type: 3}
       propertyPath: m_RootOrder

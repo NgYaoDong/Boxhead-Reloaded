@@ -5,27 +5,52 @@ using UnityEngine;
 public class Laser : MonoBehaviour
 {
     [SerializeField] private float defDistanceRay = 100;
-    public Transform laserFirePoint;
-    public LineRenderer m_lineRenderer;
-    Transform m_transform;
+    [SerializeField] private Transform laserFirePoint;
+    [SerializeField] private LineRenderer m_lineRenderer;
+    [SerializeField] private AudioClip laserClip;
 
-    private void Awake()
-    {
-        m_transform = GetComponent<Transform>();
-    }
+    [Header("Damage Settings")]
+    [SerializeField] private float damageInterval = 3f;
+    [SerializeField] private float damage = 10f;
+
+    private bool canShoot = true;
+    private float damageTimer = 0f;
+    public bool turnOn = false;
 
     private void Update()
     {
-        ShootLaser();
+        if (turnOn)
+        {
+            ShootLaser();
+        }
+
+        if (!canShoot)
+        {
+            damageTimer += Time.deltaTime;
+            if (damageTimer >= damageInterval)
+            {
+                canShoot = true;
+                damageTimer = 0f;
+            }
+        }
     }
 
     public void ShootLaser()
     {
-        if (Physics2D.Raycast(m_transform.position, transform.right)) {
-            RaycastHit2D _hit = Physics2D.Raycast(laserFirePoint.position, transform.right);
-            Draw2DRay(laserFirePoint.position, _hit.point);
-        } else {
-            Draw2DRay(laserFirePoint.position, laserFirePoint.transform.right * defDistanceRay);
+        if (Physics2D.Raycast(transform.position, transform.up, defDistanceRay, LayerMask.GetMask("Player")))
+        {
+            RaycastHit2D playerHit = Physics2D.Raycast(laserFirePoint.position, transform.up, defDistanceRay, LayerMask.GetMask("Player"));
+            Draw2DRay(laserFirePoint.position, playerHit.point);
+            if (playerHit && canShoot)
+            {
+                canShoot = false;
+                playerHit.transform.GetComponent<PlayerHealth>().Attacked(damage);
+            }
+        }
+        else
+        {
+            RaycastHit2D hit = Physics2D.Raycast(laserFirePoint.position, transform.up, defDistanceRay, LayerMask.GetMask("Wall"));
+            Draw2DRay(laserFirePoint.position, hit.point);
         }
     }
 

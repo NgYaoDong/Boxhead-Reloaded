@@ -6343,8 +6343,8 @@ MonoBehaviour:
   dashDuration: 0.25
   dashCooldown: 2
   dashClip: {fileID: 8300000, guid: 252a3bcca528f4f419fcb0c7271e0094, type: 3}
-  aegisDuration: 0.2
-  aegisCooldown: 5
+  aegisDuration: 0
+  aegisCooldown: 0
   aegisClip: {fileID: 0}
   invisibleDuration: 0
   invisibleCooldown: 0

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] Animator animator;
+    [SerializeField] private Animator animator;
+    [SerializeField] private AudioClip spikesClip;
     private bool activated;
 
     public void TurnOn()

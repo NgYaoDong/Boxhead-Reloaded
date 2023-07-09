@@ -11,6 +11,7 @@ public class PropsAltar : MonoBehaviour
     private Color curColor;
     private Color targetColor;
     private Spikes[] spikes;
+    private Laser[] lasers;
     public bool start = false;
     public bool end = false;
     public bool finish = false;
@@ -48,16 +49,27 @@ public class PropsAltar : MonoBehaviour
     public void TurnOn()
     {
         spikes = FindObjectsOfType<Spikes>();
-        foreach(var spike in spikes) {
+        lasers = FindObjectsOfType<Laser>();
+        foreach(var spike in spikes) 
+        {
             spike.TurnOff();
+        }
+        foreach(var laser in lasers)
+        {
+            laser.turnOn = false;
         }
         gameObject.SetActive(true);
     }
 
     public void TurnOff()
     {
-        foreach(var spike in spikes) {
+        foreach(var spike in spikes) 
+        {
             spike.TurnOn();
+        }
+        foreach (var laser in lasers)
+        {
+            laser.turnOn = true;
         }
         gameObject.SetActive(false);
     }
