@@ -14,9 +14,23 @@ public class InGame : MonoBehaviour
     [SerializeField] private GameObject gameOver;
     [SerializeField] private GameObject bloodOverlay;
     [SerializeField] private GameObject slowOverlay;
+    [SerializeField] private GameObject smokeOverlay;
     [SerializeField] private TextMeshProUGUI reloadedWeapon;
     [SerializeField] private Weapon[] weapons;
     public static bool isPaused;
+
+    [Header("Weapon UI")]
+    [SerializeField] private TextMeshProUGUI[] weaponList;
+
+    [Header("Ability UI")]
+    private int ability;
+    [SerializeField] private Image[] abilityCD;
+    private bool isCD = false;
+    private float CDTime = 0f;
+    private float CDTimer = 0f;
+    private bool isAbility = false;
+    private float abilityTime = 0f;
+    private float abilityTimer = 0f;
 
     [Header("Sound Settings")]
     [SerializeField] private AudioMixer mixer;
@@ -35,6 +49,70 @@ public class InGame : MonoBehaviour
     {
         musicSlider.value = PlayerPrefs.GetFloat("Music");
         SFXSlider.value = PlayerPrefs.GetFloat("SFX");
+        ability = PlayerPrefs.GetInt("SpawnInd");
+        abilityCD[ability].transform.parent.gameObject.SetActive(true);
+        abilityCD[ability].fillAmount = 0f;
+    }
+
+    private void Update()
+    {
+        if (!isPaused)
+        {
+            weaponList[1].text = weapons[1].currAmmo.ToString();
+            weaponList[2].text = weapons[2].currAmmo.ToString();
+            weaponList[3].text = weapons[3].currAmmo.ToString();
+            weaponList[4].text = weapons[4].currAmmo.ToString();
+            weaponList[5].text = weapons[5].currAmmo.ToString();
+            weaponList[6].text = weapons[6].currAmmo.ToString();
+            if (isCD) ApplyCD();
+            if (isAbility) ApplyAbility();
+        }
+    }
+
+    private void ApplyCD()
+    {
+        CDTimer -= Time.deltaTime;
+
+        if (CDTimer <= 0f) 
+        {
+            isCD = false;
+            abilityCD[ability].fillAmount = 0f;
+        }
+        else
+        {
+            abilityCD[ability].fillAmount = CDTimer / CDTime;
+        }
+    }
+
+    private void ApplyAbility()
+    {
+        abilityTimer += Time.deltaTime;
+
+        if (abilityTimer >= abilityTime) 
+        {
+            isAbility = false;
+            abilityCD[ability].fillAmount = 1f;
+            abilityTimer = 0f;
+        }
+        else
+        {
+            abilityCD[ability].fillAmount = abilityTimer / abilityTime;
+        }
+    }
+
+    public void UseAbility(float CD)
+    {
+        if (isCD) return;
+        isCD = true;
+        CDTime = CD;
+        CDTimer = CD;
+    }
+
+    public void InAbility(float abilityDuration)
+    {
+        if (isAbility) return;
+        isAbility = true;
+        abilityTime = abilityDuration;
     }
 
     public void ReloadText(Weapon reloadWeapon)
@@ -51,6 +129,11 @@ public class InGame : MonoBehaviour
     public void Slow()
     {
         slowOverlay.GetComponent<Animator>().SetTrigger("Slow");
+    }
+
+    public void Smoke()
+    {
+        smokeOverlay.GetComponent<Animator>().SetTrigger("Smoke");
     }
 
     public void PauseGame()

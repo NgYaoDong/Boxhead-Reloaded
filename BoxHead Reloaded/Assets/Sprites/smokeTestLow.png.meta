@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: 9b9ee11c8b44dae43bcad3dce4e4ad4c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smokeTestLow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.48084652, y: 0.123313665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d253ca9cb53baa40917a1644adf41f5
+      internalID: -1308921247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.44892392, y: 0.14246678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ae826c57994f4a9fec9eac1af24d8
+      internalID: 1384284269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.41700125, y: 0.14246678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ff76f03e78e054aabf27ef33114d3d
+      internalID: -2118469504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.38507867, y: 0.16800499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcca57eb414b5104d9f8478646ebccb5
+      internalID: 1377501402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.340387, y: 0.15523624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eb9f55bb529f4499880e5681c42dd3
+      internalID: -950497807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.30846405, y: 0.14885187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb71e6eac82f554190cc23270215583
+      internalID: 1059452996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_6
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1877
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.25786105, y: 0.11130385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b7878045c9ce342ba04d298964abf8
+      internalID: -874953708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1877
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.23237261, y: 0.13041964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ede197f10655d246aef7e4ad7db21e3
+      internalID: -279838925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1877.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.19992757, y: 0.13608241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2683cf5f4fc70a41bba1e0d227fc8e3
+      internalID: 1033229196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1876
+        width: 161
+        height: 172
+      alignment: 9
+      pivot: {x: 0.16228, y: 0.13679156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05d1b34edef1a149826c2f46c4c26c0
+      internalID: 1036766018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_10
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1876
+        width: 144
+        height: 172
+      alignment: 9
+      pivot: {x: 0.123313665, y: 0.123313665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45285aa684316e4cbcf9530f0164db8
+      internalID: 568997267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_11
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1877
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.20504814, y: 0.118249014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff50c3f82f173b409d5c27962b79783
+      internalID: -1929889924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.48291692, y: 0.17542148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe966cafb7b9ab4489f87fd4fdb46249
+      internalID: -375927233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.44875082, y: 0.15833902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc138ab20c5a8f4fa102d847783cdc3
+      internalID: 784576325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.41458458, y: 0.17542148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd26e09e795fde428e54b8613c13a98
+      internalID: 165839389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.36711144, y: 0.16134953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2630a350c84b70d46a6990899773204f
+      internalID: 1535699201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_16
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1708
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.3331438, y: 0.15773126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6c1227b94c7a94cad329c47b7c1e13
+      internalID: -1490616036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.30281067, y: 0.14848924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a7ec9c6747f814f93069234a2a3d8a
+      internalID: -1756260286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_18
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1707.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.27280426, y: 0.15277576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4d15979e96fee4ab9cdae4893d4a19
+      internalID: 407479159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_19
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1707
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.23046304, y: 0.1662876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487cd6976907533479121ca6fc5159a3
+      internalID: 804535814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_20
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1709
+        width: 158
+        height: 169
+      alignment: 9
+      pivot: {x: 0.21707654, y: 0.15277576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbbc1a09d3283742964a700fd88f909
+      internalID: 782718150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_21
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1707
+        width: 138
+        height: 171
+      alignment: 9
+      pivot: {x: 0.26055732, y: 0.13848342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f81a35328fd74aa4a2b912ccf9904
+      internalID: -1174699638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_22
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1712
+        width: 136
+        height: 166
+      alignment: 9
+      pivot: {x: 0.35883555, y: 0.13274705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9934dd4fc14e1da49ad0509afd4ee339
+      internalID: -313659037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_23
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1708
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.1564613, y: 0.16200872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1650385d7a9e04428ef6e3b84afe705
+      internalID: -782137701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.47580647, y: 0.22177434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a358abe775a166c47a6f93b63c495045
+      internalID: 318076237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.4317492, y: 0.23405027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94030b2b4b0d574e9da4ab1b0bb0068
+      internalID: -1733310683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.42054462, y: 0.24574184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62400c73dd7a424ba05680cae2c04c2
+      internalID: 2006639156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1538
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.3651887, y: 0.2620978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384752bed8d26a44bb3cfef8ec1e68b3
+      internalID: -1756839669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_28
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1537
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.32553902, y: 0.29381824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d962ce9dc31244e8a7c38f28e2ac6f
+      internalID: -1931365310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.28547, y: 0.33711648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b6ddecf5be14d4bb55b1afa811f057
+      internalID: -1930463593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_30
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.23779678, y: 0.32117558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5d0bfdb23a1a4f933b20934033413
+      internalID: 1800019317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_31
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1537.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 9
+      pivot: {x: 0.2060144, y: 0.30920792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287752e9c05c19b4b8e9c4bd91da89ba
+      internalID: -1040084344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_32
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1536
+        width: 147
+        height: 172
+      alignment: 9
+      pivot: {x: 0.19441652, y: 0.3090105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea749cc6a124efc488c81ed32b212735
+      internalID: -1559682954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_33
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1540
+        width: 153
+        height: 169
+      alignment: 9
+      pivot: {x: 0.2297427, y: 0.2879812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf0e245d167d8e46a5942ee7cf535ff
+      internalID: -783596403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_34
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1537
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.21499509, y: 0.2844024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e715927372d98ab478f4be25efac737f
+      internalID: -758876612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_35
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1539
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.16796875, y: 0.2831253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff22d9c00ca9b2648912d6acb8e2a2fc
+      internalID: 9757384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1367.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debddc62ce51b3c43b8a7007134ce5ed
+      internalID: 2099091163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1367.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1f371a230cd65458931a47aa04c3c1
+      internalID: 1444506562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1367.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb97ec224141a7a42849e42da11ef266
+      internalID: 1122808383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_39
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1367.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115cde1d702b09849a8d50db9e581855
+      internalID: -1044744554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeTestLow_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1367.3334
+        width: 170.66667
+        height: 170.66667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f6823ebefc9841953ad52996b20d4
+      internalID: 2114280714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      smokeTestLow_0: -1308921247
+      smokeTestLow_1: 1384284269
+      smokeTestLow_10: 568997267
+      smokeTestLow_11: -1929889924
+      smokeTestLow_12: -375927233
+      smokeTestLow_13: 784576325
+      smokeTestLow_14: 165839389
+      smokeTestLow_15: 1535699201
+      smokeTestLow_16: -1490616036
+      smokeTestLow_17: -1756260286
+      smokeTestLow_18: 407479159
+      smokeTestLow_19: 804535814
+      smokeTestLow_2: -2118469504
+      smokeTestLow_20: 782718150
+      smokeTestLow_21: -1174699638
+      smokeTestLow_22: -313659037
+      smokeTestLow_23: -782137701
+      smokeTestLow_24: 318076237
+      smokeTestLow_25: -1733310683
+      smokeTestLow_26: 2006639156
+      smokeTestLow_27: -1756839669
+      smokeTestLow_28: -1931365310
+      smokeTestLow_29: -1930463593
+      smokeTestLow_3: 1377501402
+      smokeTestLow_30: 1800019317
+      smokeTestLow_31: -1040084344
+      smokeTestLow_32: -1559682954
+      smokeTestLow_33: -783596403
+      smokeTestLow_34: -758876612
+      smokeTestLow_35: 9757384
+      smokeTestLow_36: 2099091163
+      smokeTestLow_37: 1444506562
+      smokeTestLow_38: 1122808383
+      smokeTestLow_39: -1044744554
+      smokeTestLow_4: -950497807
+      smokeTestLow_40: 2114280714
+      smokeTestLow_5: 1059452996
+      smokeTestLow_6: -874953708
+      smokeTestLow_7: -279838925
+      smokeTestLow_8: 1033229196
+      smokeTestLow_9: 1036766018
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
