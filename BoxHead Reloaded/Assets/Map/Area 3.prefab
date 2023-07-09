@@ -20595,7 +20595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8566922359436008441}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23981,6 +23981,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8566922359436008441}
     m_Modifications:
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6620709870991555439, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -24040,6 +24045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -31650,6 +31660,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8566922359436008441}
     m_Modifications:
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6620709870991555439, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -31709,6 +31724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -61837,6 +61857,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8566922359436008441}
     m_Modifications:
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6620709870991555439, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -61896,6 +61921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -62266,6 +62296,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8566922359436008441}
     m_Modifications:
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6620709870991555439, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -62325,6 +62360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}

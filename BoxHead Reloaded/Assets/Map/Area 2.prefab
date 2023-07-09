@@ -19315,7 +19315,11 @@ CompositeCollider2D:
       - {x: -3.8043568, y: -16.987288}
       - {x: -3.0143864, y: -16.987316}
       - {x: -3.0143573, y: -16.993282}
-    - - {x: -2.2213862, y: -15.378683}
+    - - {x: 19.02261, y: -15.378683}
+      - {x: 18.27797, y: -15.378683}
+      - {x: 18.27794, y: -15.3687105}
+      - {x: -2.2213862, y: -15.368739}
+      - {x: -2.2214155, y: -15.378713}
       - {x: -2.972031, y: -15.378683}
       - {x: -2.9720604, y: -14.872715}
       - {x: -3.7520337, y: -14.872686}
@@ -19471,10 +19475,6 @@ CompositeCollider2D:
       - {x: 25.328613, y: -14.835743}
       - {x: 25.328585, y: -15.368713}
       - {x: 19.02261, y: -15.368743}
-      - {x: 19.022581, y: -15.378713}
-      - {x: 18.27797, y: -15.378683}
-      - {x: 18.27794, y: -15.3687105}
-      - {x: -2.2213862, y: -15.368739}
     - - {x: 17.927942, y: 3.6267161}
       - {x: 17.927942, y: 5.2412863}
       - {x: 4.495613, y: 5.241257}
@@ -19666,7 +19666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4663433934177153331}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20623,6 +20623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -20678,6 +20683,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
 --- !u!4 &1693391425531621653 stripped
@@ -20707,6 +20717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser FP
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
@@ -20847,6 +20862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -21970,6 +21990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -22110,6 +22135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
 --- !u!4 &6280358570026097480 stripped
@@ -22221,6 +22251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -22275,6 +22310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7206938316623956399, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
@@ -24313,6 +24353,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -24452,6 +24497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -26935,6 +26985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -26989,6 +27044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -29922,6 +29982,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -29976,6 +30041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -31271,6 +31341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -31325,6 +31400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7206938316623956399, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
@@ -31533,6 +31613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -31587,6 +31672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -49637,6 +49727,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -49691,6 +49786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -49894,6 +49994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -49948,6 +50053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -50333,6 +50443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -50387,6 +50502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -51419,6 +51539,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -51558,6 +51683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -51938,6 +52068,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4663433934177153331}
     m_Modifications:
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6620709870991555439, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -51997,6 +52132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -52756,6 +52896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -52895,6 +53040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -55201,6 +55351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -55340,6 +55495,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -55735,6 +55895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser FP
       objectReference: {fileID: 0}
+    - target: {fileID: 4556929224820494778, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5365287760135750766, guid: 16b4a7bd4d572412986999d6d73b53d0,
         type: 3}
       propertyPath: m_RootOrder
@@ -55874,6 +56039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495716766466520184, guid: 16b4a7bd4d572412986999d6d73b53d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b4a7bd4d572412986999d6d73b53d0, type: 3}
@@ -57078,6 +57248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -57132,6 +57307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -58154,6 +58334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -58208,6 +58393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}
@@ -60054,6 +60244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1542811635078438194, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1542811635078438195, guid: 95a36505b22ee42958e4c165b0d413ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -60108,6 +60303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480595496509977895, guid: 95a36505b22ee42958e4c165b0d413ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95a36505b22ee42958e4c165b0d413ed, type: 3}

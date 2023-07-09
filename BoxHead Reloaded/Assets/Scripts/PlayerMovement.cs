@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (isAegis) AegisProjectiles();
 
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (transform.name == "Player1(Clone)" && canDash) StartCoroutine(Dash());
                 if (transform.name == "Player2(Clone)" && canAegis) StartCoroutine(Aegis());
@@ -161,8 +161,10 @@ public class PlayerMovement : MonoBehaviour
         transform.Find("Dash").localEulerAngles = new Vector3(0, 0, UtilsClass.GetAngleFromVectorFloat(movedir));
         transform.Find("Dash").GetComponent<Animator>().SetTrigger("Dash");
         rigidBody.velocity = new Vector2(movement.normalized.x * dashSpeed, movement.normalized.y * dashSpeed);
+        Physics2D.IgnoreLayerCollision(6, 10, true);
         AudioSource.PlayClipAtPoint(dashClip, transform.position, 0.2f * PlayerPrefs.GetFloat("SFX"));
         yield return new WaitForSeconds(dashDuration);
+        Physics2D.IgnoreLayerCollision(6, 10, false);
         FindObjectOfType<InGame>().UseAbility(dashCooldown);
         isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
@@ -178,7 +180,7 @@ public class PlayerMovement : MonoBehaviour
         Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, 3f, LayerMask.GetMask("Enemy"));
         foreach (Collider2D target in targets)
         {
-            if(target) target.GetComponent<AIPath>().maxSpeed = 0.5f;
+            if(target) target.GetComponent<AIPath>().maxSpeed = 0.01f;
         }
         AudioSource.PlayClipAtPoint(aegisClip, transform.position, PlayerPrefs.GetFloat("SFX"));
         yield return new WaitForSeconds(aegisDuration);

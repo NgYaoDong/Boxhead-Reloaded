@@ -6,7 +6,7 @@ using TMPro;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    private int weaponNum = 0;
+    public int weaponNum = 0;
     public Weapon[] weapons;
     public Weapon currWeapon;
     [SerializeField] private AudioClip ammoEmpty;
@@ -40,7 +40,7 @@ public class PlayerWeapon : MonoBehaviour
 
             if (Input.GetButton("Fire1")) Firing();
 
-            if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space) || clickCount == 5) Switch();
+            if (Input.GetMouseButtonDown(1) || clickCount == 5) Switch();
 
             Display();
         }

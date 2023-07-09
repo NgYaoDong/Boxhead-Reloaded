@@ -58,15 +58,27 @@ public class InGame : MonoBehaviour
     {
         if (!isPaused)
         {
-            weaponList[1].text = weapons[1].currAmmo.ToString();
-            weaponList[2].text = weapons[2].currAmmo.ToString();
-            weaponList[3].text = weapons[3].currAmmo.ToString();
-            weaponList[4].text = weapons[4].currAmmo.ToString();
-            weaponList[5].text = weapons[5].currAmmo.ToString();
-            weaponList[6].text = weapons[6].currAmmo.ToString();
+            WeaponUI();            
             if (isCD) ApplyCD();
             if (isAbility) ApplyAbility();
         }
+    }
+
+    private void WeaponUI()
+    {
+        int currWeapon = FindObjectOfType<PlayerWeapon>().weaponNum;
+        weaponList[currWeapon].GetComponentInParent<Image>().color = new Color32(255, 215, 0, 100);
+        for (int i = 0; i < weaponList.Length; i++)
+        {
+            if (i != currWeapon) 
+                weaponList[i].GetComponentInParent<Image>().color = new Color32(128, 128, 128, 100);
+        }
+        weaponList[1].text = weapons[1].currAmmo.ToString();
+        weaponList[2].text = weapons[2].currAmmo.ToString();
+        weaponList[3].text = weapons[3].currAmmo.ToString();
+        weaponList[4].text = weapons[4].currAmmo.ToString();
+        weaponList[5].text = weapons[5].currAmmo.ToString();
+        weaponList[6].text = weapons[6].currAmmo.ToString();
     }
 
     private void ApplyCD()
