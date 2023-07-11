@@ -6339,9 +6339,9 @@ MonoBehaviour:
   recoveryTime: 0.75
   slowClip: {fileID: 8300000, guid: 5b9c69a26ccfe414da380f57220c89ae, type: 3}
   bottomAnimator: {fileID: 6780288184353362999}
-  dashSpeed: 15
+  dashSpeed: 20
   dashDuration: 0.25
-  dashCooldown: 2
+  dashCooldown: 1.5
   dashClip: {fileID: 8300000, guid: 252a3bcca528f4f419fcb0c7271e0094, type: 3}
   aegisDuration: 0
   aegisCooldown: 0
@@ -6384,6 +6384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2408c5458004348a23a6b401119140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponNum: 0
   weapons:
   - {fileID: 11400000, guid: d6a67e6e35c3ca945b126312c779cb2c, type: 2}
   - {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}

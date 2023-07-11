@@ -66,12 +66,15 @@ public class InGame : MonoBehaviour
 
     private void WeaponUI()
     {
-        int currWeapon = FindObjectOfType<PlayerWeapon>().weaponNum;
-        weaponList[currWeapon].GetComponentInParent<Image>().color = new Color32(255, 215, 0, 100);
-        for (int i = 0; i < weaponList.Length; i++)
+        if (FindObjectOfType<PlayerWeapon>())
         {
-            if (i != currWeapon) 
-                weaponList[i].GetComponentInParent<Image>().color = new Color32(128, 128, 128, 100);
+            int currWeapon = FindObjectOfType<PlayerWeapon>().weaponNum;
+            weaponList[currWeapon].GetComponentInParent<Image>().color = new Color32(255, 215, 0, 100);
+            for (int i = 0; i < weaponList.Length; i++)
+            {
+                if (i != currWeapon)
+                    weaponList[i].GetComponentInParent<Image>().color = new Color32(128, 128, 128, 100);
+            }
         }
         weaponList[1].text = weapons[1].currAmmo.ToString();
         weaponList[2].text = weapons[2].currAmmo.ToString();
@@ -174,8 +177,7 @@ public class InGame : MonoBehaviour
     public void Retry()
     {
         GunsOff();
-        if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene("Fresh Beginnings", LoadSceneMode.Single);
-        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("Everlasting Abyss", LoadSceneMode.Single);
+        StartGame.WeaponSet(weapons, PlayerPrefs.GetInt("Mode"));
     }
 
     public void MainMenu()

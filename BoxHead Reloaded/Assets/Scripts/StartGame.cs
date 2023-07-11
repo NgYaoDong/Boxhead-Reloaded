@@ -85,8 +85,33 @@ public class StartGame : MonoBehaviour
             if (weapon.name == "Pistol") weapon.isActive = true;
             else weapon.isActive = false;
         }
-        if (PlayerPrefs.GetInt("Mode") == 0) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
-        else if (PlayerPrefs.GetInt("Mode") == 1) SceneManager.LoadScene("Everlasting Abyss", LoadSceneMode.Single);
+        WeaponSet(weapons, PlayerPrefs.GetInt("Mode"));
+    }
+
+    public static void WeaponSet(Weapon[] weapons, int mode)
+    {
+        if (mode == 0)
+        {
+            weapons[0].fireRate = 5f; weapons[0].pellets = 1;
+            weapons[1].fireRate = 15f; weapons[1].pellets = 1; weapons[1].maxAmmo = 150;
+            weapons[2].fireRate = 1.5f; weapons[2].pellets = 5; weapons[2].maxAmmo = 25;
+            weapons[3].fireRate = 1f; weapons[3].pellets = 1; weapons[3].maxAmmo = 20;
+            weapons[4].fireRate = 7.5f; weapons[4].pellets = 1; weapons[4].maxAmmo = 60;
+            weapons[5].fireRate = 0.75f; weapons[5].pellets = 1; weapons[5].maxAmmo = 15;
+            weapons[6].fireRate = 30f; weapons[6].pellets = 1; weapons[6].maxAmmo = 300;
+            SceneManager.LoadScene("Fresh Beginnings", LoadSceneMode.Single);
+        }
+        else if (mode == 1)
+        {
+            weapons[0].fireRate = 5f; weapons[0].pellets = 1;
+            weapons[1].fireRate = 15f; weapons[1].pellets = 1; weapons[1].maxAmmo = 300;
+            weapons[2].fireRate = 1.5f; weapons[2].pellets = 5; weapons[2].maxAmmo = 50;
+            weapons[3].fireRate = 1f; weapons[3].pellets = 1; weapons[3].maxAmmo = 40;
+            weapons[4].fireRate = 7.5f; weapons[4].pellets = 1; weapons[4].maxAmmo = 120;
+            weapons[5].fireRate = 0.75f; weapons[5].pellets = 1; weapons[5].maxAmmo = 30;
+            weapons[6].fireRate = 30f; weapons[6].pellets = 1; weapons[6].maxAmmo = 600;
+            SceneManager.LoadScene("Everlasting Abyss", LoadSceneMode.Single);
+        }
     }
 
     public void Feedback()

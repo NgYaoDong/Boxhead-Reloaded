@@ -36,22 +36,10 @@ public class GameManager : MonoBehaviour
             weapon.isActive = true;
             if (weapon.name != "Pistol") weapon.currAmmo = 0;
         }
-        weapons[1].maxAmmo = 300;
-        weapons[2].maxAmmo = 50;
-        weapons[3].maxAmmo = 40;
-        weapons[4].maxAmmo = 120;
-        weapons[5].maxAmmo = 30;
-        weapons[6].maxAmmo = 600;
     }
 
     private void CampaignMode()
     {
-        weapons[1].maxAmmo = 150;
-        weapons[2].maxAmmo = 25;
-        weapons[3].maxAmmo = 20;
-        weapons[4].maxAmmo = 60;
-        weapons[5].maxAmmo = 15;
-        weapons[6].maxAmmo = 300;
         foreach (Weapon weapon in weapons)
         {
             if (weapon.isActive) weapon.AddAmmo();
