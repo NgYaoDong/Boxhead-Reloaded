@@ -116,9 +116,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
+  damage: 0
   explosion: {fileID: 6027317938575573739, guid: 949695af6c1903e41a668f1fa18b3167,
     type: 3}
-  damage: 0
+  explosionDamage: 100
 --- !u!1 &8534001886242181683
 GameObject:
   m_ObjectHideFlags: 0

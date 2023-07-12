@@ -6490,6 +6490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2408c5458004348a23a6b401119140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponNum: 0
   weapons:
   - {fileID: 11400000, guid: d6a67e6e35c3ca945b126312c779cb2c, type: 2}
   - {fileID: 11400000, guid: 519693d614649364bbdb09ecb5c1850f, type: 2}
@@ -6503,6 +6504,8 @@ MonoBehaviour:
   topAnimator: {fileID: 3563837176597451141}
   gunAnimator: {fileID: 533252244914723966}
   ammoDisplay: {fileID: 7352589897895574223}
+  weaponBox: {fileID: 6487912473034146891, guid: a20568f1ca20c99419bbdf099884b6e9,
+    type: 3}
 --- !u!1 &6615751596859263532
 GameObject:
   m_ObjectHideFlags: 0

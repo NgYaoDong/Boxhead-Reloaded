@@ -5,8 +5,11 @@ using UnityEngine;
 public class Grenade : MonoBehaviour
 {
     [SerializeField] private float speed = 50f;
-    [SerializeField] private GameObject explosion;
-    public float damage = 10f;
+
+    [Header("Explosion Settings")]
+    public GameObject explosion;
+    public float explosionDamage = 1f;
+
     private Vector3 dir;
     private Rigidbody2D rb;
     private Collider2D colli;
@@ -52,6 +55,7 @@ public class Grenade : MonoBehaviour
     {
         yield return new WaitForSeconds(0.75f);
         Destroy(gameObject);
+        explosion.GetComponent<Explosion>().damage = explosionDamage;
         Instantiate(explosion, transform.position, Quaternion.identity);
     }
 }

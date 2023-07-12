@@ -72,9 +72,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void Reloading(Weapon reloadWeapon)
+    public void Reloading(Weapon reloadWeapon, int reloadMode)
     {
-        inGame.GetComponent<InGame>().ReloadText(reloadWeapon);
+        inGame.GetComponent<InGame>().ReloadText(reloadWeapon, reloadMode);
     }
 
     public void GameOver()

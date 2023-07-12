@@ -19,6 +19,8 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField] private Animator gunAnimator;
     [SerializeField] private TextMeshPro ammoDisplay;
 
+    [SerializeField] private GameObject weaponBox;
+
     private int clickCount = 0;
 
     private void Awake()
@@ -41,6 +43,8 @@ public class PlayerWeapon : MonoBehaviour
             if (Input.GetButton("Fire1")) Firing();
 
             if (Input.GetMouseButtonDown(1) || clickCount == 5) Switch();
+
+            if (Input.GetKeyDown(KeyCode.T)) Instantiate(weaponBox, transform.position, Quaternion.identity);
 
             Display();
         }

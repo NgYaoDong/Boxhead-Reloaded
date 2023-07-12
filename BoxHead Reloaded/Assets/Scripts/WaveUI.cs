@@ -44,7 +44,7 @@ public class WaveUI : MonoBehaviour
         animator.SetBool("WaveIncoming", true);
         if (!playing) {
             playing = true;
-            AudioSource.PlayClipAtPoint(waveClip, Camera.main.transform.position, 0.05f * PlayerPrefs.GetFloat("SFX"));
+            AudioSource.PlayClipAtPoint(waveClip, Camera.main.transform.position + new Vector3(0, 0, 10), 0.05f * PlayerPrefs.GetFloat("SFX"));
         }
         yield return new WaitForSeconds(5.5f);
         playing = false;

@@ -6266,6 +6266,8 @@ MonoBehaviour:
   topAnimator: {fileID: 1264388928206016811}
   gunAnimator: {fileID: 529412296}
   ammoDisplay: {fileID: 2024958436}
+  weaponBox: {fileID: 6487912473034146891, guid: a20568f1ca20c99419bbdf099884b6e9,
+    type: 3}
 --- !u!1 &2789424485218729920
 GameObject:
   m_ObjectHideFlags: 0

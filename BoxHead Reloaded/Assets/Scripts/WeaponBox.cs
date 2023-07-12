@@ -21,7 +21,7 @@ public class WeaponBox : MonoBehaviour
         Destroy(gameObject, 60f);
     }
 
-    Weapon Reload()
+    private void Reload()
     {
         List<Weapon> possibleReload = new();
         foreach (Weapon weapon in weapons)
@@ -34,19 +34,85 @@ public class WeaponBox : MonoBehaviour
         if (possibleReload.Count > 0)
         {
             Weapon reloadWeapon = possibleReload[Random.Range(0, possibleReload.Count)];
-            return reloadWeapon;
+            reloadWeapon.AddAmmo();
+            FindObjectOfType<GameManager>().Reloading(reloadWeapon, 0);
         }
-        return null;
+    }
+
+    private void FastFire()
+    {
+        List<Weapon> possibleFF = new();
+        foreach (Weapon weapon in weapons)
+        {
+            if (weapon.isActive && !weapon.fastFire)
+            {
+                possibleFF.Add(weapon);
+            }
+        }
+        if (possibleFF.Count > 0)
+        {
+            Weapon FFWeapon = possibleFF[Random.Range(0, possibleFF.Count)];
+            FFWeapon.FastFireOn();
+            FindObjectOfType<GameManager>().Reloading(FFWeapon, 1);
+        }
+        else
+            Reload();
+    }
+
+    private void DoubleDamage()
+    {
+        List<Weapon> possibleDD = new();
+        foreach (Weapon weapon in weapons)
+        {
+            if (weapon.isActive && !weapon.doubleDamage)
+            {
+                possibleDD.Add(weapon);
+            }
+        }
+        if (possibleDD.Count > 0)
+        {
+            Weapon DDWeapon = possibleDD[Random.Range(0, possibleDD.Count)];
+            DDWeapon.DoubleDamageOn();
+            FindObjectOfType<GameManager>().Reloading(DDWeapon, 2);
+        }
+        else
+            Reload();
+    }
+
+    private void DoubleAmmo()
+    {
+        List<Weapon> possibleDA = new();
+        foreach (Weapon weapon in weapons)
+        {
+            if (weapon.isActive && !weapon.doubleAmmo && weapon.name != "Pistol")
+            {
+                possibleDA.Add(weapon);
+            }
+        }
+        if (possibleDA.Count > 0)
+        {
+            Weapon DAWeapon = possibleDA[Random.Range(0, possibleDA.Count)];
+            DAWeapon.DoubleAmmoOn();
+            FindObjectOfType<GameManager>().Reloading(DAWeapon, 3);
+        }
+        else
+            Reload();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            Weapon reloadWeapon = Reload();
-            FindObjectOfType<GameManager>().Reloading(reloadWeapon);
+            int weaponUpgrade = Random.Range(0, 5);
+            if (weaponUpgrade == 0 || weaponUpgrade == 1)
+                Reload();
+            else if (weaponUpgrade == 2)
+                FastFire();
+            else if (weaponUpgrade == 3)
+                DoubleDamage();
+            else if (weaponUpgrade == 4)
+                DoubleAmmo();
             AudioSource.PlayClipAtPoint(reloadClip, transform.position, PlayerPrefs.GetFloat("SFX"));
-            reloadWeapon.AddAmmo();
             collision.transform.Find("Pickup").GetComponent<Animator>().SetTrigger("Pickup");
             Destroy(gameObject);
         }

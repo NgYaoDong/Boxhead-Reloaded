@@ -18,6 +18,17 @@ MonoBehaviour:
   _clip: {fileID: 8300000, guid: f0c9d2e0b1a77bb479646d4a64b391b2, type: 3}
   fireRate: 1
   pellets: 1
-  currAmmo: 20
-  maxAmmo: 20
+  currAmmo: 57
+  maxAmmo: 60
   isActive: 1
+  defaultFireRate: 1
+  defaultDamage: 100
+  defaultCampaignAmmo: 20
+  defaultInfiniteAmmo: 40
+  fastFireRate: 1.5
+  fastFire: 0
+  doubledDamage: 150
+  doubleDamage: 0
+  campaignDoubleAmmo: 30
+  infiniteDoubleAmmo: 60
+  doubleAmmo: 1

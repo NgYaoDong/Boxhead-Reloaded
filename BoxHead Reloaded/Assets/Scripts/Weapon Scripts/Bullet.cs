@@ -5,8 +5,12 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
-    [SerializeField] private GameObject explosion;
     public float damage = 10f;
+
+    [Header("Explosion Settings")]
+    public GameObject explosion;
+    public float explosionDamage = 1;
+
     private Vector2 dir;
     private Camera cam;
 
@@ -38,7 +42,11 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D target)
     {
         if (target.gameObject.CompareTag("Enemy")) target.gameObject.GetComponent<EnemyMovement>().Attacked(damage);
-        if (explosion != null) Instantiate(explosion,transform.position, Quaternion.identity);
+        if (explosion != null)
+        {
+            explosion.GetComponent<Explosion>().damage = explosionDamage;
+            Instantiate(explosion, transform.position, Quaternion.identity);
+        }
         Destroy(gameObject);
     }
 }

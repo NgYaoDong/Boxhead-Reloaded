@@ -130,9 +130,17 @@ public class InGame : MonoBehaviour
         abilityTime = abilityDuration;
     }
 
-    public void ReloadText(Weapon reloadWeapon)
+    public void ReloadText(Weapon reloadWeapon, int reloadMode)
     {
-        reloadedWeapon.text = "Picked Up " + reloadWeapon.name;
+        if (reloadMode == 0)
+            reloadedWeapon.text = "Picked Up " + reloadWeapon.name;
+        else if (reloadMode == 1)
+            reloadedWeapon.text = reloadWeapon.name + " Fast Fire";
+        else if (reloadMode == 2)
+            reloadedWeapon.text = reloadWeapon.name + " DMG Up";
+        else if (reloadMode == 3)
+            reloadedWeapon.text = reloadWeapon.name + " Ammo Up";
+
         reloadedWeapon.GetComponent<Animator>().SetTrigger("Reload");
     }
 

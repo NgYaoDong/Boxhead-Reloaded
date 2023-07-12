@@ -21,3 +21,14 @@ MonoBehaviour:
   currAmmo: Infinity
   maxAmmo: Infinity
   isActive: 1
+  defaultFireRate: 5
+  defaultDamage: 15
+  defaultCampaignAmmo: Infinity
+  defaultInfiniteAmmo: Infinity
+  fastFireRate: 7.5
+  fastFire: 0
+  doubledDamage: 22.5
+  doubleDamage: 1
+  campaignDoubleAmmo: Infinity
+  infiniteDoubleAmmo: Infinity
+  doubleAmmo: 0

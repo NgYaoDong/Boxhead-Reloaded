@@ -116,8 +116,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  explosion: {fileID: 0}
   damage: 30
+  explosion: {fileID: 0}
+  explosionDamage: 1
 --- !u!96 &1462193552911052125
 TrailRenderer:
   serializedVersion: 2
@@ -192,7 +193,7 @@ TrailRenderer:
       serializedVersion: 2
       key0: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
       key1: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-      key2: {r: 0.40383586, g: 0.40383586, b: 0.5188679, a: 0}
+      key2: {r: 0.34509805, g: 0.8784314, b: 1, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
