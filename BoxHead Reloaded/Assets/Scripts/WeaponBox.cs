@@ -64,7 +64,7 @@ public class WeaponBox : MonoBehaviour
         List<Weapon> possibleDD = new();
         foreach (Weapon weapon in weapons)
         {
-            if (weapon.isActive && !weapon.doubleDamage)
+            if (weapon.isActive && !weapon.damageUp)
             {
                 possibleDD.Add(weapon);
             }
@@ -84,7 +84,7 @@ public class WeaponBox : MonoBehaviour
         List<Weapon> possibleDA = new();
         foreach (Weapon weapon in weapons)
         {
-            if (weapon.isActive && !weapon.doubleAmmo && weapon.name != "Pistol")
+            if (weapon.isActive && !weapon.ammoUp && weapon.name != "Pistol")
             {
                 possibleDA.Add(weapon);
             }

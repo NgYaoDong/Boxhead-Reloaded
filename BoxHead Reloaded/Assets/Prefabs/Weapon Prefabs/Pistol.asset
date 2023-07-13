@@ -27,8 +27,8 @@ MonoBehaviour:
   defaultInfiniteAmmo: Infinity
   fastFireRate: 7.5
   fastFire: 0
-  doubledDamage: 22.5
-  doubleDamage: 1
-  campaignDoubleAmmo: Infinity
-  infiniteDoubleAmmo: Infinity
-  doubleAmmo: 0
+  increasedDamage: 20
+  damageUp: 0
+  campaignAmmoUp: Infinity
+  infiniteAmmoUp: Infinity
+  ammoUp: 0
