@@ -25,10 +25,10 @@ MonoBehaviour:
   defaultDamage: 20
   defaultCampaignAmmo: 25
   defaultInfiniteAmmo: 50
-  fastFireRate: 2.25
+  fastFireRate: 2
   fastFire: 0
-  doubledDamage: 30
-  doubleDamage: 0
-  campaignDoubleAmmo: 38
-  infiniteDoubleAmmo: 75
-  doubleAmmo: 0
+  increasedDamage: 25
+  damageUp: 0
+  campaignAmmoUp: 40
+  infiniteAmmoUp: 70
+  ammoUp: 0

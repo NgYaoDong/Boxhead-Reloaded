@@ -27,14 +27,14 @@ public class Weapon : ScriptableObject
     public float fastFireRate = 1;
     public bool fastFire = false;
 
-    [Header("Double Damage Settings")]
-    public float doubledDamage = 1;
-    public bool doubleDamage = false;
+    [Header("Damage Up Settings")]
+    public float increasedDamage = 1;
+    public bool damageUp = false;
 
-    [Header("Double Ammo Settings")]
-    public float campaignDoubleAmmo = 1;
-    public float infiniteDoubleAmmo = 1;
-    public bool doubleAmmo = false;
+    [Header("Ammo Up Settings")]
+    public float campaignAmmoUp = 1;
+    public float infiniteAmmoUp = 1;
+    public bool ammoUp = false;
 
     public void Shoot()
     {
@@ -49,8 +49,8 @@ public class Weapon : ScriptableObject
     public void Default(int mode)
     {
         fastFire = false;
-        doubleDamage = false;
-        doubleAmmo = false;
+        damageUp = false;
+        ammoUp = false;
         fireRate = defaultFireRate;
         if (mode == 0)
             maxAmmo = defaultCampaignAmmo;
@@ -85,30 +85,30 @@ public class Weapon : ScriptableObject
 
     public void DoubleDamageOn()
     {
-        doubleDamage = true;
+        damageUp = true;
         if (bulletPrefab.GetComponent<Bullet>())
         {
             if (bulletPrefab.GetComponent<Bullet>().explosion) //Bazooka
-                bulletPrefab.GetComponent<Bullet>().explosion.GetComponent<Explosion>().damage = doubledDamage;
+                bulletPrefab.GetComponent<Bullet>().explosion.GetComponent<Explosion>().damage = increasedDamage;
             else //Pistol, SMG, AR
-                bulletPrefab.GetComponent<Bullet>().damage = doubledDamage;
+                bulletPrefab.GetComponent<Bullet>().damage = increasedDamage;
         }
         else if (bulletPrefab.GetComponent<SpreadBullet>()) //Shotgun
-            bulletPrefab.GetComponent<SpreadBullet>().damage = doubledDamage;
+            bulletPrefab.GetComponent<SpreadBullet>().damage = increasedDamage;
         else if (bulletPrefab.GetComponent<RailgunBeam>()) //Railgun
-            bulletPrefab.GetComponent<RailgunBeam>().damage = doubledDamage;
+            bulletPrefab.GetComponent<RailgunBeam>().damage = increasedDamage;
         else if (bulletPrefab.GetComponent<Grenade>()) //Grenade
-            bulletPrefab.GetComponent<Grenade>().explosion.GetComponent<Explosion>().damage = doubledDamage;
+            bulletPrefab.GetComponent<Grenade>().explosion.GetComponent<Explosion>().damage = increasedDamage;
         AddAmmo();
     }
 
     public void DoubleAmmoOn()
     {
-        doubleAmmo = true;
+        ammoUp = true;
         if (PlayerPrefs.GetInt("Mode") == 0)
-            maxAmmo = campaignDoubleAmmo;
+            maxAmmo = campaignAmmoUp;
         else if (PlayerPrefs.GetInt("Mode") == 1)
-            maxAmmo = infiniteDoubleAmmo;
+            maxAmmo = infiniteAmmoUp;
         AddAmmo();
     }
 }
