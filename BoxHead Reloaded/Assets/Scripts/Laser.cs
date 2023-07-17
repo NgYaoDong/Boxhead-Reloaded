@@ -42,7 +42,8 @@ public class Laser : MonoBehaviour
         {
             ShootLaser();
             on += Time.deltaTime;
-        } else if (!turnOn) {
+        } else if (!turnOn) 
+        {
             off += Time.deltaTime;
         }
 
@@ -74,6 +75,7 @@ public class Laser : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(laserFirePoint.position, transform.up, defDistanceRay, LayerMask.GetMask("Wall"));
             Draw2DRay(laserFirePoint.position, hit.point);
         }
+        AudioSource.PlayClipAtPoint(laserClip, transform.position, 0.01f * PlayerPrefs.GetFloat("SFX"));
     }
 
     public void Draw2DRay(Vector2 startPos, Vector2 endPos)

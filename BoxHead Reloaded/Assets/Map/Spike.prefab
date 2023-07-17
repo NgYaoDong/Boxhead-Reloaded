@@ -59,7 +59,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4419493824216323272}
-  spikesClip: {fileID: 0}
+  spikesUpClip: {fileID: 8300000, guid: d5a2da1e95f498c4081e57afa85391f2, type: 3}
+  spikesDownClip: {fileID: 8300000, guid: f136e430016e1d9419eb10ee6c97a4bd, type: 3}
+  damageInterval: 1
 --- !u!61 &45111993524232541
 BoxCollider2D:
   m_ObjectHideFlags: 0
