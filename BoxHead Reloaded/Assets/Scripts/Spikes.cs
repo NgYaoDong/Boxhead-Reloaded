@@ -5,7 +5,8 @@ using UnityEngine;
 public class Spikes : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private AudioClip spikesClip;
+    [SerializeField] private AudioClip spikesUpClip;
+    [SerializeField] private AudioClip spikesDownClip;
     [SerializeField] private float damageInterval = 1f;
     private float damageTimer = 0f;
     private bool activated;
@@ -28,6 +29,7 @@ public class Spikes : MonoBehaviour
     {
         activated = true;
         animator.SetBool("Spikes", true);
+        AudioSource.PlayClipAtPoint(spikesUpClip, transform.position, 0.05f * PlayerPrefs.GetFloat("SFX"));
         StartCoroutine(Delay());
     }
 
@@ -49,6 +51,7 @@ public class Spikes : MonoBehaviour
     {
         yield return new WaitForSeconds(1.6f);
         TurnOff();
+        AudioSource.PlayClipAtPoint(spikesDownClip, transform.position, 0.05f * PlayerPrefs.GetFloat("SFX"));
         yield return new WaitForSeconds(3);
         TurnOn();
     }

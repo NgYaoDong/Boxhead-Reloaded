@@ -50,11 +50,12 @@ public class PropsAltar : MonoBehaviour
     {
         spikes = FindObjectsOfType<Spikes>();
         lasers = FindObjectsOfType<Laser>();
-        foreach(var spike in spikes) 
+        foreach (var spike in spikes) 
         {
+            spike.StopAllCoroutines();
             spike.TurnOff();
         }
-        foreach(var laser in lasers)
+        foreach (var laser in lasers)
         {
             laser.begin = false;
         }
@@ -63,7 +64,7 @@ public class PropsAltar : MonoBehaviour
 
     public void TurnOff()
     {
-        foreach(var spike in spikes) 
+        foreach (var spike in spikes) 
         {
             spike.TurnOn();
         }
