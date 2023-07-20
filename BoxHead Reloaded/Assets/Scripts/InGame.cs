@@ -140,6 +140,8 @@ public class InGame : MonoBehaviour
             reloadedWeapon.text = reloadWeapon.name + " DMG Up";
         else if (reloadMode == 3)
             reloadedWeapon.text = reloadWeapon.name + " Ammo Up";
+        else if (reloadMode == 4)
+            reloadedWeapon.text = "Regained Health";
 
         reloadedWeapon.GetComponent<Animator>().SetTrigger("Reload");
     }

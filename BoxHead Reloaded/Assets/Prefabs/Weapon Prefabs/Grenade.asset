@@ -16,19 +16,19 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1712328223688494226, guid: 5e708dcf683f7d444a6aed05664c5537,
     type: 3}
   _clip: {fileID: 8300000, guid: f0c9d2e0b1a77bb479646d4a64b391b2, type: 3}
-  fireRate: 1
+  fireRate: 1.5
   pellets: 1
-  currAmmo: 57
-  maxAmmo: 60
+  currAmmo: 30
+  maxAmmo: 30
   isActive: 1
   defaultFireRate: 1
   defaultDamage: 100
   defaultCampaignAmmo: 20
   defaultInfiniteAmmo: 40
   fastFireRate: 1.5
-  fastFire: 0
+  fastFire: 1
   increasedDamage: 120
-  damageUp: 0
+  damageUp: 1
   campaignAmmoUp: 30
   infiniteAmmoUp: 60
-  ammoUp: 0
+  ammoUp: 1

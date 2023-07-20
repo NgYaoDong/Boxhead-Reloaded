@@ -42,10 +42,12 @@ public class Laser : MonoBehaviour
         {
             ShootLaser();
             on += Time.deltaTime;
-        } else if (!turnOn) 
+        } 
+        else if (!turnOn) 
         {
             off += Time.deltaTime;
         }
+        else if (!begin) m_lineRenderer.enabled = false;
 
         if (!canShoot)
         {

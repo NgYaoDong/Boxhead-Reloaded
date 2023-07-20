@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private GameObject bottom;
 
-    private float health = 0f;
+    public float health = 0f;
     private float time;
     private Animator animator;
     private Renderer rend;
@@ -97,5 +97,12 @@ public class PlayerHealth : MonoBehaviour
             time += Time.deltaTime;
         }
         healthBar.UpdateHealthBar(health, setHealth);
-    }    
+    }
+    
+    public void Heal()
+    {
+        if (health > setHealth - 30) health = setHealth;
+        else health += 30;
+        healthBar.UpdateHealthBar(health, setHealth);
+    }
 }

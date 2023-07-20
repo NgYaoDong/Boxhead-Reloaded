@@ -99,19 +99,33 @@ public class WeaponBox : MonoBehaviour
             Reload();
     }
 
+    private void AddHealth(Collider2D collision)
+    {
+        FindObjectOfType<GameManager>().Reloading(null, 4);
+        collision.GetComponent<PlayerHealth>().Heal();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            int weaponUpgrade = Random.Range(0, 5);
-            if (weaponUpgrade == 0 || weaponUpgrade == 1)
-                Reload();
-            else if (weaponUpgrade == 2)
-                FastFire();
-            else if (weaponUpgrade == 3)
-                DoubleDamage();
-            else if (weaponUpgrade == 4)
-                DoubleAmmo();
+            int healthOrWeapon = Random.Range(0, 10);
+            if (healthOrWeapon == 2 && collision.GetComponent<PlayerHealth>().health < 100)
+            {
+                AddHealth(collision);
+            }
+            else
+            {
+                int weaponUpgrade = Random.Range(0, 5);
+                if (weaponUpgrade == 0 || weaponUpgrade == 1)
+                    Reload();
+                else if (weaponUpgrade == 2)
+                    FastFire();
+                else if (weaponUpgrade == 3)
+                    DoubleDamage();
+                else if (weaponUpgrade == 4)
+                    DoubleAmmo();
+            }
             AudioSource.PlayClipAtPoint(reloadClip, transform.position, PlayerPrefs.GetFloat("SFX"));
             collision.transform.Find("Pickup").GetComponent<Animator>().SetTrigger("Pickup");
             Destroy(gameObject);

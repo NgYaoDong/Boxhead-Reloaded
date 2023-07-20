@@ -44,7 +44,9 @@ public class PlayerWeapon : MonoBehaviour
 
             if (Input.GetMouseButtonDown(1) || clickCount == 5) Switch();
 
-            if (Input.GetKeyDown(KeyCode.T)) Instantiate(weaponBox, transform.position, Quaternion.identity);
+            NumberSwitch();
+
+            //if (Input.GetKeyDown(KeyCode.T)) Instantiate(weaponBox, transform.position, Quaternion.identity);
 
             Display();
         }
@@ -76,6 +78,67 @@ public class PlayerWeapon : MonoBehaviour
                 clickCount++;
             }
         }
+    }
+
+    private void NumberSwitch()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            if (weapons[0].currAmmo > 0 && weapons[0].isActive)
+            {
+                weaponNum = 0;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            if (weapons[1].currAmmo > 0 && weapons[1].isActive)
+            {
+                weaponNum = 1;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            if (weapons[2].currAmmo > 0 && weapons[2].isActive)
+            {
+                weaponNum = 2;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            if (weapons[3].currAmmo > 0 && weapons[3].isActive)
+            {
+                weaponNum = 3;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            if (weapons[4].currAmmo > 0 && weapons[4].isActive)
+            {
+                weaponNum = 4;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            if (weapons[5].currAmmo > 0 && weapons[5].isActive)
+            {
+                weaponNum = 5;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            if (weapons[6].currAmmo > 0 && weapons[6].isActive)
+            {
+                weaponNum = 6;
+                currWeapon = weapons[weaponNum];
+            }
+        }
+        weaponTransform.GetComponent<SpriteRenderer>().sprite = currWeapon.currWeaponSpr;
     }
 
     private void Switch()
