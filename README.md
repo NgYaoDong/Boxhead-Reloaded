@@ -66,9 +66,9 @@ This game is a single player game where the player will attempt to survive a hor
     * Bazooka: AOE, Long range damage
     * Railgun: Very fast rate of fire, penetrate through enemies
   * Weapon Upgrades
-   * Weapon Fast Fire
-   * Weapon Damage Up
-   * Weapon Ammo Up
+    * Weapon Fast Fire
+    * Weapon Damage Up
+    * Weapon Ammo Up
   * Players
     * Rogue - Dash
     * Argent - Aegis
