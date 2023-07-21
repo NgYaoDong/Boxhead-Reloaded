@@ -5,9 +5,9 @@ This project was developed by two NUS students for Orbital\
 Boxhead-Reloaded is a game inspired by an old Flash Player game named "Boxhead 2Play"\
 This game is a single player game where the player will attempt to survive a horde of monsters.
 
-<img src="https://user-images.githubusercontent.com/110594538/248458563-36f2f134-30c2-42ab-a992-9042ed447a2c.png" width="600" height="338" />
-<img src="https://user-images.githubusercontent.com/110594538/248458570-f2bcb126-8503-41bd-b6cc-1210511e7490.png" width="600" height="338" />
-<img src="https://user-images.githubusercontent.com/110594538/248460885-6cbb0da9-0dc0-46a7-bfb9-bde3b70e3c65.gif" width="600" height="338" />
+<img src="https://user-images.githubusercontent.com/110594538/254008720-c4682be6-a02d-4796-b34b-78b774622d13.png" width="600" height="338" />
+<img src="https://user-images.githubusercontent.com/110594538/254008733-73b42b11-aec2-4c4b-9751-701257c96ce7.png" width="600" height="338" />
+<img src="https://user-images.githubusercontent.com/110594538/254011570-714a3055-5312-4239-8aa0-95016460514b.gif" width="600" height="338" />
 
 ## How to play
 **Basic controls**
@@ -16,12 +16,13 @@ This game is a single player game where the player will attempt to survive a hor
 * A - Move left
 * D - Move right
 * Mouse Left Click - Fire
-* Mouse Right Click/Spacebar - Switch Weapon
+* Mouse Right Click - Switch Weapon
+* Spacebar - Special ability
 * Mouse Movement - Aim
 * Esc - Pause/Resume
 ***
 **Setup for player**
-1. Launch our current game on itch.io here: [Latest build](https://itch.io/embed-upload/8149649?color=333333)
+1. Launch our current game on itch.io here: [Latest build](https://tinyurl.com/253fspdm)
 2. Click campaign/infinite mode to start and fight the zombies!
 
 ## Gamemodes
@@ -45,7 +46,7 @@ This game is a single player game where the player will attempt to survive a hor
 * Live features
   * Main Menu - Mode Selection + Controls Menu
   * Controls Menu - Informs players of the controls of the game
-  * Character Selection - Cosmetics which do not affect gameplay
+  * Character Selection
   * Campaign Mode
   * Infinite Mode
   * In Game UI
@@ -64,9 +65,14 @@ This game is a single player game where the player will attempt to survive a hor
     * Grenade: AOE damage
     * Bazooka: AOE, Long range damage
     * Railgun: Very fast rate of fire, penetrate through enemies
+  * Weapon Upgrades
+   * Weapon Fast Fire
+   * Weapon Damage Up
+   * Weapon Ammo Up
   * Players
-    * Red Trooper
-    * Silver Trooper
+    * Rogue - Dash
+    * Argent - Aegis
+    * Fang - Stealth
   * Enemies
     * Arkzom: Medium movement, melee
     * Skeleboar: Slow movement, ranged
@@ -74,9 +80,7 @@ This game is a single player game where the player will attempt to survive a hor
     * Dopant: Medium movement, ranged, attacks slow player
 ***
 * Future features
-  * Setting Menu to control volume
-  * Character innate buffs
-  * Weapon Upgrades (Fast Fire, Double Damage, Double Ammo)
+  * Boss Fight
   * Infinite Darkness Mode
 
 ## Tech Stack
@@ -111,6 +115,12 @@ This game is a single player game where the player will attempt to survive a hor
   * [Zombie Short Aggressive Attack A3 Sound Effect by felisyan Studios](https://www.fesliyanstudios.com/royalty-free-sound-effects-download/zombie-174)
   * [Wolf attack by mixkit](https://mixkit.co/free-sound-effects/wolf/)
   * [Let the Games Begin by Psychronic](https://pixabay.com/music/electronic-let-the-games-begin-21858/)
+  * [Sonic Dash SFX by 2ruffles](https://youtu.be/F0lkCt6Q59A)
+  * [whoosh_long_low by Pixabay](https://pixabay.com/sound-effects/whoosh-long-low-6087/)
+  * [Portal Sound Effect by Sound Effect Reaction](https://youtu.be/GQM_URvo5E4)
+  * [Spike Trap Ready (Nr. 2 | Fortnite Sound) - Sound Effect for editing by Sound Library](https://youtu.be/er2XsMazlQY)
+  * [Spike Trap Ready (Nr. 1 | Fortnite Sound) - Sound Effect for editing by Sound Library](https://youtu.be/0HyAVJ7leKU)
+  * [Laser zap by Pixabay](https://pixabay.com/sound-effects/laser-zap-90575/)
 * Sprites
   * [Sprite muzzle flashes by bestgamekits](https://assetstore.unity.com/packages/2d/textures-materials/sprite-muzzle-flashes-83068)
   * [Pixel Hot Character and Tileset by PolyB](https://datpolyb.itch.io/pixel-hot-character-and-tileset)
@@ -127,10 +137,22 @@ This game is a single player game where the player will attempt to survive a hor
   * [BloodOverlay by 1up Indie](https://opengameart.org/content/blood-overlay)
   * [Realistic frost texture background by pikisuperstar](https://www.freepik.com/free-vector/realistic-frost-texture-background_22896745.htm)
   * [Arrow Sprite Png - Arrow Sprite Transparent by SeekPNG](https://www.seekpng.com/ipng/u2w7t4e6i1u2i1e6_arrow-sprite-png-arrow-sprite-transparent/)
+  * [Item Popup Starburst by Tiny Speck](https://opengameart.org/content/item-popup-starburst)
+  * [Free Pixel art Top Down Character by JSantiagoAC](https://jsantiagoac.itch.io/free-adventure-assetstop-down-game)
+  * [Package Retro +60 Pixel Fire Effects || FX Free by BDragon1727](https://bdragon1727.itch.io/package-retro-60-pixel-fire-effects-fx)
+  * [Magic and Smoke Effect by StumpyStrust](https://opengameart.org/content/magic-and-smoke-effect)
+  * [Running man illustration, Running Track and field athletics , Running Man transparent background PNG clipart Keywords by HiClipart](https://www.hiclipart.com/free-transparent-background-png-clipart-iafjb)
+  * [Realistic set of defense energy shields png by upklyak](https://www.freepik.com/free-vector/realistic-set-defense-energy-shields-png_37588389.htm)
+  * [Dash effect by Robert Brooks](https://www.gamedeveloperstudio.com/graphics/viewgraphic.php?page-name=Dash-effect&item=19657a15503p9g465c)
+  * [Illustration , Png Download - Dungeons And Dragons Cloak, Transparent Png by KindPNG](https://www.kindpng.com/imgv/TJxhRTb_illustration-png-download-dungeons-and-dragons-cloak-transparent/)
+  * [Floor spikes by Rober Brooks](https://gamedeveloperstudio.itch.io/floor-spikes)
+  * [Cannon gun by bdragon1727](https://bdragon1727.itch.io/cannon-gun)
+  * [Package Retro +60 Pixel Fire Effects by bdragon1727](https://bdragon1727.itch.io/package-retro-60-pixel-fire-effects-fx)
 * Others
   * [CodeMonkey Utils by CodeMonkey](https://unitycodemonkey.com/utils.php)
   * [A* Pathfinding by Aron Granberg](https://arongranberg.com/astar/)
   * [Main Menu UI by Tarodev/Matthew Spencer](https://drive.google.com/drive/folders/1neXTkfgbrqAYiTrHfQsSBcfm9oEmtAZH?usp=sharing)
+  * [Tutorial files for Cooldown UI by James Oliver](https://app.gumroad.com/d/6df1957c7be757d704a77cda1ad793d4)
 
 [Github.js]: https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white
 [VisualStudio.js]: https://img.shields.io/badge/Visual_Studio-9045D7?style=for-the-badge&logo=visualstudio&logoColor=white
