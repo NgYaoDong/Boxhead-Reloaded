@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    [SerializeField] public Animator animator;
     [SerializeField] private AudioClip spikesUpClip;
     [SerializeField] private AudioClip spikesDownClip;
     [SerializeField] private float damageInterval = 1f;
     private float damageTimer = 0f;
-    private bool activated;
+    public bool activated;
     private bool canShoot;
 
     private void Update()
