@@ -22,7 +22,7 @@ This game is a single player game where the player will attempt to survive a hor
 * Esc - Pause/Resume
 ***
 **Setup for player**
-1. Launch our current game on itch.io here: [Latest build](https://tinyurl.com/253fspdm)
+1. Launch our current game on itch.io here: [Latest build](https://tinyurl.com/2s3vfkvh)
 2. Click campaign/infinite mode to start and fight the zombies!
 
 ## Gamemodes
