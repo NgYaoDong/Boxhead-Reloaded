@@ -17,6 +17,7 @@ public class Laser : MonoBehaviour
     private float damageTimer = 0f;
     public bool begin = false;
     private bool turnOn = true;
+    private bool playing = false;
     private float on;
     private float off;
 
@@ -26,6 +27,7 @@ public class Laser : MonoBehaviour
         {
             turnOn = false;
             m_lineRenderer.enabled = false;
+            playing = false;
             damage = 0f;
             on = 0f;
         }
@@ -77,7 +79,8 @@ public class Laser : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(laserFirePoint.position, transform.up, defDistanceRay, LayerMask.GetMask("Wall"));
             Draw2DRay(laserFirePoint.position, hit.point);
         }
-        AudioSource.PlayClipAtPoint(laserClip, transform.position, 0.01f * PlayerPrefs.GetFloat("SFX"));
+        if (!playing) AudioSource.PlayClipAtPoint(laserClip, transform.position, 0.04f * PlayerPrefs.GetFloat("SFX"));
+        playing = true;
     }
 
     public void Draw2DRay(Vector2 startPos, Vector2 endPos)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] public Animator animator;
+    public Animator animator;
     [SerializeField] private AudioClip spikesUpClip;
     [SerializeField] private AudioClip spikesDownClip;
     [SerializeField] private float damageInterval = 1f;
